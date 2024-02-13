@@ -9702,16 +9702,19 @@ h6,
 
 ::-webkit-scrollbar-track {
   background-color: #F5F5F5;
+  cursor:pointer;
 }
 
 ::-webkit-scrollbar {
   height: 6px;
   background-color: #F5F5F5;
+  cursor:pointer;
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: #3d4852;
   border-radius: 3px;
+  cursor:pointer;
 }
 
 

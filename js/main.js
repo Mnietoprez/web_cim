@@ -70,7 +70,7 @@
 
 
 var lat = 39.427711;
- var lon = -0.364270;
+var lon = -0.364270;
  // initialize map
  map = L.map('mapDiv').setView([lat, lon], 13);
  // set map tiles source
@@ -82,3 +82,5 @@ var lat = 39.427711;
  marker = L.marker([lat, lon]).addTo(map);
  // add popup to the marker
  marker.bindPopup("<b>Castellar-Oliveral</b><br />46026<br />Valencia").openPopup();
+
+
