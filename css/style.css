@@ -9526,7 +9526,7 @@ h6,
 @media (max-width: 991.98px) {
   .container-fluid.nav-bar, .nav-bar.container-sm, .nav-bar.container-md, .nav-bar.container-lg, .nav-bar.container-xl {
     position: relative;
-    background: #f1b0b7;
+    background: #b0b8f1;
   }
 }
 
@@ -9691,7 +9691,7 @@ h6,
   display: flex;
   overflow-x: scroll;
   padding: 1rem 0;
-  scroll-snap-type: x mandatory;
+  /*scroll-snap-type: x mandatory;*/
 }
 
 .carousel1-item {
@@ -9706,7 +9706,7 @@ h6,
 }
 
 ::-webkit-scrollbar {
-  height: 6px;
+  height: 9px;
   background-color: #F5F5F5;
   cursor:pointer;
 }

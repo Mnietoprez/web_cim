@@ -59,7 +59,7 @@ function selectPhotos(carro){
         actual = document.getElementById("historicas");
         historicas.style.display ="flex";
         document.getElementById("gallerytext").innerHTML= "Fotografies històriques de la banda";
-        document.getElementById("gallerydesc").innerHTML= "Fotografies anteriors a l'any 2008";  
+        document.getElementById("gallerydesc").innerHTML= "Fotografies anteriors a l'any 2007";  
     }
 
     if (carro == "santacecilia2008"){
