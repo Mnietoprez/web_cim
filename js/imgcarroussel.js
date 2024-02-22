@@ -1,4 +1,11 @@
-
+function dropdown(dropid) {
+    var dropdownContent = document.getElementById(dropid);
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+}
 
 
 var actual;
@@ -12,6 +19,8 @@ var palau2008;
 var falles2008;
 var intercanvi2008;
 var intercanvi2007;
+var concertnadal2008;
+var ateneo2009;
 
 window.onload = function(){   
     actual = document.getElementById("frontcarrousel"); 
@@ -29,6 +38,8 @@ function selectPhotos(carro){
     falles2008 = document.getElementById("falles2008");
     intercanvi2008 = document.getElementById("intercanvi2008");
     intercanvi2007 = document.getElementById("intercanvi2007");
+    concertnadal2008 = document.getElementById("concertnadal2008");
+    ateneo2009 = document.getElementById("ateneo2009");
 
     if (carro == "frontcarrousel"){
         actual.style.display = "none";
@@ -100,6 +111,22 @@ function selectPhotos(carro){
         intercanvi2007.style.display ="flex";
         document.getElementById("gallerytext").innerHTML= "Concert d'intercanvi";
         document.getElementById("gallerydesc").innerHTML= "Any 2007"; 
+    }
+
+    if (carro == "concertnadal2008"){
+        actual.style.display = "none";
+        actual = document.getElementById("concertnadal2008");
+        concertnadal2008.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Concert de nadal 2008";
+        document.getElementById("gallerydesc").innerHTML= "El dia 21 de desembre de 2008 a les 18:30 es va celebrar el tradicional concert de nadal amb la actuació de la banda, el cor i els alumnes més menuts del centre. L'espectacle va resultar brillant, com es pot apreciar en les fotografíes. "; 
+    }
+
+    if (carro == "ateneo2009"){
+        actual.style.display = "none";
+        actual = document.getElementById("ateneo2009");
+        ateneo2009.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Concert a l'Ateneu Mercantil 2009";
+        document.getElementById("gallerydesc").innerHTML= "El día 16 de Maig de 2009 es va realitzar aquest concert per celebrar el centenari de la exposició regional de València 1909-2009 i del himne regional valencià. Vam tindre l'honor de ser una de les tres bandes invitades a participar als actes."; 
     }
 
  }

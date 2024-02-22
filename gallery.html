@@ -273,6 +273,29 @@
                 </ul>
             </section>
 
+            <!-- concert_nadal_2008 -->
+            <section class="carousel1" id="concertnadal2008" style="display: none;">
+                <ul class="carousel1-items">
+                    <li class="carousel1-item">
+                        <div class="card1">
+                            <img src="img/fotos vieja web/sobaquillo_2008/sobaquillo 001.jpg">
+                        </div>
+                    </li>
+                </ul>                      
+            </section>
+
+            <!-- ateneo_2009 -->
+            <section class="carousel1" id="ateneo2009" style="display: none;">
+                <ul class="carousel1-items">
+                    <li class="carousel1-item">
+                        <div class="card1">
+                            <img src="img/fotos vieja web/camara_2008/audicioncamara 001.jpg">
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+
             <!-- Históricas -->
             <section class="carousel1" id="historicas" style="display: none;">
                 <ul class="carousel1-items">
@@ -1052,20 +1075,41 @@
             </section>
 
             <h1 class="display-4">Totes les fotografies</h1>
-            <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("frontcarrousel")>Fotografies destacades</a>
-            <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("sobaquillo2008")>Sopar de sobaquillo nadal 2008</a>
-            <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("santacecilia2008")>Santa cecília 2008</a>
-            <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("camara2008")>Audició Música de Cámara 2008</a>
-            <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("palau2008")>Concert al palau 2008</a>
-            <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("intercanvi2008")>Concert d'intercanvi 2008</a>
-            <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("falles2008")>Falles 2008</a>
-            <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("intercanvi2007")>Concert d'intercanvi 2007</a>
-            <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("historicas")>Històriques de la banda</a>
-                
-
+            
+           <div style="display:block">
+            <button class="dropdown-button btn btn-primary font-weight-bold py-3 px-5" onclick=dropdown("dropdowndestacada")>Destacades</button>
+                <div class="dropdown-content" id="dropdowndestacada">
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("frontcarrousel")>Fotografies destacades</a>
+                </div>
+            <div style="height: 5px;"></div>
+            <button class="dropdown-button btn btn-primary font-weight-bold py-3 px-5" onclick=dropdown("dropdown2009")>2009</button>
+                <div class="dropdown-content" id="dropdown2009">
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("ateneo2009")>Concert a l'Ateneu Mercantil 2009 (inacab.)</a>
+                </div>
+            <div style="height: 5px;"></div>
+            <button class="dropdown-button btn btn-primary font-weight-bold py-3 px-5" onclick=dropdown("dropdown2008")>2008</button>
+                <div class="dropdown-content" id="dropdown2008">
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("concertnadal2008")>Concert de nadal 2008 (inacab.)</a>
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("sobaquillo2008")>Sopar de sobaquillo nadal 2008</a>
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("santacecilia2008")>Santa cecília 2008</a>
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("camara2008")>Audició Música de Cámara 2008</a>
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("palau2008")>Concert al palau 2008</a>
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("intercanvi2008")>Concert d'intercanvi 2008</a>
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("falles2008")>Falles 2008</a>
+                </div>
+            <div style="height: 5px;"></div>
+            <button class="dropdown-button btn btn-primary font-weight-bold py-3 px-5" onclick=dropdown("dropdown2007")>2007</button>
+                <div class="dropdown-content" id="dropdown2007">
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("intercanvi2007")>Concert d'intercanvi 2007</a>
+                </div>
+            <div style="height: 5px;"></div>
+            <button class="dropdown-button btn btn-primary font-weight-bold py-3 px-5" onclick=dropdown("dropdownhistoriques")>Històriques</button>
+                <div class="dropdown-content" id="dropdownhistoriques">
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("historicas")>Històriques de la banda</a
+                </div>
+            </div>
         </div>
     </div>
-    <!-- About End -->
 
 
     <!-- Footer Start -->

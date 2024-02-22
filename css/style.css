@@ -9768,3 +9768,27 @@ h6,
       font-size: 1.25rem;
   }
 }
+
+
+.hidden1 {
+  display: none;
+  color: #c79165;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  width: 100%;
+}
+
+.dropdown-content a {
+  display: block;
+  color: #070f49;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  color: #c79165;
+}
