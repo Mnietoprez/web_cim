@@ -21,6 +21,11 @@ var intercanvi2008;
 var intercanvi2007;
 var concertnadal2008;
 var ateneo2009;
+var colo2009;
+var audicio2009;
+var cultural2009;
+var intercanvi2009;
+
 
 window.onload = function(){   
     actual = document.getElementById("frontcarrousel"); 
@@ -40,6 +45,11 @@ function selectPhotos(carro){
     intercanvi2007 = document.getElementById("intercanvi2007");
     concertnadal2008 = document.getElementById("concertnadal2008");
     ateneo2009 = document.getElementById("ateneo2009");
+    audicio2009 = document.getElementById("audicio2009");
+    colo2009 = document.getElementById("colo2009");
+    cultural2009 = document.getElementById("cultural2009");
+    intercanvi2009 = document.getElementById("intercanvi2009");
+
 
     if (carro == "frontcarrousel"){
         actual.style.display = "none";
@@ -47,6 +57,23 @@ function selectPhotos(carro){
         frontcarrousel.style.display ="flex";
         document.getElementById("gallerytext").innerHTML= "Fotografies destacades";
         document.getElementById("gallerydesc").innerHTML= "Selecció de moments del CIM";
+    }
+
+    if (carro == "intercanvi2009"){
+        actual.style.display = "none";
+        actual = document.getElementById("intercanvi2009");
+        intercanvi2009.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Concert d'intercanvi amb el CIM Tendetes";
+        document.getElementById("gallerydesc").innerHTML= "El dissabte dia 11 de Juliol, a l'Escola de les Trinitàries de Castellar va tindre lloc el concert d'intercanvi de 2009 amb la banda del C.I.M. Tendetes i el nostre C.I.M. Castellar-Oliveral. En aquest concert vam poder escoltar alguns pasdobles del nostre músic i compositor José León. Músics Flamencs per part del C.I.M. Tendetes i Matilde Ramos pel C.I.M. Castellar-Oliveral.";
+    }
+
+
+    if (carro == "cultural2009"){
+        actual.style.display = "none";
+        actual = document.getElementById("cultural2009");
+        cultural2009.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Concert setmana cultural de l'associació de veïns";
+        document.getElementById("gallerydesc").innerHTML= "Com tots els anys, col·laborem en la setmana cultural de l'associació de veïns de Castellar-Oliveral. En aquesta ocasió el nostre músic i compositor José León a petició de la directiva de l'associació va compondre un pasdoble dedicat merescudament a la presidenta d'esta associació a la qual va dedicar. El pasdoble sorpresa dirigit pel mateix José León, lletra d'Eduardo Alacreu i cantat per la filla d'este Inés, emocionà molt a la Presi que no ho esperava. T'ho mereixes Presi! Eduardo en representació de la A.A.V.V, va fer lliurament d'un regal al centre que va consistir en la partitura dels Pirates del Carib. Així mateix Matilde va fer lliurament dels corbatins al centre i a la banda dels Corrals d'Utiel que va participar en el concert.";
     }
 
     if (carro == "camara2008"){
@@ -63,6 +90,22 @@ function selectPhotos(carro){
         sobaquillo2008.style.display ="flex";
         document.getElementById("gallerytext").innerHTML= "Sopar de sobaquillo nadal 2008";
         document.getElementById("gallerydesc").innerHTML= "El día 26 de desembre es va celebrar un \'Sopar de sobaquillo de Nadal\' per despedir-nos y celebrar la entrada de l'any 2009 amb tots els músics del centre. El sopar va ser de bon rollet y va ser financiat per Vicent Sanjuan pel seu aniversari, Eusebio Giner per la seua boda i per el musical. Els músics van regalar al seu director, Manuel Baixauli, un pernil i aquest ho va agrair, formant part del cuadre flamenc \'Las Instructivas\', amb el seu cantaor titular Visent Sanjuan i acompanyats per els palmers Adrian Perales, Alberto Navarro i Kike Monrabal. La guitarra estaba manejada amb gran maestría per el rumber flamenc titular del cuadre Chimo Pamblanco i entre tots van amenitzar la nit. Va actuar també al llarg de la nit l'home orquesta Kiko Alamar qui va ser molt aplaudit";  
+    }
+
+    if (carro == "colo2009"){
+        actual.style.display = "none";
+        actual = document.getElementById("colo2009");
+        colo2009.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Concert al Mercat de Coló";
+        document.getElementById("gallerydesc").innerHTML= "Any 2009";  
+    }
+
+    if (carro == "audicio2009"){
+        actual.style.display = "none";
+        actual = document.getElementById("audicio2009");
+        audicio2009.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Audició d'estiu 2009";
+        document.getElementById("gallerydesc").innerHTML= "El centre instructiu felicita a tots els alumnes i al finalitzar les audicions van tindre berenar tots, y fins a l'any próxim...";  
     }
 
     if (carro == "historicas"){

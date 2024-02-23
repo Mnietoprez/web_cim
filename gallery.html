@@ -135,6 +135,29 @@
                 </ul>
             </section>
 
+            
+            <!-- audicio 2009 -->
+            <section class="carousel1" id="audicio2009" style="display: none;">
+                <ul class="carousel1-items">
+                    <li class="carousel1-item">
+                        <div class="card1">
+                            <img src="img/fotos vieja web/sobaquillo_2008/sobaquillo 001.jpg">
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <!--mercat_colo -->
+            <section class="carousel1" id="colo2009" style="display: none;">
+                <ul class="carousel1-items">
+                    <li class="carousel1-item">
+                        <div class="card1">
+                            <img src="img/fotos vieja web/sobaquillo_2008/sobaquillo 001.jpg">
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
 
             <!-- Sobaquillo_2008 -->
             <section class="carousel1" id="sobaquillo2008" style="display: none;">
@@ -1033,6 +1056,78 @@
                 </ul>
             </section>
 
+            <!-- intercanvi 2009 -->
+            <section class="carousel1" id="intercanvi2009" style="display: none;">
+                <ul class="carousel1-items">
+                    <li class="carousel1-item">
+                        <div class="card1">
+                            <img src="img/fotos vieja web/intercanvi_2009/11intercanvi2009 011.jfif">
+                        </div>
+                    </li>
+                    <li class="carousel1-item">
+                        <div class="card1">
+                            <img src="img/fotos vieja web/intercanvi_2009/13intercanvi2009 013.jfif">
+                        </div>
+                    </li>
+                    <li class="carousel1-item">
+                        <div class="card1">
+                            <img src="img/fotos vieja web/intercanvi_2009/15intercanvi2009 015.jfif">
+                        </div>
+                    </li>
+                    <li class="carousel1-item">
+                        <div class="card1">
+                            <img src="img/fotos vieja web/intercanvi_2009/1intercanvi2009 002.jfif">
+                        </div>
+                    </li>
+                    <li class="carousel1-item">
+                        <div class="card1">
+                            <img src="img/fotos vieja web/intercanvi_2009/23intercanvi2009 023.jfif">
+                        </div>
+                    </li>
+                    <li class="carousel1-item">
+                        <div class="card1">
+                            <img src="img/fotos vieja web/intercanvi_2009/27intercanvi2009 027.jfif">
+                        </div>
+                    </li>
+                    <li class="carousel1-item">
+                        <div class="card1">
+                            <img src="img/fotos vieja web/intercanvi_2009/29intercanvi2009 023.jfif">
+                        </div>
+                    </li>
+                    <li class="carousel1-item">
+                        <div class="card1">
+                            <img src="img/fotos vieja web/intercanvi_2009/33intercanvi2009 033.jfif">
+                        </div>
+                    </li>
+                    <li class="carousel1-item">
+                        <div class="card1">
+                            <img src="img/fotos vieja web/intercanvi_2009/3intercanvi2009 003.jfif">
+                        </div>
+                    </li>
+                    <li class="carousel1-item">
+                        <div class="card1">
+                            <img src="img/fotos vieja web/intercanvi_2009/6intercanvi2009 006.jfif">
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- cultural 2009-->
+            <section class="carousel1" id="cultural2009" style="display: none;">
+                <ul class="carousel1-items">
+                    <li class="carousel1-item">
+                        <div class="card1">
+                            <img src="img/fotos vieja web/intercanvi/intercambio 1.jpg">
+                        </div>
+                    </li>
+                    <li class="carousel1-item">
+                        <div class="card1">
+                            <img src="img/fotos vieja web/intercanvi/intercambio2.jpg">
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
             <!-- Falles 2008 -->
             <section class="carousel1" id="falles2008" style="display: none;">
                 <ul class="carousel1-items">
@@ -1077,17 +1172,21 @@
             <h1 class="display-4">Totes les fotografies</h1>
             
            <div style="display:block">
-            <button class="dropdown-button btn btn-primary font-weight-bold py-3 px-5" onclick=dropdown("dropdowndestacada")>Destacades</button>
+            <button class="dropdown-button btn btn-primary font-weight-bold py-3 px-5" style="width:200px" onclick=dropdown("dropdowndestacada")>Destacades</button>
                 <div class="dropdown-content" id="dropdowndestacada">
                     <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("frontcarrousel")>Fotografies destacades</a>
                 </div>
             <div style="height: 5px;"></div>
-            <button class="dropdown-button btn btn-primary font-weight-bold py-3 px-5" onclick=dropdown("dropdown2009")>2009</button>
+            <button class="dropdown-button btn btn-primary font-weight-bold py-3 px-5" style="width:200px" onclick=dropdown("dropdown2009")>2009</button>
                 <div class="dropdown-content" id="dropdown2009">
-                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("ateneo2009")>Concert a l'Ateneu Mercantil 2009 (inacab.)</a>
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("intercanvi2009")>Concert d'intercanvi CIM Tendetes</a>
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("cultural2009")>Concert setmana cultural de l'associació de veïns (inacab.)</a>
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("audicio2009")>Audicions 2009 (inacab.)</a>
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("colo2009")>Concert Mercat de Coló 2009 (inacab.)</a>
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("ateneo2009")>Concert a l'Ateneu Mercantil 2009 (inacab.)</a>      
                 </div>
             <div style="height: 5px;"></div>
-            <button class="dropdown-button btn btn-primary font-weight-bold py-3 px-5" onclick=dropdown("dropdown2008")>2008</button>
+            <button class="dropdown-button btn btn-primary font-weight-bold py-3 px-5" style="width:200px" onclick=dropdown("dropdown2008")>2008</button>
                 <div class="dropdown-content" id="dropdown2008">
                     <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("concertnadal2008")>Concert de nadal 2008 (inacab.)</a>
                     <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("sobaquillo2008")>Sopar de sobaquillo nadal 2008</a>
@@ -1098,12 +1197,12 @@
                     <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("falles2008")>Falles 2008</a>
                 </div>
             <div style="height: 5px;"></div>
-            <button class="dropdown-button btn btn-primary font-weight-bold py-3 px-5" onclick=dropdown("dropdown2007")>2007</button>
+            <button class="dropdown-button btn btn-primary font-weight-bold py-3 px-5" style="width:200px" onclick=dropdown("dropdown2007")>2007</button>
                 <div class="dropdown-content" id="dropdown2007">
                     <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("intercanvi2007")>Concert d'intercanvi 2007</a>
                 </div>
             <div style="height: 5px;"></div>
-            <button class="dropdown-button btn btn-primary font-weight-bold py-3 px-5" onclick=dropdown("dropdownhistoriques")>Històriques</button>
+            <button class="dropdown-button btn btn-primary font-weight-bold py-3 px-5" style="width:200px" onclick=dropdown("dropdownhistoriques")>Històriques</button>
                 <div class="dropdown-content" id="dropdownhistoriques">
                     <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("historicas")>Històriques de la banda</a
                 </div>
