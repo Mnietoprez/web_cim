@@ -25,6 +25,10 @@ var colo2009;
 var audicio2009;
 var cultural2009;
 var intercanvi2009;
+var santacecilia2009;
+var audicionadal2009;
+var concert2009;
+var expojove2009;
 
 
 window.onload = function(){   
@@ -49,6 +53,10 @@ function selectPhotos(carro){
     colo2009 = document.getElementById("colo2009");
     cultural2009 = document.getElementById("cultural2009");
     intercanvi2009 = document.getElementById("intercanvi2009");
+    santacecilia2009 = document.getElementById("santacecilia2009");
+    audicionadal2009 = document.getElementById("audicionadal2009");
+    concert2009 = document.getElementById("concert2009");
+    expojove2009 = document.getElementById("expojove2009");
 
 
     if (carro == "frontcarrousel"){
@@ -59,6 +67,14 @@ function selectPhotos(carro){
         document.getElementById("gallerydesc").innerHTML= "Selecció de moments del CIM";
     }
 
+    if (carro == "expojove2009"){
+        actual.style.display = "none";
+        actual = document.getElementById("expojove2009");
+        expojove2009.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Concert a Expojove";
+        document.getElementById("gallerydesc").innerHTML= "Any 2009";
+    }
+
     if (carro == "intercanvi2009"){
         actual.style.display = "none";
         actual = document.getElementById("intercanvi2009");
@@ -67,6 +83,21 @@ function selectPhotos(carro){
         document.getElementById("gallerydesc").innerHTML= "El dissabte dia 11 de Juliol, a l'Escola de les Trinitàries de Castellar va tindre lloc el concert d'intercanvi de 2009 amb la banda del C.I.M. Tendetes i el nostre C.I.M. Castellar-Oliveral. En aquest concert vam poder escoltar alguns pasdobles del nostre músic i compositor José León. Músics Flamencs per part del C.I.M. Tendetes i Matilde Ramos pel C.I.M. Castellar-Oliveral.";
     }
 
+    if (carro == "audicionadal2009"){
+        actual.style.display = "none";
+        actual = document.getElementById("audicionadal2009");
+        audicionadal2009.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Audició de nadal 2009";
+        document.getElementById("gallerydesc").innerHTML= "El día 22 de Desembre es van celebrar les audicions de Nadal, on els alumnes més valents van tindre l'oportunitat de demostrar els seus progresos, animant a la resta de alumnes de la escola a participar en les próximes.";
+    }
+
+    if (carro == "concert2009"){
+        actual.style.display = "none";
+        actual = document.getElementById("concert2009");
+        concert2009.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Concert de nadal 2009";
+        document.getElementById("gallerydesc").innerHTML= "El día 20 de Desembre de 2009 a les 18:30 hores es va celebrar el tradicional concert de Nadal, amb l'actuació de la banda i els alumnes més menuts del centre. L'espectacle va resultar brillant, vegen a continuació les fotos de l'acte. Al final vam tindre torrons, mistela i tertulia";
+    }
 
     if (carro == "cultural2009"){
         actual.style.display = "none";
@@ -105,7 +136,7 @@ function selectPhotos(carro){
         actual = document.getElementById("audicio2009");
         audicio2009.style.display ="flex";
         document.getElementById("gallerytext").innerHTML= "Audició d'estiu 2009";
-        document.getElementById("gallerydesc").innerHTML= "El centre instructiu felicita a tots els alumnes i al finalitzar les audicions van tindre berenar tots, y fins a l'any próxim...";  
+        document.getElementById("gallerydesc").innerHTML= "Fotos dels alumnes que van intervenir en les Audicions de 2009. Invitem a la resta a que s'animen per a l'any próxim a eixir a demostrar el que han après. Gracies a tots de totes formes. El centre instructiu felicita a tots els alumnes i al finalitzar les audicions van tindre berenar tots, y fins a l'any próxim...";  
     }
 
     if (carro == "historicas"){
@@ -161,7 +192,15 @@ function selectPhotos(carro){
         actual = document.getElementById("concertnadal2008");
         concertnadal2008.style.display ="flex";
         document.getElementById("gallerytext").innerHTML= "Concert de nadal 2008";
-        document.getElementById("gallerydesc").innerHTML= "El dia 21 de desembre de 2008 a les 18:30 es va celebrar el tradicional concert de nadal amb la actuació de la banda, el cor i els alumnes més menuts del centre. L'espectacle va resultar brillant, com es pot apreciar en les fotografíes. "; 
+        document.getElementById("gallerydesc").innerHTML= "El dia 21 de desembre de 2008 a les 18:30 es va celebrar el tradicional concert de nadal amb la actuació de la banda, el cor i els alumnes més menuts del centre. L'espectacle va resultar brillant, com es pot apreciar en les fotografíes. A més, es va entregar per part de la delegada de cultura de la Junta municipal de Russafa una placa en record del acte que estava inclòs en els Concerts de la Junta de Russafa.";
+    }
+
+    if (carro == "santacecilia2009"){
+        actual.style.display = "none";
+        actual = document.getElementById("santacecilia2009");
+        santacecilia2009.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Actes de Santa Cecília 2009";
+        document.getElementById("gallerydesc").innerHTML= "Per les festivitats de Santa Cecília, a l'any 2009 es va realitzar un berenar per als educands, un concert el dissabte 21 i un sopar de germanor per als músics i la directiva. A més, va actuar la orquesta 'La antiga de Torremar', es van lliurar els premis del torneig de parxís i es va estrenar el pas-doble composat per Daniel Rubio Ortells, dedicat al professor de solfeig y saxo, José Hernandis Dalmau";
     }
 
     if (carro == "ateneo2009"){

@@ -5,3 +5,5 @@ Se han omitido pero se encuentran en las carpetas:
 -foto de bolígrafo -> (fotos vieja web/santacecilia2008); sorteo1.jpg
 
 -fotos de vicente san juan-> (fotos vieja web/historicas); vtesanjuan1.jpg, vtesanjuan2.jpg
+
+-foto de la caira de la presi en el sopar de santa cecília -> fotos vieja web/santacecilia_2009/cecilia47.jfif
