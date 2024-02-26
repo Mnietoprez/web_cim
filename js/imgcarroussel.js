@@ -26,10 +26,11 @@ var audicio2009;
 var cultural2009;
 var intercanvi2009;
 var santacecilia2009;
+var santacecilia2010;
 var audicionadal2009;
 var concert2009;
 var expojove2009;
-
+var nadal2010;
 
 window.onload = function(){   
     actual = document.getElementById("frontcarrousel"); 
@@ -54,9 +55,11 @@ function selectPhotos(carro){
     cultural2009 = document.getElementById("cultural2009");
     intercanvi2009 = document.getElementById("intercanvi2009");
     santacecilia2009 = document.getElementById("santacecilia2009");
+    santacecilia2010 = document.getElementById("santacecilia2010");
     audicionadal2009 = document.getElementById("audicionadal2009");
     concert2009 = document.getElementById("concert2009");
     expojove2009 = document.getElementById("expojove2009");
+    nadal2010 = document.getElementById("nadal2010");
 
 
     if (carro == "frontcarrousel"){
@@ -73,6 +76,22 @@ function selectPhotos(carro){
         expojove2009.style.display ="flex";
         document.getElementById("gallerytext").innerHTML= "Concert a Expojove";
         document.getElementById("gallerydesc").innerHTML= "Any 2009";
+    }
+
+    if (carro == "nadal2010"){
+        actual.style.display = "none";
+        actual = document.getElementById("nadal2010");
+        nadal2010.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Concert de Nadal";
+        document.getElementById("gallerydesc").innerHTML= "El diumenge 19 de desembre, a les 18:30 hores i en el nostre local social, es va celebrar el tradicional concert de Nadal. Aquest any colaborarem amb l'Associació Juvenil Nova Vida, per el que els asistents a l'acte es van solidaritzar amb aquesta causa i van portar joguets per a aquestos xiquets tan necessitats GRACIES A TOTS. Al concert actuaren juntament a la banda del centre els alumnes més xicotets de l'escola.";
+    }
+
+    if (carro == "santacecilia2010"){
+        actual.style.display = "none";
+        actual = document.getElementById("santacecilia2010");
+        santacecilia2010.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Santa Cecília 2010";
+        document.getElementById("gallerydesc").innerHTML= "Com tots els anys s'enaltix la figura de la nostra patrona Santa Cecilia. Vegen a continuació una mostra de la colecció de fotos dels actes en el seu honor. A més, aquest any va ser el torn del músic Marc Navarro Asensi per a incorporar-se a la banda. Aquesta va estar preparant un pas-doble sense títol, composat pel jove músic Daniel Rubio Ortells. Ningú savia per a qui el composà, segons Daniel ho revelaría el mateix día del concert. Bé, així va ser. Aplegat el moment i després de la presentació de Marc, la presidenta va desvelar que Daniel havia tingut la idea de donar la benvinguda a Marc dedicant-li el pas-doble 'Benvingut Marc'";
     }
 
     if (carro == "intercanvi2009"){
