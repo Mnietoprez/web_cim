@@ -31,6 +31,15 @@ var audicionadal2009;
 var concert2009;
 var expojove2009;
 var nadal2010;
+var solistes2010;
+var audicio2010;
+var cultural2011;
+var nadal2011;
+var santacecilia2011;
+var santacecilia2012;
+var audicions2012;
+var nadal2012;
+
 
 window.onload = function(){   
     actual = document.getElementById("frontcarrousel"); 
@@ -60,6 +69,15 @@ function selectPhotos(carro){
     concert2009 = document.getElementById("concert2009");
     expojove2009 = document.getElementById("expojove2009");
     nadal2010 = document.getElementById("nadal2010");
+    solistes2010 = document.getElementById("solistes2010");
+    audicio2010 = document.getElementById("audicio2010");
+    cultural2011 = document.getElementById("cultural2011");
+    santacecilia2011 = document.getElementById("santacecilia2011");
+    nadal2011 = document.getElementById("nadal2011");
+    santacecilia2012 = document.getElementById("santacecilia2012");
+    audicions2012 = document.getElementById("audicions2012");
+    nadal2012 = document.getElementById("nadal2012");
+
 
 
     if (carro == "frontcarrousel"){
@@ -78,12 +96,80 @@ function selectPhotos(carro){
         document.getElementById("gallerydesc").innerHTML= "Any 2009";
     }
 
+    if (carro == "cultural2011"){
+        actual.style.display = "none";
+        actual = document.getElementById("cultural2011");
+        cultural2011.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Setmana Cultural 2011";
+        document.getElementById("gallerydesc").innerHTML= "Com ve siguent habitual, la nostra banda va organitzar un concert col·laborant amb l'Associació de Veíns Castellar-Oliveral en la seua semana cultural anual. A continuació es mostresn les fotografíes de l'acte del día 29 de Maig";
+    }
+
+    if (carro == "nadal2011"){
+        actual.style.display = "none";
+        actual = document.getElementById("nadal2011");
+        nadal2011.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Concert de Nadal 2011";
+        document.getElementById("gallerydesc").innerHTML= "El diumenge día 18 de desembre, vam celebrar el tradicional concert de Nadal amb l'actuació de la nostra banda i els alumnes de l'escola del centre. En aquesta ocasió va tindre lloc a l'Esglèsia San Martí de Porres de l'Oliveral. Els assistents portaren voluntàriament aliments no peribles per a les famílies més necessitades. ";
+    }
+    
+    
+    if (carro == "nadal2012"){
+        actual.style.display = "none";
+        actual = document.getElementById("nadal2012");
+        nadal2012.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Concert de Nadal 2012";
+        document.getElementById("gallerydesc").innerHTML= "El concert de Nadal d'aquest any el vam celebrar a l'esglèsia San Martí de Porres de l'Oliveral. Vam poder veure a la nostra banda i als nostres alumnes més petits de l'escola cantant nadalenques populars. També va ser de l'agrat del públic la broma realitzada per els músics amb l'obra 'The Typewriter'. El nostre centre tenía la voluntat de replegar aliments per als més necessitats, i la gent va respondre desinteresadament en aquesta tasca, i desde ací els agraïm la seua col·laboració. A continuació del concert ens anarem al nostre centre on ens esperava una 'xocolatà' preparada per les nostres expertes Sari, Pili y Pilar amb rosquilletes donades per productes Velarte.";
+    }
+
+    if (carro == "audicions2012"){
+        actual.style.display = "none";
+        actual = document.getElementById("audicions2012");
+        audicions2012.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Audicions de Nadal 2012";
+        document.getElementById("gallerydesc").innerHTML= "Com ve siguent habitual, vam celebrar les audicions de nadal, on vam poder comprobar els avanços musicals dels que s'atrevixen a pujar a l'escenari. A continuació va actuar la banda juvenil dirigida pel su director Jose León Alapont.  ";
+    }
+
+
+    if (carro == "santacecilia2012"){
+        actual.style.display = "none";
+        actual = document.getElementById("santacecilia2012");
+        santacecilia2012.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Santa Cecília 2012";
+        document.getElementById("gallerydesc").innerHTML= "Un any més i malgrat la crisi, rendim honors a la nostra patrona Santa Cecília. El diumenge 24 de novembre a les 12 hores i en la parròquia San Martí de Porres de l'Oliveral es va oferir una misa d'acció de gràcies, i el dissabte 24 a les 17 hores es va realitzar un pasacarrer i un concert en el local social, on actuaren primer el conjunt instrumental juvenil i a continuació la banda del centre. En el acte es van presentar i es van entregar un diploma als músics actuals de la banda juvenil i als que es van incorporar.  A continuació es va servir un vi d'honor als asistents. Per la nit es va oferir un sopar de sobaquillo als components de les bandes. ";
+    }
+
+
+    if (carro == "santacecilia2011"){
+        actual.style.display = "none";
+        actual = document.getElementById("santacecilia2011");
+        santacecilia2011.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Santa Cecília 2011";
+        document.getElementById("gallerydesc").innerHTML= "Els actes en honor a Santa Cecília, patrona dels músics, no deuen faltar. Per això aquest any, encara que de forma modesta, vam preparar misa, concert, actuacions, chocolate i sopar per als músics. La misa es va celebrar en la parròquia de Castellar, i la imatge de la Santa va recórrer els carrers del nostre barri.";
+    }
+
+    if (carro == "audicio2010"){
+        actual.style.display = "none";
+        actual = document.getElementById("audicio2010");
+        audicio2010.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Audicions de Nadal";
+        document.getElementById("gallerydesc").innerHTML= "Complint amb la tradició, el dimarts día 21 vam celebrar les audicions de l'escola del centre. Com sempre, els més atrevits ens van deleitar amb els seus progressos en aquest art musical, que pel fet de pujar a l'escenari ja és tot un avanç. ";
+    }
+
+
     if (carro == "nadal2010"){
         actual.style.display = "none";
         actual = document.getElementById("nadal2010");
         nadal2010.style.display ="flex";
         document.getElementById("gallerytext").innerHTML= "Concert de Nadal";
         document.getElementById("gallerydesc").innerHTML= "El diumenge 19 de desembre, a les 18:30 hores i en el nostre local social, es va celebrar el tradicional concert de Nadal. Aquest any colaborarem amb l'Associació Juvenil Nova Vida, per el que els asistents a l'acte es van solidaritzar amb aquesta causa i van portar joguets per a aquestos xiquets tan necessitats GRACIES A TOTS. Al concert actuaren juntament a la banda del centre els alumnes més xicotets de l'escola.";
+    }
+
+    if (carro == "solistes2010"){
+        actual.style.display = "none";
+        actual = document.getElementById("solistes2010");
+        solistes2010.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Concert de solistes";
+        document.getElementById("gallerydesc").innerHTML= "El 18 de Març es va celebrar al nostre local un concert en que els nostres músics posaren tot el seu esforç per que eixira bé, i així va ser. Com és habitual, la nostra presi va presentar el programa, al director de la banda i als músics, entre ells els solistes que ens deleitarien a continuació amb les seues obres.";
     }
 
     if (carro == "santacecilia2010"){
