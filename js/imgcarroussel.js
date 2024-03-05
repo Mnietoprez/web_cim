@@ -39,6 +39,14 @@ var santacecilia2011;
 var santacecilia2012;
 var audicions2012;
 var nadal2012;
+var solidari2013;
+var audicio2013;
+var santacecilia2013;
+var santacecilia2014;
+var santacecilia2015;
+var santacecilia2016;
+var santacecilia2017;
+var santacecilia2018;
 
 
 window.onload = function(){   
@@ -77,6 +85,14 @@ function selectPhotos(carro){
     santacecilia2012 = document.getElementById("santacecilia2012");
     audicions2012 = document.getElementById("audicions2012");
     nadal2012 = document.getElementById("nadal2012");
+    solidari2013 = document.getElementById("solidari2013");
+    audicio2013 = document.getElementById("audicio2013");
+    santacecilia2013 = document.getElementById("santacecilia2013");
+    santacecilia2014 = document.getElementById("santacecilia2014");
+    santacecilia2015 = document.getElementById("santacecilia2015");
+    santacecilia2016 = document.getElementById("santacecilia2016");
+    santacecilia2017 = document.getElementById("santacecilia2017");
+    santacecilia2018 = document.getElementById("santacecilia2018");
 
 
 
@@ -96,12 +112,76 @@ function selectPhotos(carro){
         document.getElementById("gallerydesc").innerHTML= "Any 2009";
     }
 
+    if (carro == "santacecilia2013"){
+        actual.style.display = "none";
+        actual = document.getElementById("santacecilia2013");
+        santacecilia2013.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Concert de Santa Cecíla";
+        document.getElementById("gallerydesc").innerHTML= "Any 2013";
+    }
+
+    if (carro == "santacecilia2014"){
+        actual.style.display = "none";
+        actual = document.getElementById("santacecilia2014");
+        santacecilia2014.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Concert de Santa Cecíla";
+        document.getElementById("gallerydesc").innerHTML= "Any 2014";
+    }
+
+    if (carro == "santacecilia2015"){
+        actual.style.display = "none";
+        actual = document.getElementById("santacecilia2015");
+        santacecilia2015.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Concert de Santa Cecíla";
+        document.getElementById("gallerydesc").innerHTML= "Any 2015";
+    }
+
+    if (carro == "santacecilia2016"){
+        actual.style.display = "none";
+        actual = document.getElementById("santacecilia2016");
+        santacecilia2016.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Concert de Santa Cecíla";
+        document.getElementById("gallerydesc").innerHTML= "Any 2016";
+    }
+
+    if (carro == "santacecilia2017"){
+        actual.style.display = "none";
+        actual = document.getElementById("santacecilia2017");
+        santacecilia2017.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Concert de Santa Cecíla";
+        document.getElementById("gallerydesc").innerHTML= "Any 2017";
+    }
+
+    if (carro == "santacecilia2018"){
+        actual.style.display = "none";
+        actual = document.getElementById("santacecilia2018");
+        santacecilia2018.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Concert de Santa Cecíla";
+        document.getElementById("gallerydesc").innerHTML= "Any 2018";
+    }
+
+    if (carro == "solidari2013"){
+        actual.style.display = "none";
+        actual = document.getElementById("solidari2013");
+        solidari2013.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Concert solidari";
+        document.getElementById("gallerydesc").innerHTML= "El dissabte 27 de Abril de 2013 al nostre local vam celebrar un concert solidari inclòs al cicle de concerts que promou la Coordinadora de societats musicals de la ciutat de València,amb el motiu de recaudar aliments per les famílies més necessitades. Van actuar els conjunts novels instrumentals de la Societat musical Unió de pescadors del Cabanyal, i el conjunt instrumental novel del nostre C.I.M.  Al termini de l'acte, la nostra societat va oferir un vi d'honor als asistents. Els aliments recollits es repartiren en las parròquies locals de Castellar i Oliveral. Els components del centre donem les gràcies a tots per la seua aportació.";
+    }
+
+    if (carro == "audicio2013"){
+        actual.style.display = "none";
+        actual = document.getElementById("audicio2013");
+        audicio2013.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Audicions d'estiu 2013";
+        document.getElementById("gallerydesc").innerHTML= "Per tancar el curs 2012-2013, els alumnes del centre ens obsequiaren amb una mostra dels seus progressos musicals. Es va tindre que fer en dos díes degut al número de participants, que encara que no van eixir tots, si eren nombrosos. A més, vam viure un moment inolvidable i ple d'emoció quan Miguel va cantar una cançó en record del nostre alumne volgut Victor, recentment mort. Al termini dels dos díes, vam repartir horchata i rosquilletes per a músics i public asistent. Fotos a continuació:";
+    }
+
     if (carro == "cultural2011"){
         actual.style.display = "none";
         actual = document.getElementById("cultural2011");
         cultural2011.style.display ="flex";
         document.getElementById("gallerytext").innerHTML= "Setmana Cultural 2011";
-        document.getElementById("gallerydesc").innerHTML= "Com ve siguent habitual, la nostra banda va organitzar un concert col·laborant amb l'Associació de Veíns Castellar-Oliveral en la seua semana cultural anual. A continuació es mostresn les fotografíes de l'acte del día 29 de Maig";
+        document.getElementById("gallerydesc").innerHTML= "Com ve siguent habitual, la nostra banda va organitzar un concert col·laborant amb l'Associació de Veíns Castellar-Oliveral en la seua semana cultural anual. A la Presi Matide li encanta escoltar el pasodoble que en el seu día li dedicà José León, i la nostra banda sel tornà a dedicar. També va resultar molt emotiu el moment en que es va interpretar 'Cançons Valencianes', obra per orquesta i dolçaina, composada també pel nostre músic José León i interpretada magistralment pel nostre volgut músic Vicente Sanjuan, 'Visent per als amics'. Al finalitzar el concert, l'associació va fer entrega a nostra Presidenta Pilar una placa en record de l'acte. A continuació la A.A.V.V. va repartir horchata y fartons als asistents.  A continuació es mostresn les fotografíes de l'acte del día 29 de Maig";
     }
 
     if (carro == "nadal2011"){
@@ -135,7 +215,7 @@ function selectPhotos(carro){
         actual = document.getElementById("santacecilia2012");
         santacecilia2012.style.display ="flex";
         document.getElementById("gallerytext").innerHTML= "Santa Cecília 2012";
-        document.getElementById("gallerydesc").innerHTML= "Un any més i malgrat la crisi, rendim honors a la nostra patrona Santa Cecília. El diumenge 24 de novembre a les 12 hores i en la parròquia San Martí de Porres de l'Oliveral es va oferir una misa d'acció de gràcies, i el dissabte 24 a les 17 hores es va realitzar un pasacarrer i un concert en el local social, on actuaren primer el conjunt instrumental juvenil i a continuació la banda del centre. En el acte es van presentar i es van entregar un diploma als músics actuals de la banda juvenil i als que es van incorporar.  A continuació es va servir un vi d'honor als asistents. Per la nit es va oferir un sopar de sobaquillo als components de les bandes. ";
+        document.getElementById("gallerydesc").innerHTML= "Un any més i malgrat la crisi, rendim honors a la nostra patrona Santa Cecília. El diumenge 24 de novembre a les 12 hores i en la parròquia San Martí de Porres de l'Oliveral es va oferir una misa d'acció de gràcies, i el dissabte 24 a les 17 hores es va realitzar un pasacarrer i un concert en el local social, on actuaren primer el conjunt instrumental juvenil i a continuació la banda del centre. En el acte es van presentar i es van entregar un diploma als músics actuals de la banda juvenil i als que es van incorporar.  A continuació es va servir un vi d'honor als asistents. Per la nit es va oferir un sopar de sobaquillo als components de les bandes. El concert de la nostra banda va estar dirigit com sempre pel nostre director D. Manuel Baixauli Ferrer, pero com al programa constaven obres de compositors de la casa, como son: José Hernandis Dalmau, José León Alapont,  Jesús Monto Verdet y Vicente Ortí, els va anar cedint la batuta. També va actuar el cor del centre cantant l'himne del centre. Al final es va interpretar l'himne regional cantat per Miguel, component del cor.";
     }
 
 
