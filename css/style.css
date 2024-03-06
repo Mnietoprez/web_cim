@@ -9555,12 +9555,12 @@ h6,
 
 .overlay-top::before {
   top: -1px;
-  background: url(../img/overlay-top.png);
+  background: url(../img/archivos_menus/overlay-top.png);
 }
 
 .overlay-bottom::after {
   bottom: -1px;
-  background: url(../img/overlay-bottom.png);
+  background: url(../img/archivos_menus/overlay-bottom.png);
 }
 
 .carousel-caption {
@@ -9653,7 +9653,7 @@ h6,
 .page-header,
 .offer,
 .footer {
-  background: linear-gradient(rgba(38, 38, 38, 0.4), rgba(38, 38, 38, 0.7)), url(../img/partitura.png);
+  background: linear-gradient(rgba(38, 38, 38, 0.4), rgba(38, 38, 38, 0.7)), url(../img/archivos_menus/partitura.png);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
