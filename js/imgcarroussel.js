@@ -47,7 +47,12 @@ var santacecilia2015;
 var santacecilia2016;
 var santacecilia2017;
 var santacecilia2018;
-
+var santacecilia2021;
+var goya2022;
+var falles2022;
+var entrada2022;
+var albufera2022;
+var intercanvi2022;
 
 window.onload = function(){   
     actual = document.getElementById("frontcarrousel"); 
@@ -93,6 +98,12 @@ function selectPhotos(carro){
     santacecilia2016 = document.getElementById("santacecilia2016");
     santacecilia2017 = document.getElementById("santacecilia2017");
     santacecilia2018 = document.getElementById("santacecilia2018");
+    santacecilia2021 = document.getElementById("santacecilia2021");
+    goya2022 = document.getElementById("goya2022");
+    falles2022 = document.getElementById("falles2022");
+    entrada2022 = document.getElementById("entrada2022");
+    albufera2022 = document.getElementById("albufera2022");
+    intercanvi2022 = document.getElementById("intercanvi2022");
 
 
 
@@ -110,6 +121,48 @@ function selectPhotos(carro){
         expojove2009.style.display ="flex";
         document.getElementById("gallerytext").innerHTML= "Concert a Expojove";
         document.getElementById("gallerydesc").innerHTML= "Any 2009";
+    }
+    if (carro == "intercanvi2022"){
+        actual.style.display = "none";
+        actual = document.getElementById("intercanvi2022");
+        intercanvi2022.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Intercanvi de bandes 2022";
+        document.getElementById("gallerydesc").innerHTML= "Aquest any vam realitzar el tradicional concert d'intercanvi de bandes amb la nostra volguda banda del barri Orba";
+    }
+    if (carro == "albufera2022"){
+        actual.style.display = "none";
+        actual = document.getElementById("albufera2022");
+        albufera2022.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Festival de música albuferenca";
+        document.getElementById("gallerydesc").innerHTML= "En una alquería prop del palmar vam realitzar aquest concert, que va ser tot un èxit";
+    }
+    if (carro == "falles2022"){
+        actual.style.display = "none";
+        actual = document.getElementById("falles2022");
+        falles2022.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Falles 2022";
+        document.getElementById("gallerydesc").innerHTML= "Aquestes falles van ser molt important per a nosaltres, ja que per primera volta vam acompanyar a la falla Císcar Burriana als seus actes. Com no, la pluja també ens va acompanyar a nosaltres.";
+    }
+    if (carro == "entrada2022"){
+        actual.style.display = "none";
+        actual = document.getElementById("entrada2022");
+        entrada2022.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Entrada de bandes";
+        document.getElementById("gallerydesc").innerHTML= "Any 2022";
+    }
+    if (carro == "santacecilia2021"){
+        actual.style.display = "none";
+        actual = document.getElementById("santacecilia2021");
+        santacecilia2021.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Concert de santa cecília";
+        document.getElementById("gallerydesc").innerHTML= "La pandemia del coronavirus no va impedir que el poble gaudira del tradicional concert de Santa Cecília que es va fer a l'esglèsia san martí de porres.";
+    }
+    if (carro == "goya2022"){
+        actual.style.display = "none";
+        actual = document.getElementById("goya2022");
+        goya2022.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "La banda als goya 2022";
+        document.getElementById("gallerydesc").innerHTML= "La banda va tocar a les arts i les ciències de valència el 12 de febrer, en honor als goya que es van celebrar aquell cap de setmana. Amb motiu de rendre homenatge al director Luis García Berlanga, la vanda va tocar dos obres de dos de les seues películes més famoses, 'Bienvenido mr Marshall' i 'La vaquilla'.";
     }
 
     if (carro == "santacecilia2013"){
