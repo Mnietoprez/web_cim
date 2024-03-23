@@ -24,15 +24,40 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <script src="js/jquery-3.7.1.min.js"></script>
 
+    <script>
+        $('img').attr('data-enlargable', '');
+
+        $('img[data-enlargable]').addClass('img-enlargable').click(function(){
+            var src = $(this).attr('src');
+            $('<div>').css({
+                background: 'RGBA(0,0,0,.5) url('+src+') no-repeat center',
+                backgroundSize: 'contain',
+                width:'100%', height:'100%',
+                position:'fixed',
+                zIndex:'10000',
+                top:'0', left:'0',
+                cursor: 'zoom-out'
+            }).click(function(){
+                $(this).remove();
+            }).appendTo('body');
+        });
+    </script>
      
 </head>
 
 <body>
 
+    <script src="https://cdpn.io/cpe/boomboom/pen.js?key=pen.js-96185b65-fce5-9b42-2230-52b209ded0d9" crossorigin=""></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    
+
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
     <script src="js/imgcarroussel.js"></script>
+    
 
     <!-- Navbar Start -->
     <div class="container-fluid p-0 nav-bar">
@@ -4540,6 +4565,24 @@
         </div>
     </div>
 
+    <script>
+        $('img').attr('data-enlargable', '');
+    
+        $('img[data-enlargable]').addClass('img-enlargable').click(function(){
+            var src = $(this).attr('src').replace(/\s/g, '%20'); // Replace spaces with %20
+            $('<div>').css({
+                background: 'RGBA(0,0,0,.5) url('+src+') no-repeat center',
+                backgroundSize: 'contain',
+                width:'100%', height:'100%',
+                position:'fixed',
+                zIndex:'10000',
+                top:'0', left:'0',
+                cursor: 'zoom-out'
+            }).click(function(){
+                $(this).remove();
+            }).appendTo('body');
+        });
+    </script>
 
     <!-- Footer Start -->
     <div class="container-fluid footer text-white1 mt-5 pt-5 px-0 position-relative overlay-top">
@@ -4550,8 +4593,8 @@
             <div style="position: relative; width:25%; margin-bottom: 3rem">
                 <h4 class="text-white1 text-uppercase mb-4" style="letter-spacing: 3px; color: black;">Contacte</h4>
                 <p><i class="fa fa-map-marker-alt mr-2"></i>C/Vicent Puchol 40 </p>
-                <p><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
-                <p class="m-0"><i class="fa fa-envelope mr-2"></i>info@example.com</p>
+                <p><i class="fa fa-phone-alt mr-2"></i>+34 670 23 38 98</p>
+                <p class="m-0"><i class="fa fa-envelope mr-2"></i>directivacim@gmail.com</p>
             </div>
             <div style="position: relative; width:25%; margin-bottom: 3rem">
                 <h4 class="text-white1 text-uppercase mb-4" style="letter-spacing: 3px;">Xarxes socials</h4>

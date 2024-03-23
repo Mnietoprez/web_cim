@@ -172,14 +172,32 @@
     <!-- Testimonial End -->
 
     <div class="container-fluid py-5">
-        <div class="container " style="text-align: center;">
+        <div class="container" style="text-align: center;">
             <div class="section-title">
                 <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Vols un poc de nostalgia?</h4>
                 <h1 class="display-4">Visita la antiga pàgina web</h1>
             </div>
-            <a href="Viejaweb/index.htm" class="dropdown-button btn btn-primary font-weight-bold py-3 px-5">Versió antiga</a>
+            <!-- Add an ID to the link for easier selection -->
+            <a id="oldVersionLink" href="Viejaweb/index.htm" class="dropdown-button btn btn-primary font-weight-bold py-3 px-5">Versió antiga</a>
         </div>
     </div>
+    
+    <script>
+        // Wait for the document to load
+        document.addEventListener('DOMContentLoaded', function() {
+            // Find the link by its ID
+            var link = document.getElementById('oldVersionLink');
+            if (link) {
+                // Add a click event listener to the link
+                link.addEventListener('click', function(event) {
+                    // Prevent the default action (opening in the current window)
+                    event.preventDefault();
+                    // Open the link URL in a new window
+                    window.open(link.href, '_blank');
+                });
+            }
+        });
+    </script>
 
     <!-- Footer Start -->
     <div class="container-fluid footer text-white1 mt-5 pt-5 px-0 position-relative overlay-top">
@@ -190,8 +208,8 @@
             <div style="position: relative; width:25%; margin-bottom: 3rem">
                 <h4 class="text-white1 text-uppercase mb-4" style="letter-spacing: 3px; color: black;">Contacte</h4>
                 <p><i class="fa fa-map-marker-alt mr-2"></i>C/Vicent Puchol 40 </p>
-                <p><i class="fa fa-phone-alt mr-2"></i>+012 345 67890</p>
-                <p class="m-0"><i class="fa fa-envelope mr-2"></i>info@example.com</p>
+                <p><i class="fa fa-phone-alt mr-2"></i>+34 670 23 38 98</p>
+                <p class="m-0"><i class="fa fa-envelope mr-2"></i>directivacim@gmail.com</p>
             </div>
             <div style="position: relative; width:25%; margin-bottom: 3rem">
                 <h4 class="text-white1 text-uppercase mb-4" style="letter-spacing: 3px;">Xarxes socials</h4>
