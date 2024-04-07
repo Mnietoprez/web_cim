@@ -33,21 +33,32 @@
             <a href="index.html" class="navbar-brand px-lg-4 m-0">
                 <img src="img/archivos_menus/logo.png"  style="width:100px">
             </a>
+            <div>
+                <div class="navbar-nav ml-auto p-4">
+                    <img src="img/archivos_menus/españa.png" id="langphoto" style="width:30px; height: 30px; padding-top: 12px;">
+                    <a href="#" class="nav-item nav-link language-link" data-lang="español" style="display: flex;" id="langtxtc" >Versión en castellano</a>
+                    <a href="#" class="nav-item nav-link language-link" data-lang="valenciano" style="display: none;" id="langtxtv" >Versió en valencià</a>
+                </div>
+            </div>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav ml-auto p-4">
-                    <a href="index.html" class="nav-item nav-link active">Inici</a>
-                    <a href="about.html" class="nav-item nav-link">Història</a>
-                    <a href="service.html" class="nav-item nav-link">Escola</a>
-                    <a href="gallery.html" class="nav-item nav-link">Galería</a>
-                    <a href="contact.html" class="nav-item nav-link">Contacte</a>
+                    <a href="index.html" id="nav1" class="nav-item nav-link active">Inici</a>
+                    <a href="about.html" id="nav2" class="nav-item nav-link">Història</a>
+                    <a href="service.html" id="nav3" class="nav-item nav-link">Escola</a>
+                    <a href="gallery.html" id="nav4" class="nav-item nav-link">Galería</a>
+                    <a href="contact.html" id="nav5" class="nav-item nav-link">Contacte</a>
                 </div>
             </div>
         </nav>
     </div>
     <!-- Navbar End -->
+
+
+    
+
 
     <!-- Carousel Start -->
     <div class="container-fluid p-0 mb-5">
@@ -61,7 +72,7 @@
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <!--<h2 class="text-primary font-weight-medium m-0">CIM CASTELLAR OLIVERAL</h2>-->
                         <h2 class="text-white1 m-0">CIM CASTELLAR OLIVERAL</h2>
-                        <h1 class="display-1 text-white1 m-0">FENT BANDA</h1>
+                        <h1 class="display-1 text-white1 m-0" id="title">FENT BANDA</h1>
                         <h2 class="text-white1 m-0"> DESDE 1993</h2>
                     </div>
                 </div>
@@ -70,20 +81,19 @@
     </div>
     <!-- Carousel End -->
 
-
     <!-- About Start -->
     <div class="container-fluid py-5">
         <div class="container">
             <div class="section-title">
-                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;">Sobre nosaltres</h4>
-                <h1 class="display-4">Fent banda desde 1993</h1>
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;" id="indextext1">Sobre nosaltres</h4>
+                <h1 class="display-4" id="indextext2">Fent banda desde 1993</h1>
             </div>
             <div class="row">
                 <div class="col-lg-4 py-0 py-lg-5">
-                    <h1 class="mb-3" style="text-align: left;">La nostra història</h1>
-                    <h5 class="mb-3">El nostre centre va ser creat a l'abril de 1993. A aquesta nova banda se li va posar el nom de Centre Instructiu Musical Castellar-Oliveral en record de la primera banda que va haver en la nostra pedania fundada en 1933, dissolta en 1936 per motius de la guerra civil.</h5>
-                    <p>Actualment, es troba presidit per don Jose V. Gimeno i sota la direcció del director Manel Baixauli Ferrer.</p>
-                    <a href="about.html" class="dropdown-button btn btn-primary font-weight-bold py-3 px-5">Coneix més</a>
+                    <h1 class="mb-3" style="text-align: left;" id="indextext3">La nostra història</h1>
+                    <h5 class="mb-3" id="indextext4">El nostre centre va ser creat a l'abril de 1993. A aquesta nova banda se li va posar el nom de Centre Instructiu Musical Castellar-Oliveral en record de la primera banda que va haver en la nostra pedania fundada en 1933, dissolta en 1936 per motius de la guerra civil.</h5>
+                    <p id="indextext4b">Actualment, es troba presidit per don Jose V. Gimeno i sota la direcció del director Manel Baixauli Ferrer.</p>
+                    <a href="about.html" class="dropdown-button btn btn-primary font-weight-bold py-3 px-5" id="indextext5">Coneix més</a>
                 </div>
                 <div class="col-lg-4 py-5 py-lg-0" style="min-height: 500px;">
                     <div class="position-relative h-100">
@@ -91,13 +101,19 @@
                     </div>
                 </div>
                 <div class="col-lg-4 py-0 py-lg-5">
-                    <h1 class="mb-3" style="text-align: left;">El CIM actualment</h1>
-                    <p>El centre instructiu musical actualment disposa de diferents bandes i servicis de docència.</p>
+                    <h1 class="mb-3" style="text-align: left;" id="indextext6">El CIM actualment</h1>
+                    <p id="indextext7">El centre instructiu musical actualment disposa de diferents bandes i servicis de docència.</p>
                     <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Banda titular</h5>
-                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Banda juvenil i sènior</h5>
-                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Xaranga</h5>
-                    <h5 class="mb-3"><i class="fa fa-check text-primary mr-3"></i>Classes de música</h5>
-                    <a href="service.html" class="dropdown-button btn btn-primary font-weight-bold py-3 px-5">Apunta't a l'escola</a>
+                    <div style="display: flex;">
+                        <i class="fa fa-check text-primary mr-3"></i><h5 class="mb-3" id="indextext8">Banda juvenil i sènior</h5>
+                    </div>
+                    <div style="display: flex;">
+                        <i class="fa fa-check text-primary mr-3"></i><h5 class="mb-3" id="indextext9">Xaranga</h5>
+                    </div>
+                    <div style="display: flex;">
+                        <i class="fa fa-check text-primary mr-3"></i><h5 class="mb-3" id="indextext10">Classes de música</h5>
+                    </div>
+                    <a href="service.html" class="dropdown-button btn btn-primary font-weight-bold py-3 px-5" id="indextext11">Apunta't a l'escola</a>
                 </div>
             </div>
         </div>
@@ -247,6 +263,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="./js/idioma.js"></script>
 </body>
 
 </html>

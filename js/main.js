@@ -82,5 +82,3 @@ var lon = -0.364270;
  marker = L.marker([lat, lon]).addTo(map);
  // add popup to the marker
  marker.bindPopup("<b>Castellar-Oliveral</b><br />46026<br />Valencia").openPopup();
-
-

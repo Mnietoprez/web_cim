@@ -27,22 +27,46 @@
 </head>
 
 <body>
+    <!-- Texts from another pages (requiered so language script doesnt find unknown variables) -->
+    <p id="title" style="display: none;">.</p>
+    <p id="indextext1" style="display: none;">.</p>
+    <p id="indextext2" style="display: none;">.</p>
+    <p id="indextext3" style="display: none;">.</p>
+    <p id="indextext4" style="display: none;">.</p>
+    <p id="indextext4b" style="display: none;">.</p>
+    <p id="indextext5" style="display: none;">.</p>
+    <p id="indextext6" style="display: none;">.</p>
+    <p id="indextext7" style="display: none;">.</p>
+    <p id="indextext8" style="display: none;">.</p>
+    <p id="indextext9" style="display: none;">.</p>
+    <p id="indextext10" style="display: none;">.</p>
+    <p id="indextext11" style="display: none;">.</p>
+
+
+
     <!-- Navbar Start -->
     <div class="container-fluid p-0 nav-bar">
         <nav class="navbar navbar-expand-lg bg-none navbar-dark py-3">
             <a href="index.html" class="navbar-brand px-lg-4 m-0">
                 <img src="img/archivos_menus/logo.png"  style="width:100px">
             </a>
+            <div>
+                <div class="navbar-nav ml-auto p-4">
+                    <img src="img/archivos_menus/españa.png" id="langphoto" style="width:30px; height: 30px; padding-top: 12px;">
+                    <a href="#" class="nav-item nav-link language-link" data-lang="español" style="display: flex;" id="langtxtc" >Versión en castellano</a>
+                    <a href="#" class="nav-item nav-link language-link" data-lang="valenciano" style="display: none;" id="langtxtv" >Versió en valencià</a>
+                </div>
+            </div>
             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav ml-auto p-4">
-                    <a href="index.html" class="nav-item nav-link">Inici</a>
-                    <a href="about.html" class="nav-item nav-link">Història</a>
-                    <a href="service.html" class="nav-item nav-link active">Escola</a>
-                    <a href="gallery.html" class="nav-item nav-link">Galería</a>
-                    <a href="contact.html" class="nav-item nav-link">Contacte</a>
+                    <a href="index.html" id="nav1" class="nav-item nav-link">Inici</a>
+                    <a href="about.html" id="nav2" class="nav-item nav-link">Història</a>
+                    <a href="service.html" id="nav3" class="nav-item nav-link active">Escola</a>
+                    <a href="gallery.html" id="nav4" class="nav-item nav-link">Galería</a>
+                    <a href="contact.html" id="nav5" class="nav-item nav-link">Contacte</a>
                 </div>
             </div>
         </nav>
@@ -154,29 +178,31 @@
 
 
     <!-- Footer Start -->
-    <div class="container-fluid footer text-white1 mt-5 pt-5 px-0 position-relative overlay-top">
-        <div class="row mx-0 pt-5 px-sm-3 px-lg-5 mt-4">
-            <div style="width:30%">
-                
-            </div>
-            <div style="position: relative; width:25%; margin-bottom: 3rem">
-                <h4 class="text-white1 text-uppercase mb-4" style="letter-spacing: 3px; color: black;">Contacte</h4>
-                <p><i class="fa fa-map-marker-alt mr-2"></i>C/Vicent Puchol 40 </p>
-                <p><i class="fa fa-phone-alt mr-2"></i>+34 670 23 38 98</p>
-                <p class="m-0"><i class="fa fa-envelope mr-2"></i>directivacim@gmail.com</p>
-            </div>
-            <div style="position: relative; width:25%; margin-bottom: 3rem">
-                <h4 class="text-white1 text-uppercase mb-4" style="letter-spacing: 3px;">Xarxes socials</h4>
-                <div class="d-flex justify-content-start">
-                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="https://www.youtube.com/@escuelacimcastellar-oliver3950"><i class="fab fa-youtube"></i></a>
-                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="https://www.facebook.com/cimcastellaroliveral/?locale=es_ES"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-lg btn-outline-light btn-lg-square" href="https://www.instagram.com/cimcastellaroliveral/"><i class="fab fa-instagram"></i></a>
+    <div class="container-fluid p-0 nav-bar">
+        <nav class="navbar navbar-expand-lg bg-none navbar-dark py-3">
+            <a href="index.html" class="navbar-brand px-lg-4 m-0">
+                <img src="img/archivos_menus/logo.png"  style="width:100px">
+            </a>
+            <div>
+                <div class="navbar-nav ml-auto p-4">
+                    <img src="img/archivos_menus/españa.png" id="langphoto" style="width:30px; height: 30px; padding-top: 12px;">
+                    <a href="#" class="nav-item nav-link language-link" data-lang="español" style="display: flex;" id="langtxtc" >Versión en castellano</a>
+                    <a href="#" class="nav-item nav-link language-link" data-lang="valenciano" style="display: none;" id="langtxtv" >Versió en valencià</a>
                 </div>
             </div>
-        </div>
-        <div class="container-fluid text-center text-white1 border-top mt-4 py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
-            <p class="mb-2 text-white1">Copyright &copy; 2024</p>
-        </div>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav ml-auto p-4">
+                    <a href="index.html" id="nav1" class="nav-item nav-link">Inici</a>
+                    <a href="about.html" id="nav2" class="nav-item nav-link">Història</a>
+                    <a href="service.html" id="nav3" class="nav-item nav-link active ">Escola</a>
+                    <a href="gallery.html" id="nav4" class="nav-item nav-link">Galería</a>
+                    <a href="contact.html" id="nav5" class="nav-item nav-link">Contacte</a>
+                </div>
+            </div>
+        </nav>
     </div>
     <!-- Footer End -->
 
@@ -201,6 +227,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="./js/idioma.js"></script>
 </body>
 
 </html>
