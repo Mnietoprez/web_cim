@@ -31,6 +31,8 @@ document.addEventListener("DOMContentLoaded", function() {
             document.getElementById("langtxtc").style.display = "none";
             document.getElementById("langtxtv").style.display = "flex";
             document.getElementById("langphoto").src = "./img/archivos_menus/valencia.png";
+            document.getElementById("footertext1").textContent = "Contacto";
+            document.getElementById("footertext2").textContent = "Redes sociales";
             if (currentPage === "index.html") {
                 document.getElementById("title").textContent = "HACIENDO BANDA";
                 document.getElementById("indextext1").textContent = "Sobre nosotros";
@@ -47,8 +49,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("indextext11").textContent = "Apúntate a la escuela";  
                 document.getElementById("indextext12").textContent = "CALENDARIO 2024-2025";
                 document.getElementById("indextext13").textContent = "Próximos actos";
-                document.getElementById("indextext14").textContent = "Concierto en el Ateneo Mercantil de Valencia";
-                document.getElementById("indextext15").textContent = "Se tocará un repertorio conformado por pasodobles, junto a algunas obras reconocidas";
                 document.getElementById("indextext16").textContent = "Fecha por confirmar";
                 document.getElementById("indextext17").textContent = "Concierto de primavera Excel·lent";
                 document.getElementById("indextext18").textContent = "Con un repertorio variado, estrenando la obra 'Los miserables'";
@@ -65,6 +65,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("abouttext1").textContent = "HISTORIA";
                 document.getElementById("abouttext2").textContent = "Comenzamos por el principio";
                 document.getElementById("abouttext3").textContent = "Nuestra historia";
+                document.getElementById("indextext14").textContent = "Concierto en el Ateneo Mercantil de Valencia";
+                document.getElementById("indextext15").textContent = "Se tocará un repertorio conformado por pasodobles, junto a algunas obras reconocidas";
             }
             if (currentPage === "service.html") {
                 document.getElementById("servicetext1").textContent = "ESCUELA";
@@ -72,9 +74,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("servicetext3").textContent = "Nuestra escuela";
             }
             if (currentPage === "gallery.html") {
-                document.getElementById("toptext").textContent = "Compartimos la música";
-                document.getElementById("gallerytext").textContent = "Nuestra escuela";
-                document.getElementById("gallerydesc").textContent = "Nuestra escuela";
+                document.getElementById("toptext").textContent = "Recordemos los momentos pasados";
+                document.getElementById("gallerytext").textContent = "Fotografias destacades";
+                document.getElementById("gallerydesc").textContent = "Selección de fotografías del CIM";
             }
             
             
@@ -87,6 +89,8 @@ document.addEventListener("DOMContentLoaded", function() {
             document.getElementById("nav3").textContent = "Escola";
             document.getElementById("nav4").textContent = "Galería";
             document.getElementById("nav5").textContent = "Contacte";
+            document.getElementById("footertext1").textContent = "Contacte";
+            document.getElementById("footertext2").textContent = "Xarxes socials";
             if (currentPage === "index.html") {
                 document.getElementById("title").textContent = "FENT BANDA";
                 document.getElementById("indextext1").textContent = "Sobre nosaltres";
@@ -103,8 +107,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("indextext11").textContent = "Apunta't a l'escola";     
                 document.getElementById("indextext12").textContent = "CALENDARI 2024-2025";
                 document.getElementById("indextext13").textContent = "Pròxims actes";
-                document.getElementById("indextext14").textContent = "Concert a l'Ateneu Mercantil de València";
-                document.getElementById("indextext15").textContent = "Es tocarà un repertori conformat per pas-dobles, juntament amb algunes obres reconegudes";
                 document.getElementById("indextext16").textContent = "Data per confirmar";
                 document.getElementById("indextext17").textContent = "Concert de primavera Excel·lent";
                 document.getElementById("indextext18").textContent = "Amb un repertori variat, estrenant l'obra 'Les miserables'";
@@ -121,6 +123,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("abouttext1").textContent = "HISTÒRIA";
                 document.getElementById("abouttext2").textContent = "Començem pel principi";
                 document.getElementById("abouttext3").textContent = "La nostra història";
+                document.getElementById("indextext14").textContent = "Concert a l'Ateneu Mercantil de València";
+                document.getElementById("indextext15").textContent = "Es tocarà un repertori conformat per pas-dobles, juntament amb algunes obres reconegudes";
             }
             if (currentPage === "service.html") {
                 document.getElementById("servicetext1").textContent = "ESCOLA";
@@ -128,9 +132,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("servicetext3").textContent = "La nostra escola";
             }
             if (currentPage === "gallery.html") {
-                document.getElementById("toptext").textContent = "Compartimos la música";
-                document.getElementById("gallerytext").textContent = "Nuestra escuela";
-                document.getElementById("gallerydesc").textContent = "Nuestra escuela";
+                document.getElementById("toptext").textContent = "Recordem els moments passats";
+                document.getElementById("gallerytext").textContent = "Fotografies destacades";
+                document.getElementById("gallerydesc").textContent = "Selecció de fotografies del CIM";
             }
         }
     }

@@ -53,6 +53,8 @@ var falles2022;
 var entrada2022;
 var albufera2022;
 var intercanvi2022;
+var barris2022;
+var santacecilia2022;
 
 window.onload = function(){   
     actual = document.getElementById("frontcarrousel"); 
@@ -104,6 +106,8 @@ function selectPhotos(carro){
     entrada2022 = document.getElementById("entrada2022");
     albufera2022 = document.getElementById("albufera2022");
     intercanvi2022 = document.getElementById("intercanvi2022");
+    barris2022 = document.getElementById("barris2022");
+    santacecilia2022 = document.getElementById("santacecilia2022");
 
 
 
@@ -121,6 +125,20 @@ function selectPhotos(carro){
         expojove2009.style.display ="flex";
         document.getElementById("gallerytext").innerHTML= "Concert a Expojove";
         document.getElementById("gallerydesc").innerHTML= "Any 2009";
+    }
+    if (carro == "barris2022"){
+        actual.style.display = "none";
+        actual = document.getElementById("barris2022");
+        barris2022.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Música als barris 2022";
+        document.getElementById("gallerydesc").innerHTML= "Com portem fent aquestos últims anys, repetim aquest concert tan esperat al barri de Malilla";
+    }
+    if (carro == "santacecilia2022"){
+        actual.style.display = "none";
+        actual = document.getElementById("santacecilia2022");
+        santacecilia2022.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Festivitats de Santa Cecília 2022";
+        document.getElementById("gallerydesc").innerHTML= "Enguany repetim les nostres celebracions en honor a la patrona de la música.";
     }
     if (carro == "intercanvi2022"){
         actual.style.display = "none";

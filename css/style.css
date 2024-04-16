@@ -9675,7 +9675,7 @@ h6,
 
 
 .card1 {
-  padding: 1rem;
+  padding-right: 28px;
 }
 
 .card1 img{
@@ -9691,12 +9691,12 @@ h6,
   display: flex;
   overflow-x: scroll;
   padding: 1rem 0;
-  /*scroll-snap-type: x mandatory;*/
+  scroll-snap-type: none;
 }
 
 .carousel1-item {
-  flex: 1 0 250px;
-  margin-left: 1rem;
+  flex:0;
+  margin-left: 0;
   scroll-snap-align: start;
 }
 
@@ -9716,7 +9716,6 @@ h6,
   border-radius: 3px;
   cursor:pointer;
 }
-
 
 /********************************
 * Breakpoints
