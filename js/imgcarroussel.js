@@ -55,6 +55,11 @@ var albufera2022;
 var intercanvi2022;
 var barris2022;
 var santacecilia2022;
+var falles2023;
+var entrada2023;
+var santacecilia2023;
+var falles2024;
+var ateneo2024;
 
 window.onload = function(){   
     actual = document.getElementById("frontcarrousel"); 
@@ -108,6 +113,11 @@ function selectPhotos(carro){
     intercanvi2022 = document.getElementById("intercanvi2022");
     barris2022 = document.getElementById("barris2022");
     santacecilia2022 = document.getElementById("santacecilia2022");
+    falles2023 = document.getElementById("falles2023");
+    entrada2023 = document.getElementById("entrada2023");
+    santacecilia2023 = document.getElementById("santacecilia2023");
+    falles2024 = document.getElementById("falles2024");
+    ateneo2024 = document.getElementById("ateneo2024");
 
 
 
@@ -125,6 +135,41 @@ function selectPhotos(carro){
         expojove2009.style.display ="flex";
         document.getElementById("gallerytext").innerHTML= "Concert a Expojove";
         document.getElementById("gallerydesc").innerHTML= "Any 2009";
+    }
+    if (carro == "falles2024"){
+        actual.style.display = "none";
+        actual = document.getElementById("falles2024");
+        falles2024.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Falles 2024";
+        document.getElementById("gallerydesc").innerHTML= "Aquest any vam acompanyar novament a la falla Císcar Borriana, pero a més també vam tindre l'honor de replegar el ninot de la falla de l'Ajuntament amb la cort d'Honor de València";
+    }
+    if (carro == "ateneo2024"){
+        actual.style.display = "none";
+        actual = document.getElementById("ateneo2024");
+        ateneo2024.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Concert a l'Ateneu Mercantil 2024";
+        document.getElementById("gallerydesc").innerHTML= "Es va tocar un repertori variat, conformat per pas dobles tradicionals i alguns més especials (com el del nostre director fundador don Jesús Montó Verdet, Enrique Velarte), juntament a algunes obres reconegudes";
+    }
+    if (carro == "falles2023"){
+        actual.style.display = "none";
+        actual = document.getElementById("falles2023");
+        falles2023.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Falles 2023";
+        document.getElementById("gallerydesc").innerHTML= "Un any en el que vam poder gaudir de les festes junt amb la falla Císcar Borriana";
+    }
+    if (carro == "entrada2023"){
+        actual.style.display = "none";
+        actual = document.getElementById("entrada2023");
+        entrada2023.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Entrada de bandes";
+        document.getElementById("gallerydesc").innerHTML= "Any 2023";
+    }
+    if (carro == "santacecilia2023"){
+        actual.style.display = "none";
+        actual = document.getElementById("santacecilia2023");
+        santacecilia2023.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Festivitats de santa cecília";
+        document.getElementById("gallerydesc").innerHTML= "Any 2023";
     }
     if (carro == "barris2022"){
         actual.style.display = "none";
