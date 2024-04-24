@@ -66,13 +66,34 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("abouttext2").textContent = "Comenzamos por el principio";
                 document.getElementById("abouttext3").textContent = "Nuestra historia";
                 document.getElementById("indextext14").textContent = "Concierto en el Ateneo Mercantil de Valencia";
-                document.getElementById("indextext15").textContent = "Se tocará un repertorio conformado por pasodobles, junto a algunas obras reconocidas";
+                document.getElementById("indextext15").textContent = "Se tocó un repertorio conformado por pasodobles, junto a algunas obras reconocidas";
+                document.getElementById("abouttext4").textContent = "Una mirada hacia atrás";
+                document.getElementById("abouttext5").textContent = "Actos pasados";
+                document.getElementById("abouttext6").textContent = "Actos falleros con la falla Císcar-Burriana";
+                document.getElementById("abouttext7").textContent = "16 Marzo 12:30 - Pasacalle";
+                document.getElementById("abouttext8").textContent = "16 Marzo 18:00 - Recogida de premios infantiles";
+                document.getElementById("abouttext9").textContent = "17 Marzo 11:00- Recogida de premios mayores";
+                document.getElementById("abouttext10").textContent = "17 Marzo 18:00 - Disfraces";
+                document.getElementById("abouttext11").textContent = "18 Marzo 11:00 - Ofrena al Maestro Serrano";
+                document.getElementById("abouttext12").textContent = "18 Marzo 17:30 - Ofrena a la Virgen";
+                document.getElementById("abouttext13").textContent = "19 Marzo 12:15 - Pasacalle de San José";
+                document.getElementById("abouttext14").textContent = "Recogida del ninot con la Corte de Honor de València";
+                document.getElementById("abouttext15").textContent = "Acompañamiento de las falleras de la Corte de Honor hasta las artes i les ciencias para recoger el ninot de la falla mayor de la plaza del Ayuntamiento.";
+                document.getElementById("abouttext16").textContent = "Concierto de navidad 2023";
+                document.getElementById("abouttext17").textContent = "Concierto solidario interpretado en la iglesia de San Martí de Porres, donde se tocaron los más famosos y tradicionles villancicos.";
+                document.getElementById("abouttext18").textContent = "Festividades de Santa Cecília 2023";
+                document.getElementById("abouttext19").textContent = "19 Noviembre 12:00 - Concierto de la banda titular y juvenil en la iglesia San Martí de Porres.";
+                document.getElementById("abouttext20").textContent = "25 Noviembre 17:00 - Tardeo en el local del CIM";
+                document.getElementById("abouttext21").textContent = "26 Noviembre 10:00 - Pasacalle para recoger a los nuevos educandos de la banda.";
+                document.getElementById("abouttext22").textContent = "26 Noviembre 12:00 - Misa en la iglesia de San Martí de Porres";
+                document.getElementById("abouttext23").textContent = "26 Noviembre 14:00 - Comida de germanor en el musical para músicos y socios";
+                document.getElementById("abouttext24").textContent = "Galeria de fotos y videos";
             }
             if (currentPage === "service.html") {
                 document.getElementById("servicetext1").textContent = "ESCUELA";
                 document.getElementById("servicetext2").textContent = "Compartimos la música";
                 document.getElementById("servicetext3").textContent = "Nuestra escuela";
-                document.getElementById("servicetext4").textContent = "Matrícula curs 2023-24";
+                document.getElementById("servicetext4").textContent = "Matrícula curso 2023-24";
                 document.getElementById("servicetext5").textContent = "Del 15 de junio al 15 de julio";
                 document.getElementById("servicetext6").textContent = "Accede al formulario";
                 document.getElementById("servicetext7").textContent = " - Jardín musical";
@@ -145,7 +166,29 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("abouttext2").textContent = "Començem pel principi";
                 document.getElementById("abouttext3").textContent = "La nostra història";
                 document.getElementById("indextext14").textContent = "Concert a l'Ateneu Mercantil de València";
-                document.getElementById("indextext15").textContent = "Es tocarà un repertori conformat per pas-dobles, juntament amb algunes obres reconegudes";
+                document.getElementById("indextext15").textContent = "Es va tocar un repertori conformat per pas-dobles, juntament amb algunes obres reconegudes";
+                document.getElementById("abouttext4").textContent = "Una mirada enrere";
+                document.getElementById("abouttext5").textContent = "Actes passats";
+                document.getElementById("abouttext6").textContent = "Actes fallers amb la falla Císcar-Burriana";
+                document.getElementById("abouttext7").textContent = "16 Març 12:30 - Pasacarrer<";
+                document.getElementById("abouttext8").textContent = "16 Març 18:00 - Replegada de premis infantils";
+                document.getElementById("abouttext9").textContent = "17 Març 11:00- Replegada de premis majors";
+                document.getElementById("abouttext10").textContent = "17 Març 18:00 - Disfresses";
+                document.getElementById("abouttext11").textContent = "18 Març 11:00 - Ofrena al Mestre Serrano";
+                document.getElementById("abouttext12").textContent = "18 Març 17:30 - Ofrena a la Verge";
+                document.getElementById("abouttext13").textContent = "19 Març 12:15 - Pasacarrer de Sant Josep";
+                document.getElementById("abouttext14").textContent = "Replegada del ninot amb la Cort d'Honor de València";
+                document.getElementById("abouttext15").textContent = "Acompanyament de les falleres de la Cort d'Honor fins a les arts i les ciències per arreplegar el ninot de la falla major de la plaça de l'Ajuntament.";
+                document.getElementById("abouttext16").textContent = "Concert de nadal 2023";
+                document.getElementById("abouttext17").textContent = "Concert solidari interpretat a la esglèsia de San Martí de Porres, on es van tocar les més famoses i tradicionals nadalenques.";
+                document.getElementById("abouttext18").textContent = "Festivitats de Santa Cecília 2023";
+                document.getElementById("abouttext19").textContent = "19 Novembre 12:00 - Concert de la banda titular i juvenil en l'església Sant Martí de Porres.";
+                document.getElementById("abouttext20").textContent = "25 Novembre 17:00 - Tardeo al local del CIM";
+                document.getElementById("abouttext21").textContent = "26 Novembre 10:00 - Pasacarrer per replegar als nous educands de la banda.";
+                document.getElementById("abouttext22").textContent = "26 Novembre 12:00 - Misa en l'església de Sant Martí de Porres";
+                document.getElementById("abouttext23").textContent = "26 Novembre 14:00 - Dinar de germanor al musical per a músics i socis";
+                document.getElementById("abouttext24").textContent = "Galería de fotos i videos";
+                
             }
             if (currentPage === "service.html") {
                 document.getElementById("servicetext1").textContent = "ESCOLA";
