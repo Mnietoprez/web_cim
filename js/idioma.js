@@ -106,14 +106,14 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("servicetext14").textContent = "Lenguaje musical adultos";
                 document.getElementById("servicetext15").textContent = "Clases de instrumento";
                 document.getElementById("servicetext16").textContent = "Clases de guitarra o piano";
-                document.getElementById("price1").innerHTML = "2h/semana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 21 €/mes";
-                document.getElementById("price2").innerHTML = "1h/semana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 12 €/mes";
-                document.getElementById("price3").innerHTML = "<sup>1</sup>&frasl;<sub>2</sub>h/semana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 28 €/mes";
-                document.getElementById("price4").innerHTML = "<sup>3</sup>&frasl;<sub>4</sub>h/semana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 42 €/mes";
-                document.getElementById("price5").innerHTML = "1h/semana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 53 €/mes";
-                document.getElementById("price6").innerHTML = "<sup>1</sup>&frasl;<sub>2</sub>h/semana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 33 €/mes";
-                document.getElementById("price7").innerHTML = "<sup>3</sup>&frasl;<sub>4</sub>h/semana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 48 €/mes";
-                document.getElementById("price8").innerHTML = "1h/semana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 58 €/mes";
+                document.getElementById("price1").innerHTML = "2h/semana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 23 €/mes";
+                document.getElementById("price2").innerHTML = "1h/semana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 14 €/mes";
+                document.getElementById("price3").innerHTML = "<sup>1</sup>&frasl;<sub>2</sub>h/semana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 30 €/mes";
+                document.getElementById("price4").innerHTML = "<sup>3</sup>&frasl;<sub>4</sub>h/semana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 44 €/mes";
+                document.getElementById("price5").innerHTML = "1h/semana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 55 €/mes";
+                document.getElementById("price6").innerHTML = "<sup>1</sup>&frasl;<sub>2</sub>h/semana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 35 €/mes";
+                document.getElementById("price7").innerHTML = "<sup>3</sup>&frasl;<sub>4</sub>h/semana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 50 €/mes";
+                document.getElementById("price8").innerHTML = "1h/semana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 60 €/mes";
             }
             if (currentPage === "gallery.html") {
                 document.getElementById("toptext").textContent = "Recordemos los momentos pasados";
@@ -207,14 +207,14 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("servicetext14").textContent = "Llenguatge musical adults";
                 document.getElementById("servicetext15").textContent = "Classes d'instrument";
                 document.getElementById("servicetext16").textContent = "Classes de guitarra o piano";
-                document.getElementById("price1").innerHTML = "2h/setmana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 21 €/mes";
-                document.getElementById("price2").innerHTML = "1h/setmana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 12 €/mes";
-                document.getElementById("price3").innerHTML = "<sup>1</sup>&frasl;<sub>2</sub>h/setmana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 28 €/mes";
-                document.getElementById("price4").innerHTML = "<sup>3</sup>&frasl;<sub>4</sub>h/setmana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 42 €/mes";
-                document.getElementById("price5").innerHTML = "1h/setmana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 53 €/mes";
-                document.getElementById("price6").innerHTML = "<sup>1</sup>&frasl;<sub>2</sub>h/setmana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 33 €/mes";
-                document.getElementById("price7").innerHTML = "<sup>3</sup>&frasl;<sub>4</sub>h/setmana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 48 €/mes";
-                document.getElementById("price8").innerHTML = "1h/setmana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 58 €/mes";
+                document.getElementById("price1").innerHTML = "2h/setmana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 23 €/mes";
+                document.getElementById("price2").innerHTML = "1h/setmana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 14 €/mes";
+                document.getElementById("price3").innerHTML = "<sup>1</sup>&frasl;<sub>2</sub>h/setmana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 30 €/mes";
+                document.getElementById("price4").innerHTML = "<sup>3</sup>&frasl;<sub>4</sub>h/setmana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 44 €/mes";
+                document.getElementById("price5").innerHTML = "1h/setmana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 55 €/mes";
+                document.getElementById("price6").innerHTML = "<sup>1</sup>&frasl;<sub>2</sub>h/setmana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 35 €/mes";
+                document.getElementById("price7").innerHTML = "<sup>3</sup>&frasl;<sub>4</sub>h/setmana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 50 €/mes";
+                document.getElementById("price8").innerHTML = "1h/setmana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 60 €/mes";
 
             }
             if (currentPage === "gallery.html") {
