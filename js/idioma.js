@@ -194,7 +194,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("servicetext1").textContent = "ESCOLA";
                 document.getElementById("servicetext2").textContent = "Compartim la música";
                 document.getElementById("servicetext3").textContent = "La nostra escola";
-                document.getElementById("servicetext4").textContent = "Matrícula curso 2023-24";
+                document.getElementById("servicetext4").textContent = "Matrícula curs 2023-24";
                 document.getElementById("servicetext5").textContent = "Del 15 de juny al 15 de juliol";
                 document.getElementById("servicetext6").textContent = "Accedix al formulari";
                 document.getElementById("servicetext7").textContent = " - Jardí musical";
