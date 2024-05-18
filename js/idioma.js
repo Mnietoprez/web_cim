@@ -33,6 +33,34 @@ document.addEventListener("DOMContentLoaded", function() {
             document.getElementById("langphoto").src = "./img/archivos_menus/valencia.png";
             document.getElementById("footertext1").textContent = "Contacto";
             document.getElementById("footertext2").textContent = "Redes sociales";
+            if (currentPage === "") {
+                document.getElementById("title").textContent = "HACIENDO BANDA";
+                document.getElementById("indextext1").textContent = "Sobre nosotros";
+                document.getElementById("indextext2").textContent = "Haciendo banda desde 1993";
+                document.getElementById("indextext3").textContent = "Nuestra historia";
+                document.getElementById("indextext4").textContent = "Nuestro centro se creó en abril de 1993. A esta nueva banda se le puso el nombre de Centro Instructivo Musical Castellar-Oliveral en recuerdo de la primera banda que hubo en nuestra pedania fundada en 1933, disuelta en 1936 por motivos de la guerra civil.";
+                document.getElementById("indextext4b").textContent = "Actualmente, se encuentra presidido por don Jose V. Gimeno y bajo la dirección del director Manel Baixauli Ferrer.";
+                document.getElementById("indextext5").textContent = "Conoce más";
+                document.getElementById("indextext6").textContent = "El CIM actualmente";
+                document.getElementById("indextext7").textContent = "El Centro Instructvo Musical actualmente dispone de diferentes bandas i servicios de docencia.";
+                document.getElementById("indextext8").textContent = "Banda juvenil y senior";
+                document.getElementById("indextext9").textContent = "Charanga";
+                document.getElementById("indextext10").textContent = "Clases de música";
+                document.getElementById("indextext11").textContent = "Apúntate a la escuela";  
+                document.getElementById("indextext12").textContent = "CALENDARIO 2024-2025";
+                document.getElementById("indextext13").textContent = "Próximos actos";
+                document.getElementById("indextext16").textContent = "Fecha por confirmar";
+                document.getElementById("indextext17").textContent = "Concierto de primavera Excel·lent";
+                document.getElementById("indextext18").textContent = "Con un repertorio variado, estrenando la obra 'Los miserables'";
+                document.getElementById("indextext19").textContent = "Fecha por confirmar";
+                document.getElementById("indextext20").textContent = "Audiciones verano 2024 y concierto de la banda juvenil";
+                document.getElementById("indextext21").textContent = "El primer dia la mitad de los educandos tocarán las audiciones preparadas, y el segundo se completarán las restantes con un cierre por parte de nuestra banda juvenil";
+                document.getElementById("indextext22").textContent = "Más sobre el cim";
+                document.getElementById("indextext23").textContent = "Nuestras redes sociales";
+                document.getElementById("indextext24").textContent = "¿Quieres un poco de nostalgia?";
+                document.getElementById("indextext25").textContent = "Visita la página web vieja";
+                document.getElementById("oldVersionLink").textContent = "Versión antigua;"
+            }
             if (currentPage === "index.html") {
                 document.getElementById("title").textContent = "HACIENDO BANDA";
                 document.getElementById("indextext1").textContent = "Sobre nosotros";
@@ -88,6 +116,16 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("abouttext22").textContent = "26 Noviembre 12:00 - Misa en la iglesia de San Martí de Porres";
                 document.getElementById("abouttext23").textContent = "26 Noviembre 14:00 - Comida de germanor en el musical para músicos y socios";
                 document.getElementById("abouttext24").textContent = "Galeria de fotos y videos";
+            }
+            if (currentPage === "dades.html") {
+                document.getElementById("abouttext1").textContent = "PROTECCIÓN DE DATOS";
+                document.getElementById("dadestext1").textContent = "La utilización de este sitio web así como de cualquiera de sus servicios implica la lectura, comprensión y aceptación del presente aviso legal por parte del usuario.";
+                document.getElementById("dadestext2").textContent = "En cumplimiento de lo establecido en la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y el Comercio Electrónico, se informa de los siguientes aspectos:";
+                document.getElementById("dadestext3").textContent = "- Responsable del sitio web: CENTRO INSTRUCTIVO MUSICAL DE CASTELLAR OLIVERAL.";
+                document.getElementById("dadestext4").textContent = "- Dirección: CL. VICENTE PUCHOL, 40 46026 VALENCIA.";
+                document.getElementById("dadestext5").textContent = "- Email de contacto: directivacim@gmail.com";
+                document.getElementById("abouttext2").textContent = "Aviso legal";
+                document.getElementById("dadestext6").textContent = "El Usuario acepta voluntaria y expresamente que el uso del Sitio https://www.cimcastellaroliveral.com/ se realiza en todo caso bajo su única y exclusiva responsabilidad. En la utilización del Sitio https://www.cimcastellaroliveral.com/, el Usuario se compromete a no llevar a cabo ninguna conducta que pudiera dañar la imagen, los intereses y los derechos del sitio web o de terceros o que pudiera dañarlo, inutilizarlo o sobrecargarlo, o que impidiera, de cualquier forma, la normal utilización del mismo. Los Contenidos del Sitio https://www.cimcastellaroliveral.com/ son puestos a disposición del Usuario por CENTRO INSTRUCTIVO MUSICAL DE CASTELLAR OLIVERAL con información procedente tanto de fuentes propias como de terceros. https://www.cimcastellaroliveral.com/ procura que los Contenidos sean de la mayor calidad posible y estén razonablemente actualizados, pero CENTRO INSTRUCTIVO MUSICAL DE CASTELLAR OLIVERAL no garantiza la utilidad, exactitud, exhaustividad, pertinencia y/o actualidad de los Contenidos. Mediante estas Condiciones Generales no se cede ningún derecho de propiedad intelectual o industrial sobre el sitio https://www.cimcastellaroliveral.com/ ni sobre ninguno de sus elementos integrantes, quedando expresamente prohibidos al Usuario la reproducción, transformación, distribución, comunicación pública, puesta a disposición, extracción, reutilización, reenvío o la utilización de cualquier naturaleza, por cualquier medio o procedimiento, de cualquiera de ellos, salvo en los casos en que esté legalmente permitido o sea autorizado por el titular de los correspondientes derechos. Estas Condiciones Generales se rigen por la Ley española.";
             }
             if (currentPage === "service.html") {
                 document.getElementById("servicetext1").textContent = "ESCUELA";
@@ -161,6 +199,34 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("indextext25").textContent = "Visita la antiga pàgina web";
                 document.getElementById("oldVersionLink").textContent = "Versió antiga;"
             }
+            if (currentPage === "") {
+                document.getElementById("title").textContent = "FENT BANDA";
+                document.getElementById("indextext1").textContent = "Sobre nosaltres";
+                document.getElementById("indextext2").textContent = "Fent banda desde 1993";
+                document.getElementById("indextext3").textContent = "La nostra història";
+                document.getElementById("indextext4").textContent = "El nostre centre va ser creat a l'abril de 1993. A aquesta nova banda se li va posar el nom de Centre Instructiu Musical Castellar-Oliveral en record de la primera banda que va haver en la nostra pedania fundada en 1933, dissolta en 1936 per motius de la guerra civil.";
+                document.getElementById("indextext4b").textContent = "Actualment, es troba presidit per don Jose V. Gimeno i sota la direcció del director Manel Baixauli Ferrer.";
+                document.getElementById("indextext5").textContent = "Coneix més";
+                document.getElementById("indextext6").textContent = "El CIM actualment";
+                document.getElementById("indextext7").textContent = "El centre instructiu musical actualment disposa de diferents bandes i servicis de docència.";
+                document.getElementById("indextext8").textContent = "Banda juvenil i sènior";
+                document.getElementById("indextext9").textContent = "Xaranga";
+                document.getElementById("indextext10").textContent = "Classes de música";
+                document.getElementById("indextext11").textContent = "Apunta't a l'escola";     
+                document.getElementById("indextext12").textContent = "CALENDARI 2024-2025";
+                document.getElementById("indextext13").textContent = "Pròxims actes";
+                document.getElementById("indextext16").textContent = "Data per confirmar";
+                document.getElementById("indextext17").textContent = "Concert de primavera Excel·lent";
+                document.getElementById("indextext18").textContent = "Amb un repertori variat, estrenant l'obra 'Les miserables'";
+                document.getElementById("indextext19").textContent = "Data per confirmar";
+                document.getElementById("indextext20").textContent = "Audicions estiu 2024 i concert de la banda juvenil";
+                document.getElementById("indextext21").textContent = "El primer dia la meitat dels educands tocaràn les audicions preparades, i el segon es completaràn les restants amb un tancament per part de la nostra banda juvenil";
+                document.getElementById("indextext22").textContent = "Més sobre el cim";
+                document.getElementById("indextext23").textContent = "Les nostres xarxes socials";
+                document.getElementById("indextext24").textContent = "Vols un poc de nostalgia?";
+                document.getElementById("indextext25").textContent = "Visita la antiga pàgina web";
+                document.getElementById("oldVersionLink").textContent = "Versió antiga;"
+            }
             if (currentPage === "about.html") {
                 document.getElementById("abouttext1").textContent = "HISTÒRIA";
                 document.getElementById("abouttext2").textContent = "Començem pel principi";
@@ -189,6 +255,16 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("abouttext23").textContent = "26 Novembre 14:00 - Dinar de germanor al musical per a músics i socis";
                 document.getElementById("abouttext24").textContent = "Galería de fotos i videos";
                 
+            }
+            if (currentPage === "dades.html") {
+                document.getElementById("abouttext1").textContent = "PROTECCIÓ DE DADES";
+                document.getElementById("dadestext1").textContent = "La utilització d'aquest lloc web així com de qualsevol dels seus servicis implica la lectura, comprensió i aceptació del present avís legal per part de l'usuari.";
+                document.getElementById("dadestext2").textContent = "En compliment del que s'establix en la Llei 34/2002, d'11 de juliol, de Servicis de la Societat de la Informació i el Comerç Electrònic, s'informa dels següents aspectes:";
+                document.getElementById("dadestext3").textContent = "- Responsable del lloc web: CENTRO INSTRUCTIVO MUSICAL DE CASTELLAR OLIVERAL.";
+                document.getElementById("dadestext4").textContent = "- Direcció: CL. VICENTE PUCHOL, 40 46026 VALENCIA.";
+                document.getElementById("dadestext5").textContent = "- Email de contacte: directivacim@gmail.com";
+                document.getElementById("abouttext2").textContent = "Avís legal";
+                document.getElementById("dadestext6").textContent = "L'usuari accepta voluntària i expressament que l'ús del Lloc https://www.cimcastellaroliveral.com/ es realitza en tot cas sota la seua única i exclusiva responsabilitat. En la utilització del Lloc https://www.cimcastellaroliveral.com/, l'Usuari es compromet a no dur a terme cap conducta que poguera danyar la imatge, els interessos i els drets del lloc web o de tercers o que poguera danyar-lo, inutilitzar-lo o sobrecarregar-lo, o que impedira, de qualsevol forma, la normal utilització d'este. Els Continguts del Lloc https://www.cimcastellaroliveral.com/ són posats a la disposició de l'Usuari per CENTRE INSTRUCTIU MUSICAL DE CASTELLAR OLIVERAL amb informació procedent tant de fonts pròpies com de tercers. https://www.cimcastellaroliveral.com/ procura que els Continguts siguen de la major qualitat possible i estiguen raonablement actualitzats, però CENTRE INSTRUCTIU MUSICAL DE CASTELLAR OLIVERAL no garantix la utilitat, exactitud, exhaustivitat, pertinència i/o actualitat dels Continguts. Mitjançant estes Condicions Generals no se cedix cap dret de propietat intel·lectual o industrial sobre el lloc https://www.cimcastellaroliveral.com/ ni sobre cap dels seus elements integrants, quedant expressament prohibits a l'Usuari la reproducció, transformació, distribució, comunicació pública, posada a disposició, extracció, reutilització, reexpedició o la utilització de qualsevol naturalesa, per qualsevol mitjà o procediment, de qualsevol d'ells, excepte en els casos en què estiga legalment permés o siga autoritzat pel titular dels corresponents drets. Estes Condicions Generals es regixen per la Llei espanyola.";
             }
             if (currentPage === "service.html") {
                 document.getElementById("servicetext1").textContent = "ESCOLA";
