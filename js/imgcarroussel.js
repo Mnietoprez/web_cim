@@ -168,7 +168,7 @@ function selectPhotos(carro){
         actual.style.display = "none";
         actual = document.getElementById("santacecilia2023");
         santacecilia2023.style.display ="flex";
-        document.getElementById("gallerytext").innerHTML= "Festivitats de santa cecília";
+        document.getElementById("gallerytext").innerHTML= "Festivitats de Santa Cecília";
         document.getElementById("gallerydesc").innerHTML= "Any 2023";
     }
     if (carro == "barris2022"){
@@ -217,7 +217,7 @@ function selectPhotos(carro){
         actual.style.display = "none";
         actual = document.getElementById("santacecilia2021");
         santacecilia2021.style.display ="flex";
-        document.getElementById("gallerytext").innerHTML= "Concert de santa cecília";
+        document.getElementById("gallerytext").innerHTML= "Concert de Santa Cecília";
         document.getElementById("gallerydesc").innerHTML= "La pandemia del coronavirus no va impedir que el poble gaudira del tradicional concert de Santa Cecília que es va fer a l'esglèsia san martí de porres.";
     }
     if (carro == "goya2022"){
