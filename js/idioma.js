@@ -78,11 +78,11 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("indextext12").textContent = "CALENDARIO 2024-2025";
                 document.getElementById("indextext13").textContent = "Próximos actos";
                 document.getElementById("indextext16").textContent = "Fecha por confirmar";
-                document.getElementById("indextext17").textContent = "Concierto de primavera Excel·lent";
+                document.getElementById("indextext17").textContent = "Concierto de otoño Excel·lent";
                 document.getElementById("indextext18").textContent = "Con un repertorio variado, estrenando la obra 'Los miserables'";
-                document.getElementById("indextext19").textContent = "Fecha por confirmar";
+                document.getElementById("indextext19").textContent = "28 y 29 de junio";
                 document.getElementById("indextext20").textContent = "Audiciones verano 2024 y concierto de la banda juvenil";
-                document.getElementById("indextext21").textContent = "El primer dia la mitad de los educandos tocarán las audiciones preparadas, y el segundo se completarán las restantes con un cierre por parte de nuestra banda juvenil";
+                document.getElementById("indextext21").textContent = "El primer dia la mitad de los educandos tocarán las audiciones preparadas, acompañados por parte de nuestra banda juvenil. El segundo lo protagonizarán los alumnos de la escuela de adultos, con una nueva actuación de la banda senior";
                 document.getElementById("indextext22").textContent = "Más sobre el cim";
                 document.getElementById("indextext23").textContent = "Nuestras redes sociales";
                 document.getElementById("indextext24").textContent = "¿Quieres un poco de nostalgia?";
@@ -115,7 +115,12 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("abouttext21").textContent = "26 Noviembre 10:00 - Pasacalle para recoger a los nuevos educandos de la banda.";
                 document.getElementById("abouttext22").textContent = "26 Noviembre 12:00 - Misa en la iglesia de San Martí de Porres";
                 document.getElementById("abouttext23").textContent = "26 Noviembre 14:00 - Comida de germanor en el musical para músicos y socios";
-                document.getElementById("abouttext24").textContent = "Galeria de fotos y videos";
+                document.getElementById("abouttext25").textContent = "Nuestro centro fue creado en Abril de 1993, a esta nueva banda se le pone el nombre de Centro Instructivo Musical Castellar-Oliveral en recuerdo de la primera banda que hubo en nuestra pedanía fundada en 1933, y disuelta en 1936 por motivos de la guerra civil.";
+                document.getElementById("abouttext26").textContent = "Con Dña. Pilar Bayona Monrabal como presidenta y Don Jesús Monto Verdet como director,  nos incorporamos a la Federación Valenciana de Sociedades Musicales y a la Coordinadora de Sociedades Musicales de la ciudad de Valencia y empezamos el recorrido de actuaciones por dentro y fuera de nuestra comunidad, en toda clase de actos propios de banda, procesiones, conciertos, festivales, pasacalles, homenajes etc. ";
+                document.getElementById("abouttext27").textContent = "En 1999 toma el relevo como director Don Manuel Baixauli Ferrer. Desde el principio aplicamos la intención de ser banda para el pueblo y con el espíritu altruista de servir a estos menesteres siempre hemos estado a punto y al servicio de cualquier evento benéfico o festivo que pudiera servir para ayudar a cualquier causa, y más concretamente si de Valencia se trata. Como muestra valgan actuaciones en partidos contra la droga en campos como Mestalla, Pamesa, etc, o conciertos participando en actos culturales o benéficos en diversas ciudades y pueblos toda España. Actos completamente desinteresados.";
+                document.getElementById("abouttext28").textContent = "El centro además de la banda titular, cuenta con una banda juvenil bajo la dirección de D. Francisco Santos Valverde. La escuela de música está compuesta por más de 100 educandos a partir de 4 años que reciben clases de infancia musical, solfeo e instrumentación y que posteriormente se integran en la banda juvenil, y una escuela de adultos sin límite de edad. ";
+                document.getElementById("abouttext29").textContent = "Con una plantilla de 10 profesores titulados atendemos  todas las especialidades musicales y como asociación sin ánimo de lucro ponemos a disposición de todos ustedes en: nuestro local social C/Vicente Puchol, 40 Castellar-Oliveral Valencia 46026.";
+
             }
             if (currentPage === "dades.html") {
                 document.getElementById("abouttext1").textContent = "PROTECCIÓN DE DATOS";
@@ -188,11 +193,11 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("indextext12").textContent = "CALENDARI 2024-2025";
                 document.getElementById("indextext13").textContent = "Pròxims actes";
                 document.getElementById("indextext16").textContent = "Data per confirmar";
-                document.getElementById("indextext17").textContent = "Concert de primavera Excel·lent";
+                document.getElementById("indextext17").textContent = "Concert de tardor Excel·lent";
                 document.getElementById("indextext18").textContent = "Amb un repertori variat, estrenant l'obra 'Les miserables'";
-                document.getElementById("indextext19").textContent = "Data per confirmar";
+                document.getElementById("indextext19").textContent = "28 i 29 de juny";
                 document.getElementById("indextext20").textContent = "Audicions estiu 2024 i concert de la banda juvenil";
-                document.getElementById("indextext21").textContent = "El primer dia la meitat dels educands tocaràn les audicions preparades, i el segon es completaràn les restants amb un tancament per part de la nostra banda juvenil";
+                document.getElementById("indextext21").textContent = "El primer dia la meitat dels educands tocaràn les audicions preparades, acompanyades per part de la nostra banda juvenil. El segon el protagonitzarán els alumnes de l'escola d'adults, amb una nova actuaciò de la banda sènior";
                 document.getElementById("indextext22").textContent = "Més sobre el cim";
                 document.getElementById("indextext23").textContent = "Les nostres xarxes socials";
                 document.getElementById("indextext24").textContent = "Vols un poc de nostalgia?";
@@ -254,6 +259,11 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("abouttext22").textContent = "26 Novembre 12:00 - Misa en l'església de Sant Martí de Porres";
                 document.getElementById("abouttext23").textContent = "26 Novembre 14:00 - Dinar de germanor al musical per a músics i socis";
                 document.getElementById("abouttext24").textContent = "Galería de fotos i videos";
+                document.getElementById("abouttext25").textContent = "El nostre centre va ser creat a l'abril de 1993, a esta nova banda se li posa el nom de Centre Instructiu Musical Castellar-Oliveral en record de la primera banda que va haver-hi en la nostra pedania fundada en 1933, i dissolta en 1936 per motius de la guerra civil.";
+                document.getElementById("abouttext26").textContent = "Amb Sra. Pilar Baiona Monrabal com a presidenta i Sr. Jesús Monto Verdet com a director, ens incorporem a la Federació Valenciana de Societats Musicals i a la Coordinadora de Societats Musicals de la ciutat de València i comencem el recorregut d'actuacions per dins i fora de la nostra comunitat, en tota classe d'actes propis de banda, processons, concerts, festivals, passacarrers, homenatges etc.";
+                document.getElementById("abouttext27").textContent = "En 1999 pren el relleu com a director Sr. Manuel Baixauli Ferrer. Des del principi apliquem la intenció de ser banda per al poble i amb l'esperit altruista de servir a estos menesters sempre hem estat a punt i al servici de qualsevol esdeveniment benèfic o festiu que poguera servir per a ajudar a qualsevol causa, i més concretament si de València es tracta. Com a mostra valguen actuacions en partits contra la droga en camps com Mestalla, Pamesa, etc, o concerts participant en actes culturals o benèfics en diverses ciutats i pobles tota Espanya. Actes completament desinteressats.";
+                document.getElementById("abouttext28").textContent = "El centre a més de la banda titular, compta amb una banda juvenil sota la direcció de Sr. Francisco Santos Valverde. L'escola de música està composta per més de 100 educands a partir de 4 anys que reben classes d'infància musical, solfeig i instrumentació i que posteriorment s'integren en la banda juvenil, i una escola d'adults sense límit d'edat.";
+                document.getElementById("abouttext29").textContent = "Amb una plantilla de 10 professors titulats atenem totes les especialitats musicals i com a associació sense ànim de lucre posem a la disposició de tots vostés en: el nostre local social C/Vicente Puchol, 40 Castellar-Oliveral València 46026.";
                 
             }
             if (currentPage === "dades.html") {
