@@ -60,6 +60,8 @@ var entrada2023;
 var santacecilia2023;
 var falles2024;
 var ateneo2024;
+var excellent2024;
+var audicions2024;
 
 window.onload = function(){   
     actual = document.getElementById("frontcarrousel"); 
@@ -118,6 +120,8 @@ function selectPhotos(carro){
     santacecilia2023 = document.getElementById("santacecilia2023");
     falles2024 = document.getElementById("falles2024");
     ateneo2024 = document.getElementById("ateneo2024");
+    excellent2024 = document.getElementById("excellent2024");
+    audicions2024 = document.getElementById("audicions2024");
 
 
 
@@ -149,6 +153,13 @@ function selectPhotos(carro){
         ateneo2024.style.display ="flex";
         document.getElementById("gallerytext").innerHTML= "Concert a l'Ateneu Mercantil 2024";
         document.getElementById("gallerydesc").innerHTML= "Es va tocar un repertori variat, conformat per pas dobles tradicionals i alguns més especials (com el del nostre director fundador don Jesús Montó Verdet, Enrique Velarte), juntament a algunes obres reconegudes";
+    }
+    if (carro == "audicions2024"){
+        actual.style.display = "none";
+        actual = document.getElementById("audicions2024");
+        audicions2024.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Audicions d'estiu 2024";
+        document.getElementById("gallerydesc").innerHTML= "Com tots els anys, ens despedim d'aquest curs escoltant els progresos dels nostres educands, amb un tancament per part de la nostra banda juvenil. A més, aquest any hem tingut un dia sencer per escoltar les audicions familiars que han preparat els nostres pares i fills del centre, amb un emotiu tancament per part de la banda sènior.";
     }
     if (carro == "falles2023"){
         actual.style.display = "none";
@@ -494,6 +505,14 @@ function selectPhotos(carro){
         concertnadal2008.style.display ="flex";
         document.getElementById("gallerytext").innerHTML= "Concert de nadal 2008";
         document.getElementById("gallerydesc").innerHTML= "El dia 21 de desembre de 2008 a les 18:30 es va celebrar el tradicional concert de nadal amb la actuació de la banda, el cor i els alumnes més menuts del centre. L'espectacle va resultar brillant, com es pot apreciar en les fotografíes. A més, es va entregar per part de la delegada de cultura de la Junta municipal de Russafa una placa en record del acte que estava inclòs en els Concerts de la Junta de Russafa.";
+    }
+
+    if (carro == "excellent2024"){
+        actual.style.display = "none";
+        actual = document.getElementById("excellent2024");
+        excellent2024.style.display ="flex";
+        document.getElementById("gallerytext").innerHTML= "Concert de Excel·lent 2024";
+        document.getElementById("gallerydesc").innerHTML= "El dissabte 6 de Juliol de 2024 es va celebrar el nostre tradicional concert anual de la subvenció 'Excel·lent', el qual vam tindre el plaer de poder realitzar al CEIP Castellar-Oliveral.";
     }
 
     if (carro == "santacecilia2009"){

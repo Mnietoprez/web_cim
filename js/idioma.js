@@ -136,8 +136,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("servicetext1").textContent = "ESCUELA";
                 document.getElementById("servicetext2").textContent = "Compartimos la música";
                 document.getElementById("servicetext3").textContent = "Nuestra escuela";
-                document.getElementById("servicetext4").textContent = "Matrícula curso 2023-24";
-                document.getElementById("servicetext5").textContent = "Del 15 de junio al 15 de julio";
+                document.getElementById("servicetext4").textContent = "Matrícula curso 2024-25";
+                document.getElementById("servicetext5").textContent = "Del 15 de junio al 1 de octubre";
                 document.getElementById("servicetext6").textContent = "Accede al formulario";
                 document.getElementById("servicetext7").textContent = " - Jardín musical";
                 document.getElementById("servicetext8").textContent = " - Lenguaje musical";
@@ -149,6 +149,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("servicetext14").textContent = "Lenguaje musical adultos";
                 document.getElementById("servicetext15").textContent = "Clases de instrumento";
                 document.getElementById("servicetext16").textContent = "Clases de guitarra o piano";
+                document.getElementById("servicetext17").textContent = "Contacto de la escuela";
                 document.getElementById("price1").innerHTML = "2h/semana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 23 €/mes";
                 document.getElementById("price2").innerHTML = "1h/semana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 14 €/mes";
                 document.getElementById("price3").innerHTML = "<sup>1</sup>&frasl;<sub>2</sub>h/semana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 30 €/mes";
@@ -280,8 +281,8 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("servicetext1").textContent = "ESCOLA";
                 document.getElementById("servicetext2").textContent = "Compartim la música";
                 document.getElementById("servicetext3").textContent = "La nostra escola";
-                document.getElementById("servicetext4").textContent = "Matrícula curs 2023-24";
-                document.getElementById("servicetext5").textContent = "Del 15 de juny al 15 de juliol";
+                document.getElementById("servicetext4").textContent = "Matrícula curs 2024-25";
+                document.getElementById("servicetext5").textContent = "Del 15 de juny al 1 de octubre";
                 document.getElementById("servicetext6").textContent = "Accedix al formulari";
                 document.getElementById("servicetext7").textContent = " - Jardí musical";
                 document.getElementById("servicetext8").textContent = " - Llenguatge musical";
@@ -293,6 +294,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("servicetext14").textContent = "Llenguatge musical adults";
                 document.getElementById("servicetext15").textContent = "Classes d'instrument";
                 document.getElementById("servicetext16").textContent = "Classes de guitarra o piano";
+                document.getElementById("servicetext17").textContent = "Contacte de l'escola";
                 document.getElementById("price1").innerHTML = "2h/setmana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 23 €/mes";
                 document.getElementById("price2").innerHTML = "1h/setmana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 14 €/mes";
                 document.getElementById("price3").innerHTML = "<sup>1</sup>&frasl;<sub>2</sub>h/setmana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 30 €/mes";
