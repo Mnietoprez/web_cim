@@ -50,11 +50,11 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("indextext12").textContent = "CALENDARIO 2024-2025";
                 document.getElementById("indextext13").textContent = "Próximos actos";
                 document.getElementById("indextext16").textContent = "Fecha por confirmar";
-                document.getElementById("indextext17").textContent = "Concierto de primavera Excel·lent";
-                document.getElementById("indextext18").textContent = "Con un repertorio variado, estrenando la obra 'Los miserables'";
+                document.getElementById("indextext17").textContent = "Encuentro de bandas Castellar-Oliveral";
+                document.getElementById("indextext18").textContent = "Por motivo de las fiestas del pueblo, las dos bandas del mismo harán un encuentro donde se interpretarán algunos pasacalles";
                 document.getElementById("indextext19").textContent = "Fecha por confirmar";
-                document.getElementById("indextext20").textContent = "Audiciones verano 2024 y concierto de la banda juvenil";
-                document.getElementById("indextext21").textContent = "El primer dia la mitad de los educandos tocarán las audiciones preparadas, y el segundo se completarán las restantes con un cierre por parte de nuestra banda juvenil";
+                document.getElementById("indextext20").textContent = "Conciertos de intercambio con la asociación musical La Torre";
+                document.getElementById("indextext21").textContent = "Se hará un ciclo de dos conciertos, uno en cada musical, en los que participarán el CIM i la asociación musical La Torre";
                 document.getElementById("indextext22").textContent = "Más sobre el cim";
                 document.getElementById("indextext23").textContent = "Nuestras redes sociales";
                 document.getElementById("indextext24").textContent = "¿Quieres un poco de nostalgia?";
@@ -78,11 +78,11 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("indextext12").textContent = "CALENDARIO 2024-2025";
                 document.getElementById("indextext13").textContent = "Próximos actos";
                 document.getElementById("indextext16").textContent = "Fecha por confirmar";
-                document.getElementById("indextext17").textContent = "Concierto de otoño Excel·lent";
-                document.getElementById("indextext18").textContent = "Con un repertorio variado, estrenando la obra 'Los miserables'";
-                document.getElementById("indextext19").textContent = "28 y 29 de junio";
-                document.getElementById("indextext20").textContent = "Audiciones verano 2024 y concierto de la banda juvenil";
-                document.getElementById("indextext21").textContent = "El primer dia la mitad de los educandos tocarán las audiciones preparadas, acompañados por parte de nuestra banda juvenil. El segundo lo protagonizarán los alumnos de la escuela de adultos, con una nueva actuación de la banda senior";
+                document.getElementById("indextext17").textContent = "Encuentro de bandas Castellar-Oliveral";
+                document.getElementById("indextext18").textContent = "Por motivo de las fiestas del pueblo, las dos bandas del mismo harán un encuentro donde se interpretarán algunos pasacalles";
+                document.getElementById("indextext19").textContent = "Fecha por confirmar";
+                document.getElementById("indextext20").textContent = "Conciertos de intercambio con la asociación musical La Torre";
+                document.getElementById("indextext21").textContent = "Se hará un ciclo de dos conciertos, uno en cada musical, en los que participarán el CIM i la asociación musical La Torre";
                 document.getElementById("indextext22").textContent = "Más sobre el cim";
                 document.getElementById("indextext23").textContent = "Nuestras redes sociales";
                 document.getElementById("indextext24").textContent = "¿Quieres un poco de nostalgia?";
@@ -93,8 +93,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("abouttext1").textContent = "HISTORIA";
                 document.getElementById("abouttext2").textContent = "Comenzamos por el principio";
                 document.getElementById("abouttext3").textContent = "Nuestra historia";
-                document.getElementById("indextext14").textContent = "Concierto en el Ateneo Mercantil de Valencia";
-                document.getElementById("indextext15").textContent = "Se tocó un repertorio conformado por pasodobles, junto a algunas obras reconocidas";
                 document.getElementById("abouttext4").textContent = "Una mirada hacia atrás";
                 document.getElementById("abouttext5").textContent = "Actos pasados";
                 document.getElementById("abouttext6").textContent = "Actos falleros con la falla Císcar-Burriana";
@@ -120,7 +118,12 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("abouttext27").textContent = "En 1999 toma el relevo como director Don Manuel Baixauli Ferrer. Desde el principio aplicamos la intención de ser banda para el pueblo y con el espíritu altruista de servir a estos menesteres siempre hemos estado a punto y al servicio de cualquier evento benéfico o festivo que pudiera servir para ayudar a cualquier causa, y más concretamente si de Valencia se trata. Como muestra valgan actuaciones en partidos contra la droga en campos como Mestalla, Pamesa, etc, o conciertos participando en actos culturales o benéficos en diversas ciudades y pueblos toda España. Actos completamente desinteresados.";
                 document.getElementById("abouttext28").textContent = "El centro además de la banda titular, cuenta con una banda juvenil bajo la dirección de D. Francisco Santos Valverde. La escuela de música está compuesta por más de 100 educandos a partir de 4 años que reciben clases de infancia musical, solfeo e instrumentación y que posteriormente se integran en la banda juvenil, y una escuela de adultos sin límite de edad. ";
                 document.getElementById("abouttext29").textContent = "Con una plantilla de 10 profesores titulados atendemos  todas las especialidades musicales y como asociación sin ánimo de lucro ponemos a disposición de todos ustedes en: nuestro local social C/Vicente Puchol, 40 Castellar-Oliveral Valencia 46026.";
-
+                document.getElementById("indextext14").textContent = "Concierto en el Ateneo Mercantil de Valencia";
+                document.getElementById("indextext15").textContent = "Se tocó un repertorio conformado por pasodobles, junto a algunas obras reconocidas";
+                document.getElementById("indextext17").textContent = "Concierto de verano Excel·lent";
+                document.getElementById("indextext18").textContent = "El sábado 6 de julio de 2024 se celebró nuestro tradicional concierto anual de la subvención 'Excel·lent', el cual tuvimos el placer de poder realizar en el CEIP Castellar-Oliveral.";
+                document.getElementById("indextext20").textContent = "Audiciones verano 2024 y concierto de la banda juvenil";
+                document.getElementById("indextext21").textContent = "El primer dia la mitad de los educandos tocaron las audiciones preparadas, acompañados por parte de nuestra banda juvenil. El segundo lo protagonizaron los alumnos de la escuela de adultos, con una nueva actuación de la banda senior";
             }
             if (currentPage === "dades.html") {
                 document.getElementById("abouttext1").textContent = "PROTECCIÓN DE DATOS";
@@ -194,11 +197,11 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("indextext12").textContent = "CALENDARI 2024-2025";
                 document.getElementById("indextext13").textContent = "Pròxims actes";
                 document.getElementById("indextext16").textContent = "Data per confirmar";
-                document.getElementById("indextext17").textContent = "Concert de tardor Excel·lent";
-                document.getElementById("indextext18").textContent = "Amb un repertori variat, estrenant l'obra 'Les miserables'";
-                document.getElementById("indextext19").textContent = "28 i 29 de juny";
-                document.getElementById("indextext20").textContent = "Audicions estiu 2024 i concert de la banda juvenil";
-                document.getElementById("indextext21").textContent = "El primer dia la meitat dels educands tocaràn les audicions preparades, acompanyades per part de la nostra banda juvenil. El segon el protagonitzarán els alumnes de l'escola d'adults, amb una nova actuaciò de la banda sènior";
+                document.getElementById("indextext17").textContent = "Trobada de bandes Castellar-Oliveral";
+                document.getElementById("indextext18").textContent = "Per motiu de les festes del poble, les dues bandes del mateix faràn una trobada on s'interpretaràn alguns pas-dobles";
+                document.getElementById("indextext19").textContent = "Data per confirmar";
+                document.getElementById("indextext20").textContent = "Concerts d'intercanvi amb l'associació musical La Torre";
+                document.getElementById("indextext21").textContent = "Es farà un cicle de dos concerts, un en cada musical, en els que participaràn el CIM i la associació musical La Torre";
                 document.getElementById("indextext22").textContent = "Més sobre el cim";
                 document.getElementById("indextext23").textContent = "Les nostres xarxes socials";
                 document.getElementById("indextext24").textContent = "Vols un poc de nostalgia?";
@@ -222,11 +225,11 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("indextext12").textContent = "CALENDARI 2024-2025";
                 document.getElementById("indextext13").textContent = "Pròxims actes";
                 document.getElementById("indextext16").textContent = "Data per confirmar";
-                document.getElementById("indextext17").textContent = "Concert de primavera Excel·lent";
-                document.getElementById("indextext18").textContent = "Amb un repertori variat, estrenant l'obra 'Les miserables'";
+                document.getElementById("indextext17").textContent = "Trobada de bandes Castellar-Oliveral";
+                document.getElementById("indextext18").textContent = "Per motiu de les festes del poble, les dues bandes del mateix faràn una trobada on s'interpretaràn alguns pas-dobles";
                 document.getElementById("indextext19").textContent = "Data per confirmar";
-                document.getElementById("indextext20").textContent = "Audicions estiu 2024 i concert de la banda juvenil";
-                document.getElementById("indextext21").textContent = "El primer dia la meitat dels educands tocaràn les audicions preparades, i el segon es completaràn les restants amb un tancament per part de la nostra banda juvenil";
+                document.getElementById("indextext20").textContent = "Concerts d'intercanvi amb l'associació musical La Torre";
+                document.getElementById("indextext21").textContent = "Es farà un cicle de dos concerts, un en cada musical, en els que participaràn el CIM i la associació musical La Torre";
                 document.getElementById("indextext22").textContent = "Més sobre el cim";
                 document.getElementById("indextext23").textContent = "Les nostres xarxes socials";
                 document.getElementById("indextext24").textContent = "Vols un poc de nostalgia?";
@@ -237,12 +240,10 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("abouttext1").textContent = "HISTÒRIA";
                 document.getElementById("abouttext2").textContent = "Començem pel principi";
                 document.getElementById("abouttext3").textContent = "La nostra història";
-                document.getElementById("indextext14").textContent = "Concert a l'Ateneu Mercantil de València";
-                document.getElementById("indextext15").textContent = "Es va tocar un repertori conformat per pas-dobles, juntament amb algunes obres reconegudes";
                 document.getElementById("abouttext4").textContent = "Una mirada enrere";
                 document.getElementById("abouttext5").textContent = "Actes passats";
                 document.getElementById("abouttext6").textContent = "Actes fallers amb la falla Císcar-Burriana";
-                document.getElementById("abouttext7").textContent = "16 Març 12:30 - Pasacarrer<";
+                document.getElementById("abouttext7").textContent = "16 Març 12:30 - Pasacarrer";
                 document.getElementById("abouttext8").textContent = "16 Març 18:00 - Replegada de premis infantils";
                 document.getElementById("abouttext9").textContent = "17 Març 11:00- Replegada de premis majors";
                 document.getElementById("abouttext10").textContent = "17 Març 18:00 - Disfresses";
@@ -265,7 +266,12 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("abouttext27").textContent = "En 1999 pren el relleu com a director Sr. Manuel Baixauli Ferrer. Des del principi apliquem la intenció de ser banda per al poble i amb l'esperit altruista de servir a estos menesters sempre hem estat a punt i al servici de qualsevol esdeveniment benèfic o festiu que poguera servir per a ajudar a qualsevol causa, i més concretament si de València es tracta. Com a mostra valguen actuacions en partits contra la droga en camps com Mestalla, Pamesa, etc, o concerts participant en actes culturals o benèfics en diverses ciutats i pobles tota Espanya. Actes completament desinteressats.";
                 document.getElementById("abouttext28").textContent = "El centre a més de la banda titular, compta amb una banda juvenil sota la direcció de Sr. Francisco Santos Valverde. L'escola de música està composta per més de 100 educands a partir de 4 anys que reben classes d'infància musical, solfeig i instrumentació i que posteriorment s'integren en la banda juvenil, i una escola d'adults sense límit d'edat.";
                 document.getElementById("abouttext29").textContent = "Amb una plantilla de 10 professors titulats atenem totes les especialitats musicals i com a associació sense ànim de lucre posem a la disposició de tots vostés en: el nostre local social C/Vicente Puchol, 40 Castellar-Oliveral València 46026.";
-                
+                document.getElementById("indextext14").textContent = "Concert a l'Ateneu Mercantil de València";
+                document.getElementById("indextext15").textContent = "Es va tocar un repertori conformat per pas-dobles, juntament amb algunes obres reconegudes";
+                document.getElementById("indextext17").textContent = "Concert de estiu Excel·lent";
+                document.getElementById("indextext18").textContent = "El dissabte 6 de Juliol de 2024 es va celebrar el nostre tradicional concert anual de la subvenció 'Excel·lent', el qual vam tindre el plaer de poder realitzar al CEIP Castellar-Oliveral.";
+                document.getElementById("indextext20").textContent = "Audicions estiu 2024 i concert de la banda juvenil";
+                document.getElementById("indextext21").textContent = "El primer dia la meitat dels educands van tocar les audicions preparades, acompanyats per part de la nostra banda juvenil. El segon el van protagonitzar els alumnes de l'escola d'adults i els seus fills, amb una nova actuaciò de la banda sènior";
             }
             if (currentPage === "dades.html") {
                 document.getElementById("abouttext1").textContent = "PROTECCIÓ DE DADES";
