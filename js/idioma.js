@@ -49,17 +49,14 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("indextext11").textContent = "Apúntate a la escuela";  
                 document.getElementById("indextext12").textContent = "CALENDARIO 2024-2025";
                 document.getElementById("indextext13").textContent = "Próximos actos";
-                document.getElementById("indextext16").textContent = "12 y 13/08/2024";
-                document.getElementById("indextext17").textContent = "Conciertos de intercambio con la agrupación musical Orba";
-                document.getElementById("indextext18").textContent = "Se hará un ciclo de dos conciertos, uno en cada musical, en los que participarán el CIM i la asociación musical Orba";
-                document.getElementById("indextext19").textContent = "28/07 y 05/08/2024 ";
-                document.getElementById("indextext20").textContent = "Conciertos de intercambio con la asociación musical La Torre";
-                document.getElementById("indextext21").textContent = "Se hará un ciclo de dos conciertos, uno en cada musical, en los que participarán el CIM i la asociación musical La Torre";
+                document.getElementById("indextext14").textContent = "Fallas 2025";
+                document.getElementById("indextext15").textContent = "Actos falleros con la falla Císcar-Burriana";
+                document.getElementById("indextext16").textContent = "Fechas por confirmar";
                 document.getElementById("indextext22").textContent = "Más sobre el cim";
                 document.getElementById("indextext23").textContent = "Nuestras redes sociales";
                 document.getElementById("indextext24").textContent = "¿Quieres un poco de nostalgia?";
                 document.getElementById("indextext25").textContent = "Visita la página web vieja";
-                document.getElementById("oldVersionLink").textContent = "Versión antigua;"
+                document.getElementById("oldVersionLink").textContent = "Versión antigua"
             }
             if (currentPage === "index.html") {
                 document.getElementById("title").textContent = "HACIENDO BANDA";
@@ -77,17 +74,14 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("indextext11").textContent = "Apúntate a la escuela";  
                 document.getElementById("indextext12").textContent = "CALENDARIO 2024-2025";
                 document.getElementById("indextext13").textContent = "Próximos actos";
-                document.getElementById("indextext16").textContent = "12 y 13/08/2024";
-                document.getElementById("indextext17").textContent = "Conciertos de intercambio con la agrupación musical Orba";
-                document.getElementById("indextext18").textContent = "Se hará un ciclo de dos conciertos, uno en cada musical, en los que participarán el CIM i la asociación musical Orba";
-                document.getElementById("indextext19").textContent = "28/07 y 05/08/2024 ";
-                document.getElementById("indextext20").textContent = "Conciertos de intercambio con la asociación musical La Torre";
-                document.getElementById("indextext21").textContent = "Se hará un ciclo de dos conciertos, uno en cada musical, en los que participarán el CIM i la asociación musical La Torre";
+                document.getElementById("indextext14").textContent = "Fallas 2025";
+                document.getElementById("indextext15").textContent = "Actos falleros con la falla Císcar-Burriana";
+                document.getElementById("indextext16").textContent = "Fechas por confirmar";
                 document.getElementById("indextext22").textContent = "Más sobre el cim";
                 document.getElementById("indextext23").textContent = "Nuestras redes sociales";
                 document.getElementById("indextext24").textContent = "¿Quieres un poco de nostalgia?";
                 document.getElementById("indextext25").textContent = "Visita la página web vieja";
-                document.getElementById("oldVersionLink").textContent = "Versión antigua;"
+                document.getElementById("oldVersionLink").textContent = "Versión antigua"
             }
             if (currentPage === "about.html") {
                 document.getElementById("abouttext1").textContent = "HISTORIA";
@@ -124,11 +118,37 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("indextext18").textContent = "El sábado 6 de julio de 2024 se celebró nuestro tradicional concierto anual de la subvención 'Excel·lent', el cual tuvimos el placer de poder realizar en el CEIP Castellar-Oliveral.";
                 document.getElementById("indextext20").textContent = "Audiciones verano 2024 y concierto de la banda juvenil";
                 document.getElementById("indextext21").textContent = "El primer dia la mitad de los educandos tocaron las audiciones preparadas, acompañados por parte de nuestra banda juvenil. El segundo lo protagonizaron los alumnos de la escuela de adultos, con una nueva actuación de la banda senior";
-                document.getElementById("indextext22").textContent = "28/07 y 05/08/2024";
+                document.getElementById("indextext22").textContent = "28/09 y 05/10/2024";
                 document.getElementById("indextext23").textContent = "Conciertos de intercambio con la asociación musical La Torre";
-                document.getElementById("indextext24").textContent = "Se hizo un ciclo de dos conciertos, uno en cada musical, en los que participaron el CIM y la associación musical La Torre";
+                document.getElementById("indextext24").textContent = "Se hizo un ciclo de dos conciertos, uno en cada musical, en los que participaron el CIM y la asociación musical La Torre";
                 document.getElementById("indextext25").textContent = "Encuentro de bandas Castellar-Oliveral";
                 document.getElementById("indextext26").textContent = "Por motivo de las fiestas del pueblo, las dos bandas del mismo hicieron un encuentro donde se interpretaron algunos pasodobles.";
+                document.getElementById("indextext27").textContent = "8 y 15/09/2024";
+                document.getElementById("indextext28").textContent = "Procesiones Castellar-Oliveral";
+                document.getElementById("indextext29").textContent = "Se hicieron dos procesiones con motivo de las fiestas del pueblo";
+                document.getElementById("indextext30").textContent = "8 Septiembre: Procesión Oliveral";
+                document.getElementById("indextext31").textContent = "15 Septiembre: Procesión Castellar";
+                document.getElementById("indextext32").textContent = "12 y 13/10/2024";
+                document.getElementById("indextext33").textContent = "Conciertos de intercambio con la agrupación musical Orba";
+                document.getElementById("indextext34").textContent = "Se hizo un ciclo de dos conciertos, uno en cada musical, en los que participaron el CIM y la agrupación musical Orba";
+                document.getElementById("indextext35").textContent = "Concierto de la Junta de Distrito";
+                document.getElementById("indextext36").textContent = "Se hizo un concierto de la mano de la Coral de Horno de Alcedo y de la banda de La Torre, en la iglesia de Horno de Alcedo";
+                document.getElementById("indextext37").textContent = "Concierto de la Junta de Distrito";
+                document.getElementById("indextext38").textContent = "Se hizo un concierto de la mano de la Coral de Horno de Alcedo y de la banda de La Torre, en la iglesia de Sant Martí de Porres del Oliveral";
+                document.getElementById("indextext39").textContent = "Festividades de Santa Cecília 2024";
+                document.getElementById("indextext40").textContent = "22 Noviembre 17:00 - Tarde de cine en el musical";
+                document.getElementById("indextext41").textContent = "27 Noviembre 17:00 - Xocolatà de nuestra Sari";
+                document.getElementById("indextext42").textContent = "30 Noviembre 10:00 - Concierto de la banda titular y juvenil en la iglesia Sant Martí de Porres";
+                document.getElementById("indextext43").textContent = "1 Diciembre 9:30 - Pasacalle para recoger a los nuevos educandos de la banda y misa solemne";
+                document.getElementById("indextext44").textContent = "1 Diciembre 14:30 - Comida de hermandad en el musical para músicos y socios";
+                document.getElementById("indextext45").textContent = "Concierto navideño de la banda juvenil y senior";
+                document.getElementById("indextext46").textContent = "Nuestra banda juvenil y nuestros seniors nos deleitaron con un repertorio de obras animadas y villancicos";
+                document.getElementById("indextext47").textContent = "Concierto de navidad de la banda titular";
+                document.getElementById("indextext48").textContent = "Como cada año, la banda hizo un concierto solidario con recogida de alimentos, el cual se realizó en la plaza de Castellar" ;
+                document.getElementById("indextext49").textContent = "Cabalgata de reyes 2025";
+                document.getElementById("indextext50").textContent = "En el día de la cabalgata de reyes de 2025, tuvimos el placer de acompañar a nuestro querido rey Gaspar, tocando la marcha 'Capitanía Cides'";
+                document.getElementById("indextext51").textContent = "Actos 2024";
+                document.getElementById("indextext52").textContent = "Actos 2023";
             }
             if (currentPage === "dades.html") {
                 document.getElementById("abouttext1").textContent = "PROTECCIÓN DE DATOS";
@@ -201,17 +221,14 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("indextext11").textContent = "Apunta't a l'escola";     
                 document.getElementById("indextext12").textContent = "CALENDARI 2024-2025";
                 document.getElementById("indextext13").textContent = "Pròxims actes";
-                document.getElementById("indextext16").textContent = "12 i 13/08/2024";
-                document.getElementById("indextext17").textContent = "Concerts d'intercanvi amb l'agrupació musical Orba";
-                document.getElementById("indextext18").textContent = "Es farà un cicle de dos concerts, un en cada musical, en els que participaràn el CIM i l'agrupació musical Orba";
-                document.getElementById("indextext19").textContent = "28/07 i 05/08/2024 ";
-                document.getElementById("indextext20").textContent = "Concerts d'intercanvi amb l'associació musical La Torre";
-                document.getElementById("indextext21").textContent = "Es farà un cicle de dos concerts, un en cada musical, en els que participaràn el CIM i la associació musical La Torre";
+                document.getElementById("indextext14").textContent = "Falles 2025";
+                document.getElementById("indextext15").textContent = "Actes fallers amb la falla Císcar-Burriana";
+                document.getElementById("indextext16").textContent = "Dates per confirmar";
                 document.getElementById("indextext22").textContent = "Més sobre el cim";
                 document.getElementById("indextext23").textContent = "Les nostres xarxes socials";
                 document.getElementById("indextext24").textContent = "Vols un poc de nostalgia?";
                 document.getElementById("indextext25").textContent = "Visita la antiga pàgina web";
-                document.getElementById("oldVersionLink").textContent = "Versió antiga;"
+                document.getElementById("oldVersionLink").textContent = "Versió antiga"
             }
             if (currentPage === "") {
                 document.getElementById("title").textContent = "FENT BANDA";
@@ -229,17 +246,14 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("indextext11").textContent = "Apunta't a l'escola";     
                 document.getElementById("indextext12").textContent = "CALENDARI 2024-2025";
                 document.getElementById("indextext13").textContent = "Pròxims actes";
-                document.getElementById("indextext16").textContent = "12 i 13/08/2024";
-                document.getElementById("indextext17").textContent = "Concerts d'intercanvi amb l'agrupació musical Orba";
-                document.getElementById("indextext18").textContent = "Es farà un cicle de dos concerts, un en cada musical, en els que participaràn el CIM i l'agrupació musical Orba";
-                document.getElementById("indextext19").textContent = "28/07 i 05/08/2024 ";
-                document.getElementById("indextext20").textContent = "Concerts d'intercanvi amb l'associació musical La Torre";
-                document.getElementById("indextext21").textContent = "Es farà un cicle de dos concerts, un en cada musical, en els que participaràn el CIM i la associació musical La Torre";
+                document.getElementById("indextext14").textContent = "Falles 2025";
+                document.getElementById("indextext15").textContent = "Actes fallers amb la falla Císcar-Burriana";
+                document.getElementById("indextext16").textContent = "Dates per confirmar";
                 document.getElementById("indextext22").textContent = "Més sobre el cim";
                 document.getElementById("indextext23").textContent = "Les nostres xarxes socials";
                 document.getElementById("indextext24").textContent = "Vols un poc de nostalgia?";
                 document.getElementById("indextext25").textContent = "Visita la antiga pàgina web";
-                document.getElementById("oldVersionLink").textContent = "Versió antiga;"
+                document.getElementById("oldVersionLink").textContent = "Versió antiga"
             }
             if (currentPage === "about.html") {
                 document.getElementById("abouttext1").textContent = "HISTÒRIA";
@@ -277,11 +291,37 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("indextext18").textContent = "El dissabte 6 de Juliol de 2024 es va celebrar el nostre tradicional concert anual de la subvenció 'Excel·lent', el qual vam tindre el plaer de poder realitzar al CEIP Castellar-Oliveral.";
                 document.getElementById("indextext20").textContent = "Audicions estiu 2024 i concert de la banda juvenil";
                 document.getElementById("indextext21").textContent = "El primer dia la meitat dels educands van tocar les audicions preparades, acompanyats per part de la nostra banda juvenil. El segon el van protagonitzar els alumnes de l'escola d'adults i els seus fills, amb una nova actuaciò de la banda sènior";
-                document.getElementById("indextext22").textContent = "28/07 i 05/08/2024";
+                document.getElementById("indextext22").textContent = "28/09 i 05/010/2024";
                 document.getElementById("indextext23").textContent = "Concerts d'intercanvi amb l'associació musical La Torre";
-                document.getElementById("indextext24").textContent = "Es van fer un cicle de dos concerts, un en cada musical, en els que van participar el CIM i la associació musical La Torre";
+                document.getElementById("indextext24").textContent = "Es va fer un cicle de dos concerts, un en cada musical, en els que van participar el CIM i la associació musical La Torre";
                 document.getElementById("indextext25").textContent = "Trobada de bandes Castellar-Oliveral";
                 document.getElementById("indextext26").textContent = "Per motiu de les festes del poble, les dues bandes del mateix van fer una trobada on es van interpretar alguns pas-dobles";
+                document.getElementById("indextext27").textContent = "8 i 15/09/2024";
+                document.getElementById("indextext28").textContent = "Processons Castellar-Oliveral";
+                document.getElementById("indextext29").textContent = "Es van fer dues processons amb motiu de les festes del poble";
+                document.getElementById("indextext30").textContent = "8 Setembre: Processó Oliveral";
+                document.getElementById("indextext31").textContent = "15 Setembre: Processó Castellar";
+                document.getElementById("indextext32").textContent = "12 i 13/10/2024";
+                document.getElementById("indextext33").textContent = "Concerts d'intercanvi amb l'agrupació musical Orba";
+                document.getElementById("indextext34").textContent = "Es va fer un cicle de dos concerts, un en cada musical, en els que van participar el CIM i l'agrupació musical Orba";
+                document.getElementById("indextext35").textContent = "Concert de la Junta de Districte";
+                document.getElementById("indextext36").textContent = "Es va fer un concert de la mà de la Coral de Forn d'Alcedo i de la banda de La Torre, en la esglèsia de Forn d'Alcedo";
+                document.getElementById("indextext37").textContent = "Concert de la Junta de Districte";
+                document.getElementById("indextext38").textContent = "Es va fer un concert de la mà de la Coral de Forn d'Alcedo i de la banda de La Torre, en la esglèsia de Sant Martí de Porres de l'Oliveral";
+                document.getElementById("indextext39").textContent = "Festivitats de Santa Cecília 2024";
+                document.getElementById("indextext40").textContent = "22 Novembre 17:00 - Vesprada de cine al musical";
+                document.getElementById("indextext41").textContent = "27 Novembre 17:00 - Xocolatà de la nostra Sari";
+                document.getElementById("indextext42").textContent = "30 Novembre 10:00 - Concert de la banda titular i juvenil en l'església Sant Martí de Porres";
+                document.getElementById("indextext43").textContent = "1 Desembre 9:30 - Pasacarrer per replegar als nous educands de la banda i misa solemne";
+                document.getElementById("indextext44").textContent = "1 Desembre 14:30 - Dinar de germanor al musical per a músics i socis";
+                document.getElementById("indextext45").textContent = "Concert nadalenc de la banda juvenil i sènior";
+                document.getElementById("indextext46").textContent = "La nostra banda juvenil i els nostres sèniors van deleitar-nos amb un repertori de obres animades i nadalenques";
+                document.getElementById("indextext47").textContent = "Concert de nadal de la banda titular";
+                document.getElementById("indextext48").textContent = "Com cada any, la banda va fer un concert solidari amb recollida d'aliments, el qual vam realitzar aquesta volta en la plaça de Castellar";
+                document.getElementById("indextext49").textContent = "Cavalcada de reixos 2025";
+                document.getElementById("indextext50").textContent = "En el día de la cavalcada de reixos de 2025, vam tindre el plaer de acompanyar al nostre volgut rei Gaspar, tocant la marxa 'Capitanía Cides'";
+                document.getElementById("indextext51").textContent = "Actes 2024";
+                document.getElementById("indextext52").textContent = "Actes 2023";
             }
             if (currentPage === "dades.html") {
                 document.getElementById("abouttext1").textContent = "PROTECCIÓ DE DADES";
