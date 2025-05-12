@@ -7,7 +7,13 @@ document.addEventListener("DOMContentLoaded", function() {
         document.documentElement.lang = selectedLanguage;
         updateLanguage(selectedLanguage);
         console.log(selectedLanguage);
-        updateEvents(selectedLanguage); //Actualiza la lista de actos pasados
+        if (currentPage === "historia.html") {
+            updateEvents(selectedLanguage); //Actualiza la lista de actos pasados
+        }
+
+        if (currentPage === "index.html" || currentPage === "") {
+            updateEvents(selectedLanguage); //Actualiza la lista de actos proximos
+        }
     }
 
 
@@ -20,7 +26,12 @@ document.addEventListener("DOMContentLoaded", function() {
             localStorage.setItem("language", language);
             updateLanguage(language);
             console.log(language);
+            if (currentPage === "historia.html") {
             updateEvents(language);//Actualiza la lista de actos pasados
+            }
+            if (currentPage === "index.html" || currentPage === "") {
+                updateEvents(language); //Actualiza la lista de actos proximos
+            }
         });
     });
 
@@ -53,9 +64,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("indextext11").textContent = "Apúntate a la escuela";  
                 document.getElementById("indextext12").textContent = "CALENDARIO 2024-2025";
                 document.getElementById("indextext13").textContent = "Próximos actos";
-                document.getElementById("indextext14").textContent = "Fallas 2025";
-                document.getElementById("indextext15").textContent = "Actos falleros con la falla Císcar-Burriana";
-                document.getElementById("indextext16").textContent = "Fechas por confirmar";
                 document.getElementById("indextext22").textContent = "Más sobre el cim";
                 document.getElementById("indextext23").textContent = "Nuestras redes sociales";
                 document.getElementById("indextext24").textContent = "¿Quieres un poco de nostalgia?";
@@ -78,9 +86,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("indextext11").textContent = "Apúntate a la escuela";  
                 document.getElementById("indextext12").textContent = "CALENDARIO 2024-2025";
                 document.getElementById("indextext13").textContent = "Próximos actos";
-                document.getElementById("indextext14").textContent = "Fallas 2025";
-                document.getElementById("indextext15").textContent = "Actos falleros con la falla Císcar-Burriana";
-                document.getElementById("indextext16").textContent = "Fechas por confirmar";
                 document.getElementById("indextext22").textContent = "Más sobre el cim";
                 document.getElementById("indextext23").textContent = "Nuestras redes sociales";
                 document.getElementById("indextext24").textContent = "¿Quieres un poco de nostalgia?";
@@ -173,9 +178,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("indextext11").textContent = "Apunta't a l'escola";     
                 document.getElementById("indextext12").textContent = "CALENDARI 2024-2025";
                 document.getElementById("indextext13").textContent = "Pròxims actes";
-                document.getElementById("indextext14").textContent = "Falles 2025";
-                document.getElementById("indextext15").textContent = "Actes fallers amb la falla Císcar-Burriana";
-                document.getElementById("indextext16").textContent = "Dates per confirmar";
                 document.getElementById("indextext22").textContent = "Més sobre el cim";
                 document.getElementById("indextext23").textContent = "Les nostres xarxes socials";
                 document.getElementById("indextext24").textContent = "Vols un poc de nostalgia?";
@@ -198,9 +200,6 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("indextext11").textContent = "Apunta't a l'escola";     
                 document.getElementById("indextext12").textContent = "CALENDARI 2024-2025";
                 document.getElementById("indextext13").textContent = "Pròxims actes";
-                document.getElementById("indextext14").textContent = "Falles 2025";
-                document.getElementById("indextext15").textContent = "Actes fallers amb la falla Císcar-Burriana";
-                document.getElementById("indextext16").textContent = "Dates per confirmar";
                 document.getElementById("indextext22").textContent = "Més sobre el cim";
                 document.getElementById("indextext23").textContent = "Les nostres xarxes socials";
                 document.getElementById("indextext24").textContent = "Vols un poc de nostalgia?";

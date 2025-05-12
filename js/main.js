@@ -1,3 +1,4 @@
+var currentPage = location.pathname.split("/").pop();
 (function ($) {
     "use strict";
     
@@ -86,17 +87,56 @@ if (window.location.pathname.endsWith('contact.html')) {
   
     var marker = L.marker([lat, lon]).addTo(map);
     marker.bindPopup("<b>Castellar-Oliveral</b><br />46026<br />Valencia").openPopup();
-  }
+}
 
+//----------------------------------------------------------
+// CÓDIGO PARA AÑADIR ACTOS PRÓXIMOS EN INDEX.HTML
+//----------------------------------------------------------
+
+if (window.location.pathname.endsWith('index.html') || currentPage === ""){
+    //cambia en función del idioma seleccionado
+    function updateEvents(idioma) {
+        let events = eventsval
+        if (idioma === "español") {
+            events = eventses;
+        } else {
+            if (idioma === "valenciano") {
+                events = eventsval;
+            }
+        }
+        renderEvents("proximos", events);
+    }
+    
+    //funcion que actualiza eventos
+    function renderEvents(container, event) {
+    const thecontainer = document.getElementById(container);
+    thecontainer.innerHTML = ""; // Limpia contenido anterior
+    event.forEach(event => {
+      const col = document.createElement("div");
+      const descriptionHtml = event.description.join("<br>");
+      col.className = "col-lg-6 mb-5";
+      col.innerHTML = `
+        <div class="row">
+          <div class="col-sm-5">
+            <img class="img-fluid mb-3 mb-sm-0" src="${event.img}" alt="">
+          </div>
+          <div class="col-sm-7">
+            <p class="m-0">${event.date}</p>
+            <h4>${event.title}</h4>
+            <p class="m-0">${descriptionHtml}</p>
+          </div>
+        </div>
+      `;
+      thecontainer.appendChild(col);
+    });
+    }
+}
 
 //----------------------------------------------------------
 // CÓDIGO PARA AÑADIR ACTOS EN HISTORIA.HTML POR AÑOS
 //----------------------------------------------------------
 
-
-
 if (window.location.pathname.endsWith('historia.html')) {
-
 //cambia en función del idioma seleccionado
 function updateEvents(idioma) {
     let events2025 = events2025val;
@@ -140,5 +180,48 @@ event.forEach(event => {
   `;
   thecontainer.appendChild(col);
 });
+}
+}
+
+
+// FUNCIÓN QUE HACE QUE LOS BOTONES FUNCIONEN
+function dropdown(dropid) {
+    var dropdownContent = document.getElementById(dropid);
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+}
+
+//----------------------------------------------------------
+// CÓDIGO PARA ACTIVAR O DESACTIVAR FOTOS EN GALERÍA
+//----------------------------------------------------------
+
+if (window.location.pathname.endsWith('gallery.html')) {
+function selectPhotos(id, imagenes) {
+    const seccion = document.getElementById(id);
+    const lista = seccion.querySelector("ul");
+  
+    if (seccion.dataset.loaded === "false") {
+      seccion.style.display = "flex";
+      imagenes.fotos.forEach(nombre => {
+        const li = document.createElement("li");
+        li.className = "carousel1-item";
+        li.innerHTML = `
+          <div class="card1">
+            <img src="${nombre}" loading="lazy">
+          </div>
+        `;
+        lista.appendChild(li);
+      });
+  
+      seccion.dataset.loaded = "true";
+    } else {
+      // Ocultar y eliminar las imágenes
+      seccion.style.display = "none";
+      lista.innerHTML = ""; // elimina todo el contenido del <ul>
+      seccion.dataset.loaded = "false";
+    }
 }
 }

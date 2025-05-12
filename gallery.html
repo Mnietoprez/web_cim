@@ -56,7 +56,7 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-    <script src="js/imgcarroussel.js"></script>
+    <script src="js/imgcarroussel2.js"></script>
     
 
     <!-- Navbar Start -->
@@ -151,7 +151,11 @@
                 </ul>
             </section>
 
-            
+            <section class="carousel1" id="testcarga" style="display: none;" data-loaded="false">
+                <ul class="carousel1-items">
+                </ul>
+            </section>
+
             <!-- audicio 2009 -->
             <section class="carousel1" id="audicio2009" style="display: none;">
                 <ul class="carousel1-items">
@@ -5782,11 +5786,12 @@
            <div style="display:block">
             <button class="dropdown-button btn btn-primary font-weight-bold py-3 px-5" style="width:200px" onclick=dropdown("dropdowndestacada")>Destacades</button>
                 <div class="dropdown-content" id="dropdowndestacada">
-                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("frontcarrousel")>Fotografies destacades</a>
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("destacades")>Fotografies destacades</a>
                 </div>
             <div style="height: 5px;"></div>
             <button class="dropdown-button btn btn-primary font-weight-bold py-3 px-5" style="width:200px" onclick=dropdown("dropdown2024")>2024</button>
             <div class="dropdown-content" id="dropdown2024">
+                <a class="nav-item nav-link" style="cursor:pointer" onclick="selectPhotos('testcarga', testfotos)"> test</a>
                 <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("excellent2024")>Concert excel·lent al CEIP Castellar-Oliveral </a>
                 <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("audicions2024")>Audicions de estiu 2024 (no acabat)</a>
                 <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("ateneo2024")>Concert a l'Ateneu Mercantil de València 2024 </a> 
