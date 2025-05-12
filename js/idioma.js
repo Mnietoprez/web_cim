@@ -6,6 +6,8 @@ document.addEventListener("DOMContentLoaded", function() {
     if (selectedLanguage) {
         document.documentElement.lang = selectedLanguage;
         updateLanguage(selectedLanguage);
+        console.log(selectedLanguage);
+        updateEvents(selectedLanguage); //Actualiza la lista de actos pasados
     }
 
 
@@ -17,6 +19,8 @@ document.addEventListener("DOMContentLoaded", function() {
             const language = this.getAttribute("data-lang");
             localStorage.setItem("language", language);
             updateLanguage(language);
+            console.log(language);
+            updateEvents(language);//Actualiza la lista de actos pasados
         });
     });
 
@@ -83,72 +87,20 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("indextext25").textContent = "Visita la página web vieja";
                 document.getElementById("oldVersionLink").textContent = "Versión antigua"
             }
-            if (currentPage === "about.html") {
-                document.getElementById("abouttext1").textContent = "HISTORIA";
-                document.getElementById("abouttext2").textContent = "Comenzamos por el principio";
-                document.getElementById("abouttext3").textContent = "Nuestra historia";
-                document.getElementById("abouttext4").textContent = "Una mirada hacia atrás";
-                document.getElementById("abouttext5").textContent = "Actos pasados";
-                document.getElementById("abouttext6").textContent = "Actos falleros con la falla Císcar-Burriana";
-                document.getElementById("abouttext7").textContent = "16 Marzo 12:30 - Pasacalle";
-                document.getElementById("abouttext8").textContent = "16 Marzo 18:00 - Recogida de premios infantiles";
-                document.getElementById("abouttext9").textContent = "17 Marzo 11:00- Recogida de premios mayores";
-                document.getElementById("abouttext10").textContent = "17 Marzo 18:00 - Disfraces";
-                document.getElementById("abouttext11").textContent = "18 Marzo 11:00 - Ofrena al Maestro Serrano";
-                document.getElementById("abouttext12").textContent = "18 Marzo 17:30 - Ofrena a la Virgen";
-                document.getElementById("abouttext13").textContent = "19 Marzo 12:15 - Pasacalle de San José";
-                document.getElementById("abouttext14").textContent = "Recogida del ninot con la Corte de Honor de València";
-                document.getElementById("abouttext15").textContent = "Acompañamiento de las falleras de la Corte de Honor hasta las artes i les ciencias para recoger el ninot de la falla mayor de la plaza del Ayuntamiento.";
-                document.getElementById("abouttext16").textContent = "Concierto de navidad 2023";
-                document.getElementById("abouttext17").textContent = "Concierto solidario interpretado en la iglesia de San Martí de Porres, donde se tocaron los más famosos y tradicionles villancicos.";
-                document.getElementById("abouttext18").textContent = "Festividades de Santa Cecília 2023";
-                document.getElementById("abouttext19").textContent = "19 Noviembre 12:00 - Concierto de la banda titular y juvenil en la iglesia San Martí de Porres.";
-                document.getElementById("abouttext20").textContent = "25 Noviembre 17:00 - Tardeo en el local del CIM";
-                document.getElementById("abouttext21").textContent = "26 Noviembre 10:00 - Pasacalle para recoger a los nuevos educandos de la banda.";
-                document.getElementById("abouttext22").textContent = "26 Noviembre 12:00 - Misa en la iglesia de San Martí de Porres";
-                document.getElementById("abouttext23").textContent = "26 Noviembre 14:00 - Comida de germanor en el musical para músicos y socios";
-                document.getElementById("abouttext25").textContent = "Nuestro centro fue creado en Abril de 1993, a esta nueva banda se le pone el nombre de Centro Instructivo Musical Castellar-Oliveral en recuerdo de la primera banda que hubo en nuestra pedanía fundada en 1933, y disuelta en 1936 por motivos de la guerra civil.";
-                document.getElementById("abouttext26").textContent = "Con Dña. Pilar Bayona Monrabal como presidenta y Don Jesús Monto Verdet como director,  nos incorporamos a la Federación Valenciana de Sociedades Musicales y a la Coordinadora de Sociedades Musicales de la ciudad de Valencia y empezamos el recorrido de actuaciones por dentro y fuera de nuestra comunidad, en toda clase de actos propios de banda, procesiones, conciertos, festivales, pasacalles, homenajes etc. ";
-                document.getElementById("abouttext27").textContent = "En 1999 toma el relevo como director Don Manuel Baixauli Ferrer. Desde el principio aplicamos la intención de ser banda para el pueblo y con el espíritu altruista de servir a estos menesteres siempre hemos estado a punto y al servicio de cualquier evento benéfico o festivo que pudiera servir para ayudar a cualquier causa, y más concretamente si de Valencia se trata. Como muestra valgan actuaciones en partidos contra la droga en campos como Mestalla, Pamesa, etc, o conciertos participando en actos culturales o benéficos en diversas ciudades y pueblos toda España. Actos completamente desinteresados.";
-                document.getElementById("abouttext28").textContent = "El centro además de la banda titular, cuenta con una banda juvenil bajo la dirección de D. Francisco Santos Valverde. La escuela de música está compuesta por más de 100 educandos a partir de 4 años que reciben clases de infancia musical, solfeo e instrumentación y que posteriormente se integran en la banda juvenil, y una escuela de adultos sin límite de edad. ";
-                document.getElementById("abouttext29").textContent = "Con una plantilla de 10 profesores titulados atendemos  todas las especialidades musicales y como asociación sin ánimo de lucro ponemos a disposición de todos ustedes en: nuestro local social C/Vicente Puchol, 40 Castellar-Oliveral Valencia 46026.";
-                document.getElementById("indextext14").textContent = "Concierto en el Ateneo Mercantil de Valencia";
-                document.getElementById("indextext15").textContent = "Se tocó un repertorio conformado por pasodobles, junto a algunas obras reconocidas";
-                document.getElementById("indextext17").textContent = "Concierto de verano Excel·lent";
-                document.getElementById("indextext18").textContent = "El sábado 6 de julio de 2024 se celebró nuestro tradicional concierto anual de la subvención 'Excel·lent', el cual tuvimos el placer de poder realizar en el CEIP Castellar-Oliveral.";
-                document.getElementById("indextext20").textContent = "Audiciones verano 2024 y concierto de la banda juvenil";
-                document.getElementById("indextext21").textContent = "El primer dia la mitad de los educandos tocaron las audiciones preparadas, acompañados por parte de nuestra banda juvenil. El segundo lo protagonizaron los alumnos de la escuela de adultos, con una nueva actuación de la banda senior";
-                document.getElementById("indextext22").textContent = "28/09 y 05/10/2024";
-                document.getElementById("indextext23").textContent = "Conciertos de intercambio con la asociación musical La Torre";
-                document.getElementById("indextext24").textContent = "Se hizo un ciclo de dos conciertos, uno en cada musical, en los que participaron el CIM y la asociación musical La Torre";
-                document.getElementById("indextext25").textContent = "Encuentro de bandas Castellar-Oliveral";
-                document.getElementById("indextext26").textContent = "Por motivo de las fiestas del pueblo, las dos bandas del mismo hicieron un encuentro donde se interpretaron algunos pasodobles.";
-                document.getElementById("indextext27").textContent = "8 y 15/09/2024";
-                document.getElementById("indextext28").textContent = "Procesiones Castellar-Oliveral";
-                document.getElementById("indextext29").textContent = "Se hicieron dos procesiones con motivo de las fiestas del pueblo";
-                document.getElementById("indextext30").textContent = "8 Septiembre: Procesión Oliveral";
-                document.getElementById("indextext31").textContent = "15 Septiembre: Procesión Castellar";
-                document.getElementById("indextext32").textContent = "12 y 13/10/2024";
-                document.getElementById("indextext33").textContent = "Conciertos de intercambio con la agrupación musical Orba";
-                document.getElementById("indextext34").textContent = "Se hizo un ciclo de dos conciertos, uno en cada musical, en los que participaron el CIM y la agrupación musical Orba";
-                document.getElementById("indextext35").textContent = "Concierto de la Junta de Distrito";
-                document.getElementById("indextext36").textContent = "Se hizo un concierto de la mano de la Coral de Horno de Alcedo y de la banda de La Torre, en la iglesia de Horno de Alcedo";
-                document.getElementById("indextext37").textContent = "Concierto de la Junta de Distrito";
-                document.getElementById("indextext38").textContent = "Se hizo un concierto de la mano de la Coral de Horno de Alcedo y de la banda de La Torre, en la iglesia de Sant Martí de Porres del Oliveral";
-                document.getElementById("indextext39").textContent = "Festividades de Santa Cecília 2024";
-                document.getElementById("indextext40").textContent = "22 Noviembre 17:00 - Tarde de cine en el musical";
-                document.getElementById("indextext41").textContent = "27 Noviembre 17:00 - Xocolatà de nuestra Sari";
-                document.getElementById("indextext42").textContent = "30 Noviembre 10:00 - Concierto de la banda titular y juvenil en la iglesia Sant Martí de Porres";
-                document.getElementById("indextext43").textContent = "1 Diciembre 9:30 - Pasacalle para recoger a los nuevos educandos de la banda y misa solemne";
-                document.getElementById("indextext44").textContent = "1 Diciembre 14:30 - Comida de hermandad en el musical para músicos y socios";
-                document.getElementById("indextext45").textContent = "Concierto navideño de la banda juvenil y senior";
-                document.getElementById("indextext46").textContent = "Nuestra banda juvenil y nuestros seniors nos deleitaron con un repertorio de obras animadas y villancicos";
-                document.getElementById("indextext47").textContent = "Concierto de navidad de la banda titular";
-                document.getElementById("indextext48").textContent = "Como cada año, la banda hizo un concierto solidario con recogida de alimentos, el cual se realizó en la plaza de Castellar" ;
-                document.getElementById("indextext49").textContent = "Cabalgata de reyes 2025";
-                document.getElementById("indextext50").textContent = "En el día de la cabalgata de reyes de 2025, tuvimos el placer de acompañar a nuestro querido rey Gaspar, tocando la marcha 'Capitanía Cides'";
-                document.getElementById("indextext51").textContent = "Actos 2024";
-                document.getElementById("indextext52").textContent = "Actos 2023";
+            if (currentPage === "historia.html") {
+                document.getElementById("historiatext1").textContent = "HISTORIA";
+                document.getElementById("historiatext2").textContent = "Comenzamos por el principio";
+                document.getElementById("historiatext3").textContent = "Nuestra historia";
+                document.getElementById("historiatext4").textContent = "Nuestro centro fue creado en Abril de 1993, a esta nueva banda se le pone el nombre de Centro Instructivo Musical Castellar-Oliveral en recuerdo de la primera banda que hubo en nuestra pedanía fundada en 1933, y disuelta en 1936 por motivos de la guerra civil.";
+                document.getElementById("historiatext5").textContent = "Con Dña. Pilar Bayona Monrabal como presidenta y Don Jesús Monto Verdet como director,  nos incorporamos a la Federación Valenciana de Sociedades Musicales y a la Coordinadora de Sociedades Musicales de la ciudad de Valencia y empezamos el recorrido de actuaciones por dentro y fuera de nuestra comunidad, en toda clase de actos propios de banda, procesiones, conciertos, festivales, pasacalles, homenajes etc. ";
+                document.getElementById("historiatext6").textContent = "En 1999 toma el relevo como director Don Manuel Baixauli Ferrer. Desde el principio aplicamos la intención de ser banda para el pueblo y con el espíritu altruista de servir a estos menesteres siempre hemos estado a punto y al servicio de cualquier evento benéfico o festivo que pudiera servir para ayudar a cualquier causa, y más concretamente si de Valencia se trata. Como muestra valgan actuaciones en partidos contra la droga en campos como Mestalla, Pamesa, etc, o conciertos participando en actos culturales o benéficos en diversas ciudades y pueblos toda España. Actos completamente desinteresados.";
+                document.getElementById("historiatext7").textContent = "El centro además de la banda titular, cuenta con una banda juvenil bajo la dirección de D. Francisco Santos Valverde. La escuela de música está compuesta por más de 100 educandos a partir de 4 años que reciben clases de infancia musical, solfeo e instrumentación y que posteriormente se integran en la banda juvenil, y una escuela de adultos sin límite de edad. ";
+                document.getElementById("historiatext8").textContent = "Con una plantilla de 10 profesores titulados atendemos  todas las especialidades musicales y como asociación sin ánimo de lucro ponemos a disposición de todos ustedes en: nuestro local social C/Vicente Puchol, 40 Castellar-Oliveral Valencia 46026.";
+                document.getElementById("historiatext9").textContent = "Una mirada hacia atrás";
+                document.getElementById("historiatext10").textContent = "Actos pasados";
+                document.getElementById("historiatext11").textContent = "Actos 2024";
+                document.getElementById("historiatext12").textContent = "Actos 2023";
+                document.getElementById("historiatext13").textContent = "Galería de fotos y videos";
             }
             if (currentPage === "dades.html") {
                 document.getElementById("abouttext1").textContent = "PROTECCIÓN DE DATOS";
@@ -255,73 +207,20 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("indextext25").textContent = "Visita la antiga pàgina web";
                 document.getElementById("oldVersionLink").textContent = "Versió antiga"
             }
-            if (currentPage === "about.html") {
-                document.getElementById("abouttext1").textContent = "HISTÒRIA";
-                document.getElementById("abouttext2").textContent = "Començem pel principi";
-                document.getElementById("abouttext3").textContent = "La nostra història";
-                document.getElementById("abouttext4").textContent = "Una mirada enrere";
-                document.getElementById("abouttext5").textContent = "Actes passats";
-                document.getElementById("abouttext6").textContent = "Actes fallers amb la falla Císcar-Burriana";
-                document.getElementById("abouttext7").textContent = "16 Març 12:30 - Pasacarrer";
-                document.getElementById("abouttext8").textContent = "16 Març 18:00 - Replegada de premis infantils";
-                document.getElementById("abouttext9").textContent = "17 Març 11:00- Replegada de premis majors";
-                document.getElementById("abouttext10").textContent = "17 Març 18:00 - Disfresses";
-                document.getElementById("abouttext11").textContent = "18 Març 11:00 - Ofrena al Mestre Serrano";
-                document.getElementById("abouttext12").textContent = "18 Març 17:30 - Ofrena a la Verge";
-                document.getElementById("abouttext13").textContent = "19 Març 12:15 - Pasacarrer de Sant Josep";
-                document.getElementById("abouttext14").textContent = "Replegada del ninot amb la Cort d'Honor de València";
-                document.getElementById("abouttext15").textContent = "Acompanyament de les falleres de la Cort d'Honor fins a les arts i les ciències per arreplegar el ninot de la falla major de la plaça de l'Ajuntament.";
-                document.getElementById("abouttext16").textContent = "Concert de nadal 2023";
-                document.getElementById("abouttext17").textContent = "Concert solidari interpretat a la esglèsia de San Martí de Porres, on es van tocar les més famoses i tradicionals nadalenques.";
-                document.getElementById("abouttext18").textContent = "Festivitats de Santa Cecília 2023";
-                document.getElementById("abouttext19").textContent = "19 Novembre 12:00 - Concert de la banda titular i juvenil en l'església Sant Martí de Porres.";
-                document.getElementById("abouttext20").textContent = "25 Novembre 17:00 - Tardeo al local del CIM";
-                document.getElementById("abouttext21").textContent = "26 Novembre 10:00 - Pasacarrer per replegar als nous educands de la banda.";
-                document.getElementById("abouttext22").textContent = "26 Novembre 12:00 - Misa en l'església de Sant Martí de Porres";
-                document.getElementById("abouttext23").textContent = "26 Novembre 14:00 - Dinar de germanor al musical per a músics i socis";
-                document.getElementById("abouttext24").textContent = "Galería de fotos i videos";
-                document.getElementById("abouttext25").textContent = "El nostre centre va ser creat a l'abril de 1993, a esta nova banda se li posa el nom de Centre Instructiu Musical Castellar-Oliveral en record de la primera banda que va haver-hi en la nostra pedania fundada en 1933, i dissolta en 1936 per motius de la guerra civil.";
-                document.getElementById("abouttext26").textContent = "Amb Sra. Pilar Baiona Monrabal com a presidenta i Sr. Jesús Monto Verdet com a director, ens incorporem a la Federació Valenciana de Societats Musicals i a la Coordinadora de Societats Musicals de la ciutat de València i comencem el recorregut d'actuacions per dins i fora de la nostra comunitat, en tota classe d'actes propis de banda, processons, concerts, festivals, passacarrers, homenatges etc.";
-                document.getElementById("abouttext27").textContent = "En 1999 pren el relleu com a director Sr. Manuel Baixauli Ferrer. Des del principi apliquem la intenció de ser banda per al poble i amb l'esperit altruista de servir a estos menesters sempre hem estat a punt i al servici de qualsevol esdeveniment benèfic o festiu que poguera servir per a ajudar a qualsevol causa, i més concretament si de València es tracta. Com a mostra valguen actuacions en partits contra la droga en camps com Mestalla, Pamesa, etc, o concerts participant en actes culturals o benèfics en diverses ciutats i pobles tota Espanya. Actes completament desinteressats.";
-                document.getElementById("abouttext28").textContent = "El centre a més de la banda titular, compta amb una banda juvenil sota la direcció de Sr. Francisco Santos Valverde. L'escola de música està composta per més de 100 educands a partir de 4 anys que reben classes d'infància musical, solfeig i instrumentació i que posteriorment s'integren en la banda juvenil, i una escola d'adults sense límit d'edat.";
-                document.getElementById("abouttext29").textContent = "Amb una plantilla de 10 professors titulats atenem totes les especialitats musicals i com a associació sense ànim de lucre posem a la disposició de tots vostés en: el nostre local social C/Vicente Puchol, 40 Castellar-Oliveral València 46026.";
-                document.getElementById("indextext14").textContent = "Concert a l'Ateneu Mercantil de València";
-                document.getElementById("indextext15").textContent = "Es va tocar un repertori conformat per pas-dobles, juntament amb algunes obres reconegudes";
-                document.getElementById("indextext17").textContent = "Concert de estiu Excel·lent";
-                document.getElementById("indextext18").textContent = "El dissabte 6 de Juliol de 2024 es va celebrar el nostre tradicional concert anual de la subvenció 'Excel·lent', el qual vam tindre el plaer de poder realitzar al CEIP Castellar-Oliveral.";
-                document.getElementById("indextext20").textContent = "Audicions estiu 2024 i concert de la banda juvenil";
-                document.getElementById("indextext21").textContent = "El primer dia la meitat dels educands van tocar les audicions preparades, acompanyats per part de la nostra banda juvenil. El segon el van protagonitzar els alumnes de l'escola d'adults i els seus fills, amb una nova actuaciò de la banda sènior";
-                document.getElementById("indextext22").textContent = "28/09 i 05/010/2024";
-                document.getElementById("indextext23").textContent = "Concerts d'intercanvi amb l'associació musical La Torre";
-                document.getElementById("indextext24").textContent = "Es va fer un cicle de dos concerts, un en cada musical, en els que van participar el CIM i la associació musical La Torre";
-                document.getElementById("indextext25").textContent = "Trobada de bandes Castellar-Oliveral";
-                document.getElementById("indextext26").textContent = "Per motiu de les festes del poble, les dues bandes del mateix van fer una trobada on es van interpretar alguns pas-dobles";
-                document.getElementById("indextext27").textContent = "8 i 15/09/2024";
-                document.getElementById("indextext28").textContent = "Processons Castellar-Oliveral";
-                document.getElementById("indextext29").textContent = "Es van fer dues processons amb motiu de les festes del poble";
-                document.getElementById("indextext30").textContent = "8 Setembre: Processó Oliveral";
-                document.getElementById("indextext31").textContent = "15 Setembre: Processó Castellar";
-                document.getElementById("indextext32").textContent = "12 i 13/10/2024";
-                document.getElementById("indextext33").textContent = "Concerts d'intercanvi amb l'agrupació musical Orba";
-                document.getElementById("indextext34").textContent = "Es va fer un cicle de dos concerts, un en cada musical, en els que van participar el CIM i l'agrupació musical Orba";
-                document.getElementById("indextext35").textContent = "Concert de la Junta de Districte";
-                document.getElementById("indextext36").textContent = "Es va fer un concert de la mà de la Coral de Forn d'Alcedo i de la banda de La Torre, en la esglèsia de Forn d'Alcedo";
-                document.getElementById("indextext37").textContent = "Concert de la Junta de Districte";
-                document.getElementById("indextext38").textContent = "Es va fer un concert de la mà de la Coral de Forn d'Alcedo i de la banda de La Torre, en la esglèsia de Sant Martí de Porres de l'Oliveral";
-                document.getElementById("indextext39").textContent = "Festivitats de Santa Cecília 2024";
-                document.getElementById("indextext40").textContent = "22 Novembre 17:00 - Vesprada de cine al musical";
-                document.getElementById("indextext41").textContent = "27 Novembre 17:00 - Xocolatà de la nostra Sari";
-                document.getElementById("indextext42").textContent = "30 Novembre 10:00 - Concert de la banda titular i juvenil en l'església Sant Martí de Porres";
-                document.getElementById("indextext43").textContent = "1 Desembre 9:30 - Pasacarrer per replegar als nous educands de la banda i misa solemne";
-                document.getElementById("indextext44").textContent = "1 Desembre 14:30 - Dinar de germanor al musical per a músics i socis";
-                document.getElementById("indextext45").textContent = "Concert nadalenc de la banda juvenil i sènior";
-                document.getElementById("indextext46").textContent = "La nostra banda juvenil i els nostres sèniors van deleitar-nos amb un repertori de obres animades i nadalenques";
-                document.getElementById("indextext47").textContent = "Concert de nadal de la banda titular";
-                document.getElementById("indextext48").textContent = "Com cada any, la banda va fer un concert solidari amb recollida d'aliments, el qual vam realitzar aquesta volta en la plaça de Castellar";
-                document.getElementById("indextext49").textContent = "Cavalcada de reixos 2025";
-                document.getElementById("indextext50").textContent = "En el día de la cavalcada de reixos de 2025, vam tindre el plaer de acompanyar al nostre volgut rei Gaspar, tocant la marxa 'Capitanía Cides'";
-                document.getElementById("indextext51").textContent = "Actes 2024";
-                document.getElementById("indextext52").textContent = "Actes 2023";
+            if (currentPage === "historia.html") {
+                document.getElementById("historiatext1").textContent = "HISTÒRIA";
+                document.getElementById("historiatext2").textContent = "Començem pel principi";
+                document.getElementById("historiatext3").textContent = "La nostra història";
+                document.getElementById("historiatext4").textContent = "El nostre centre va ser creat a l'abril de 1993, a esta nova banda se li posa el nom de Centre Instructiu Musical Castellar-Oliveral en record de la primera banda que va haver-hi en la nostra pedania fundada en 1933, i dissolta en 1936 per motius de la guerra civil.";
+                document.getElementById("historiatext5").textContent = "Amb Sra. Pilar Baiona Monrabal com a presidenta i Sr. Jesús Monto Verdet com a director, ens incorporem a la Federació Valenciana de Societats Musicals i a la Coordinadora de Societats Musicals de la ciutat de València i comencem el recorregut d'actuacions per dins i fora de la nostra comunitat, en tota classe d'actes propis de banda, processons, concerts, festivals, passacarrers, homenatges etc.";
+                document.getElementById("historiatext6").textContent = "En 1999 pren el relleu com a director Sr. Manuel Baixauli Ferrer. Des del principi apliquem la intenció de ser banda per al poble i amb l'esperit altruista de servir a estos menesters sempre hem estat a punt i al servici de qualsevol esdeveniment benèfic o festiu que poguera servir per a ajudar a qualsevol causa, i més concretament si de València es tracta. Com a mostra valguen actuacions en partits contra la droga en camps com Mestalla, Pamesa, etc, o concerts participant en actes culturals o benèfics en diverses ciutats i pobles tota Espanya. Actes completament desinteressats.";
+                document.getElementById("historiatext7").textContent = "El centre a més de la banda titular, compta amb una banda juvenil sota la direcció de Sr. Francisco Santos Valverde. L'escola de música està composta per més de 100 educands a partir de 4 anys que reben classes d'infància musical, solfeig i instrumentació i que posteriorment s'integren en la banda juvenil, i una escola d'adults sense límit d'edat.";
+                document.getElementById("historiatext8").textContent = "Amb una plantilla de 10 professors titulats atenem totes les especialitats musicals i com a associació sense ànim de lucre posem a la disposició de tots vostés en: el nostre local social C/Vicente Puchol, 40 Castellar-Oliveral València 46026.";
+                document.getElementById("historiatext9").textContent = "Una mirada enrere";
+                document.getElementById("historiatext10").textContent = "Actes passats";
+                document.getElementById("historiatext11").textContent = "Actes 2024";
+                document.getElementById("historiatext12").textContent = "Actes 2023";
+                document.getElementById("historiatext13").textContent = "Galería de fotos i videos";
             }
             if (currentPage === "dades.html") {
                 document.getElementById("abouttext1").textContent = "PROTECCIÓ DE DADES";

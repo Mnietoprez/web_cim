@@ -26,6 +26,8 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 
+
+
 <body>
 
     <!-- Navbar Start -->
@@ -47,8 +49,8 @@
             <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                 <div class="navbar-nav ml-auto p-4">
                     <a href="index.html" id="nav1" class="nav-item nav-link">Inici</a>
-                    <a href="about.html" id="nav2" class="nav-item nav-link">Història</a>
-                    <a href="service.html" id="nav3" class="nav-item nav-link active">Escola</a>
+                    <a href="historia.html" id="nav2" class="nav-item nav-link active">Història</a>
+                    <a href="escuela.html" id="nav3" class="nav-item nav-link ">Escola</a>
                     <a href="gallery.html" id="nav4" class="nav-item nav-link">Galería</a>
                     <a href="contact.html" id="nav5" class="nav-item nav-link">Contacte</a>
                 </div>
@@ -57,15 +59,14 @@
     </div>
     <!-- Navbar End -->
 
-
     <!-- Carousel Start -->
     <div class="container-fluid p-0 mb-5">
         <div id="blog-carousel" class="carousel slide overlay-bottom" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="w-100" src="img/archivos_menus/actes.jpg" alt="Image">
+                    <img class="w-100" src="img/archivos_menus/PHOTO-2022-02-12-14-33-30.jpg" alt="Image">
                     <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
-                        <h1 class="display-1 text-white1 m-0" id="servicetext1">ESCOLA</h1>
+                        <h1 class="display-1 text-white1 m-0" id="historiatext1">HISTÒRIA</h1>
                     </div>
                 </div>
             </div>
@@ -74,104 +75,76 @@
     <!-- Carousel End -->
 
 
-    <!-- Service Start -->
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="section-title">
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;" id="historiatext2">Començem pel principi</h4>
+            </div>
+            <h1 class="mb-3" style="text-align: center;" id="historiatext3">La nostra història</h1>
+            <div style="text-align: center; width: 100%; display: block;">
+                
+                <h5 class="mb-3" id="historiatext4">Nuestro centro fue creado en Abril de 1993, a esta nueva banda se le pone el nombre de Centro Instructivo Musical Castellar-Oliveral en recuerdo de la primera banda que hubo en nuestra pedanía fundada en 1933, y disuelta en 1936 por motivos de la guerra civil.</h5>
+                <h5 class="mb-3" id="historiatext5">Con Dña. Pilar Bayona Monrabal como presidenta y Don Jesús Monto Verdet como director,  nos incorporamos a la Federación Valenciana de Sociedades Musicales y a la Coordinadora de Sociedades Musicales de la ciudad de Valencia y empezamos el recorrido de actuaciones por dentro y fuera de nuestra comunidad, en toda clase de actos propios de banda, procesiones, conciertos, festivales, pasacalles, homenajes etc. </h5>
+                <h5 class="mb-3" id="historiatext6">En 1999 toma el relevo como director Don Manuel Baixauli Ferrer. Desde el principio aplicamos la intención de ser banda para el pueblo y con el espíritu altruista de servir a estos menesteres siempre hemos estado a punto y al servicio de cualquier evento benéfico o festivo que pudiera servir para ayudar a cualquier causa, y más concretamente si de Valencia se trata. Como muestra valgan actuaciones en partidos contra la droga en campos como Mestalla, Pamesa, etc, o conciertos participando en actos culturales o benéficos en diversas ciudades y pueblos toda España. Actos completamente desinteresados.</h5>
+                <h5 class="mb-3" id="historiatext7">El centro además de la banda titular, cuenta con una banda juvenil bajo la dirección de D. Francisco Santos Valverde. La escuela de música está compuesta por más de 100 educandos a partir de 4 años que reciben clases de infancia musical, solfeo e instrumentación y que posteriormente se integran en la banda juvenil, y una escuela de adultos sin límite de edad. </h5>
+                <h5 class="mb-3" id="historiatext8">Con una plantilla de 10 profesores titulados atendemos  todas las especialidades musicales y como asociación sin ánimo de lucro ponemos a disposición de todos ustedes en: nuestro local social C/Vicente Puchol, 40 Castellar-Oliveral Valencia 46026.</h5>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 py-0 py-lg-5">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------------------- -->
+    <!-- Actes passats-->
+    <!-- ------------------------- -->
+
+    <!-- Código que permite tener botones que desplieguen por año-->
+    <script>
+        function dropyear(dropid) {
+            var dropdownContent = document.getElementById(dropid);
+            console.log('Test')
+            if (dropdownContent.style.display === "flex") {
+            dropdownContent.style.display = "none";
+            } else {
+            dropdownContent.style.display = "flex";
+            }
+        }
+    </script>
+
+
     <div class="container-fluid pt-5">
         <div class="container">
             <div class="section-title">
-                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;" id="servicetext2">Compartim la música</h4>
-                <h1 class="display-4" id="servicetext3">La nostra escola</h1>
+                <h4 class="text-primary text-uppercase" style="letter-spacing: 5px;" id="historiatext9">Una mirada enrere</h4>
+                <h1 class="display-4" id="historiatext10">Actes passats</h1>
             </div>
-            <div class="row">
-                <div class="col-lg-6 mb-5"  style="background-color: #e0edff;">
-                    <div class="row align-items-center" style="background-color: #e0edff;">
-                        <div class="col-sm-5">
-                            <img class="img-fluid mb-3 mb-sm-0" src="img/actes/escola.jpg" alt="">
-                        </div>
-                        <div class="col-sm-7">
-                            <br>
-                            <h4 id="servicetext4">Matrícula curs 2024-25</h4>
-                            <p class="m-0" id="servicetext5">Del 15 de juny al 1 de octubre</p>
-                            <br>
-                            <div style="text-align: left;">
-                                <a href="https://forms.gle/hx8g9Hr93Lx2Wq8T7" id="servicetext6" class="dropdown-button btn btn-primary font-weight-bold py-3 px-5">Accedix al formulari</a>
-                            </div>
-                            
-                            <p>Consulta la <a href="dades.html" >protecció de dades</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 mb-5"  style="background-color: #e0edff;">
-                    <div class="row align-items-center" style="background-color: #e0edff;">
-                        <div class="col-sm-7">
-                            <p class="m-0" id="servicetext7"> - Jardí musical</p>
-                            <p class="m-0" id="servicetext8"> - Llenguatge musical</p>
-                            <p class="m-0" id="servicetext9"> - Classes d'instrument</p>
-                            <p class="m-0" id="servicetext10"> - Preparació de proba d'accés al conservatori</p>
-                            <p class="m-0" id="servicetext11"> - Música per a adults</p>
-                            <p class="m-0"> - Banda juvenil</p>
-                        </div>
-                        <div class="col-sm-5">
-                            <img class="img-fluid mb-3 mb-sm-0" src="img/actes/qr matric.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="section-title">
-                <h3 class="display-4" style="text-align: center;" id="servicetext12">Tarifes</h3>
-            </div>
-            
-            <div style="text-align: center;">
-                <h2 class="text-primary m-0" id="servicetext13">Llenguatge musical</h2>
-                <br>
-                <div style="display: block; width:100%; text-align:center;">
-                    <p id="price1">2h/setmana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 23 €/mes</p>
-                </div>
-                <h2 class="text-primary m-0" id="servicetext14">Llenguatge musical adults</h2>
-                <br>
-                <div style="display: block; width:100%; text-align:center;">
-                    <p id="price2">1h/setmana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 14 €/mes</p>
-                </div>
 
-                <h2 class="text-primary m-0" id="servicetext15">Classes d'instrument</h2>
-                <br>
-                <div style="display: block; width:100%; text-align:center;">
-                    <p id="price3"><sup>1</sup>&frasl;<sub>2</sub>h/setmana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 30 €/mes</p>
-                </div>
-                <div style="display: block; width:100%; text-align:center;">
-                    <p id="price4"><sup>3</sup>&frasl;<sub>4</sub>h/setmana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 44 €/mes</p>
-                </div>
-                <div style="display: block; width:100%; text-align:center;">
-                    <p id="price5">1h/setmana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 55 €/mes</p>
-                </div>
+            <!-- Actes 2025 -->
+            <div class="row" id="actes2025">
+            </div>
+
+            <!-- Actes 2024 -->
+            <button class="dropdown-button btn btn-primary font-weight-bold py-3 px-5" style="width:200px" onclick=dropyear('actes2024') id="historiatext11">Actes 2024</button>
+            <div style="height: 20px;"></div>
+            <div class="row" id="actes2024" style="display: none;"> 
+            </div>  
+
+            <!-- Actes 2023 -->
+            <button class="dropdown-button btn btn-primary font-weight-bold py-3 px-5" style="width:200px" onclick=dropyear('actes2023') id="historiatext12">Actes 2023</button>
+            <div style="height: 20px;"></div>
+            <div class="row" id="actes2023" style="display: none;">  
                 
-
-                <h2 class="text-primary m-0" id="servicetext16">Classes de guitarra o piano</h2>
-                <br>
-                <div style="display: block; width:100%; text-align:center;">
-                    <p id="price6"><sup>1</sup>&frasl;<sub>2</sub>h/setmana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 35 €/mes</p>
-                </div>
-                <div style="display: block; width:100%; text-align:center;">
-                    <p id="price7"><sup>3</sup>&frasl;<sub>4</sub>h/setmana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 50 €/mes</p>
-                </div>
-                <div style="display: block; width:100%; text-align:center;">
-                    <p id="price8">1h/setmana &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 60 €/mes</p>
-                </div>
             </div>
-            
-            <div class="section-title">
-                <h3 class="display-4" style="text-align: center;" id="servicetext17">Contacte de l'escola</h3>
-            </div>
-            
             <div style="text-align: center;">
-                <div style="display: block; width:100%; text-align:center;">
-                    <p id="price8">escuelademusicacimcastellar@gmail.com</p>
-                </div>
-            
+                <a href="gallery.html" class="dropdown-button btn btn-primary font-weight-bold py-3 px-5" id="historiatext13">Galería de fotos i videos</a>
             </div>
             
         </div>
     </div>
-    <!-- Service End -->
+    <!-- About End -->
 
 
     <!-- Footer Start -->
@@ -235,8 +208,15 @@
     <script src="mail/contact.js"></script>
 
     <!-- Template Javascript -->
-    <script src="js/main.js"></script>
-    <script src="./js/idioma.js"></script>
+    
+
+    <script src="./js/actespassats.js"></script>
+    
+    <script src="js/main.js"></script> <!-- Siempre poner abajo -->
+    <script src="./js/idioma.js"></script> <!-- Siempre poner abajo -->
+    
+
+    
 </body>
 
 </html>
