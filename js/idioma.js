@@ -1,8 +1,15 @@
 var currentPage = location.pathname.split("/").pop();
 console.log(currentPage)
+var language_nolocal = "none";
+//Funcion para cambiar las fotos de la galería tomando como parámetro el idioma
+    function selectPhotos(id, idstring) {
+        selectPhotosWithLanguage(id, idstring,language_nolocal);
+    }
+
 document.addEventListener("DOMContentLoaded", function() {
     // Check if language preference exists in local storage
     const selectedLanguage = localStorage.getItem("language");
+    language_nolocal = localStorage.getItem("language");
     if (selectedLanguage) {
         document.documentElement.lang = selectedLanguage;
         updateLanguage(selectedLanguage);
@@ -25,6 +32,8 @@ document.addEventListener("DOMContentLoaded", function() {
             const language = this.getAttribute("data-lang");
             localStorage.setItem("language", language);
             updateLanguage(language);
+            changePhotoTitles(language);
+            language_nolocal = language;
             console.log(language);
             if (currentPage === "historia.html") {
             updateEvents(language);//Actualiza la lista de actos pasados

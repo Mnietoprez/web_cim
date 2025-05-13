@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>CIM castellar-oliveral</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free Website Template" name="keywords">
+    <meta content="Free Website Template" name="description">
+
+    <!-- Favicon -->
+    <link rel="icon" href="img/archivos_menus/logo.png">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <script src="js/jquery-3.7.1.min.js"></script>
+
+    <script>
+        $('img').attr('data-enlargable', '');
+
+        $('img[data-enlargable]').addClass('img-enlargable').click(function(){
+            var src = $(this).attr('src');
+            $('<div>').css({
+                background: 'RGBA(0,0,0,.5) url('+src+') no-repeat center',
+                backgroundSize: 'contain',
+                width:'100%', height:'100%',
+                position:'fixed',
+                zIndex:'10000',
+                top:'0', left:'0',
+                cursor: 'zoom-out'
+            }).click(function(){
+                $(this).remove();
+            }).appendTo('body');
+        });
+    </script>
+     
+</head>
+
+<body>
+
+    <script src="https://cdpn.io/cpe/boomboom/pen.js?key=pen.js-96185b65-fce5-9b42-2230-52b209ded0d9" crossorigin=""></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+    
+
+    <!-- Template Javascript -->
+    <script src="js/imgcarroussel2.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/idioma.js"></script>
+    
+    
+
+    <!-- Navbar Start -->
+    <div class="container-fluid p-0 nav-bar">
+        <nav class="navbar navbar-expand-lg bg-none navbar-dark py-3">
+            <a href="index.html" class="navbar-brand px-lg-4 m-0">
+                <img src="img/archivos_menus/logo.png"  style="width:100px">
+            </a>
+            <div>
+                <div class="navbar-nav ml-auto p-4">
+                    <img src="img/archivos_menus/españa.png" id="langphoto" style="width:30px; height: 30px; padding-top: 12px;">
+                    <a href="#" class="nav-item nav-link language-link" data-lang="español" style="display: flex;" id="langtxtc" >Versión en castellano</a>
+                    <a href="#" class="nav-item nav-link language-link" data-lang="valenciano" style="display: none;" id="langtxtv" >Versió en valencià</a>
+                </div>
+            </div>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav ml-auto p-4">
+                    <a href="index.html" id="nav1" class="nav-item nav-link">Inici</a>
+                    <a href="historia.html" id="nav2" class="nav-item nav-link">Història</a>
+                    <a href="escuela.html" id="nav3" class="nav-item nav-link ">Escola</a>
+                    <a href="gallery.html" id="nav4" class="nav-item nav-link active">Galería</a>
+                    <a href="contact.html" id="nav5" class="nav-item nav-link">Contacte</a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5">
+        <div id="blog-carousel" class="carousel slide overlay-bottom" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="w-100" src="img/archivos_menus/galeria.JPG" alt="Image">
+                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+                        <h1 class="display-1 text-white1 m-0" id="gallerytext1">GALERÍA</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="section-title">
+                <h4 class="text-primary text-uppercase" id= "toptext" style="letter-spacing: 5px;">Recordem els moments passats</h4>
+                <h1 class="display-4" id="gallerytext">Fotografies destacades</h1>
+                <p id="gallerydesc">Selecció de fotografies del CIM</p>
+            </div>
+
+            <!-- Ej1 -->
+            <section class="carousel1" id="destacades" style="display: flex;">
+                <ul class="carousel1-items">
+                    <li class="carousel1-item">
+                        <div class="card1">
+                            <img src="img/destacades/PHOTO-2024-04-14-16-40-04.jpg">
+                            <div class="card1-content">
+                                <p>Concert a l'ateneu mercantil de València</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="carousel1-item">
+                        <div class="card1">
+                            <img src="img/destacades/PHOTO-2024-03-15-17-59-25.jpg">
+                            <div class="card1-content">
+                                <p>Replegada del ninot amb la cort d'Honor</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="carousel1-item">
+                        <div class="card1">
+                            <img src="img/destacades/DSCF7864-min.jpg">
+                            <div class="card1-content">
+                                <p>Concert del 30 aniversari</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="carousel1-item">
+                        <div class="card1">
+                            <img src="img/destacades/25 aniversari.jpg">
+                            <div class="card1-content">
+                                <p>Concert del 25 aniversari</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="carousel1" id="nodestacades" style="display: none;" >
+                <ul class="carousel1-items">
+                </ul>
+            </section>
+
+            <h1 class="display-4">Totes les fotografies</h1>
+           <div style="display:block">
+            <button class="dropdown-button btn btn-primary font-weight-bold py-3 px-5" style="width:200px" onclick="selectPhotos(destacades, 'testfotos')">Destacades</button>
+            <div style="height: 5px;"></div>
+            <button class="dropdown-button btn btn-primary font-weight-bold py-3 px-5" style="width:200px" onclick="dropdown('dropdown2024')">2024</button>
+            <div class="dropdown-content" id="dropdown2024">
+                <a class="nav-item nav-link" style="cursor:pointer" onclick="selectPhotos(testfotos, 'testfotos')"> test</a>
+                <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("excellent2024")>Concert excel·lent al CEIP Castellar-Oliveral </a>
+                <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("audicions2024")>Audicions de estiu 2024 (no acabat)</a>
+                <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("ateneo2024")>Concert a l'Ateneu Mercantil de València 2024 </a> 
+                <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("falles2024")>Falles 2024</a> 
+            </div>
+            <div style="height: 5px;"></div>
+            <button class="dropdown-button btn btn-primary font-weight-bold py-3 px-5" style="width:200px" onclick=dropdown("dropdown2023")>2023</button>
+            <div class="dropdown-content" id="dropdown2023">
+                <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("santacecilia2023")>Santa Cecília 2023</a>
+                <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("entrada2023")>Entrada de bandes 2023 </a>
+                <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("falles2023")>Falles 2023 </a>
+            </div>
+            <div style="height: 5px;"></div>
+            <button class="dropdown-button btn btn-primary font-weight-bold py-3 px-5" style="width:200px" onclick=dropdown("dropdown2022")>2022</button>
+            <div class="dropdown-content" id="dropdown2022">
+                <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("santacecilia2022")>Santa Cecília 2022 </a> 
+                <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("barris2022")>Música als barris 2022 </a>
+                <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("albufera2022")>Festival música albuferenca</a>
+                <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("intercanvi2022")>Intercanvi de bandes 2022</a>
+                <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("falles2022")>Falles 2022 </a>
+                <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("entrada2022")>Entrada de bandes 2022</a>
+                <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("goya2022")>La banda als Goya</a>
+            </div>
+            <div style="height: 5px;"></div>
+            <button class="dropdown-button btn btn-primary font-weight-bold py-3 px-5" style="width:200px" onclick=dropdown("dropdown2021")>2021</button>
+            <div class="dropdown-content" id="dropdown2021">
+                <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("santacecilia2021")>Santa Cecília 2021</a> 
+            </div>
+            <div style="height: 5px;"></div>
+            <button class="dropdown-button btn btn-primary font-weight-bold py-3 px-5" style="width:200px" onclick=dropdown("dropdown2018")>2018</button>
+                <div class="dropdown-content" id="dropdown2018">
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("santacecilia2018")>Santa Cecília 2018</a> 
+                </div>
+            <div style="height: 5px;"></div>
+            <button class="dropdown-button btn btn-primary font-weight-bold py-3 px-5" style="width:200px" onclick=dropdown("dropdown2017")>2017</button>
+                <div class="dropdown-content" id="dropdown2017">
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("santacecilia2017")>Santa Cecília 2017</a> 
+                </div>
+            <div style="height: 5px;"></div>
+            <button class="dropdown-button btn btn-primary font-weight-bold py-3 px-5" style="width:200px" onclick=dropdown("dropdown2016")>2016</button>
+                <div class="dropdown-content" id="dropdown2016">
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("santacecilia2016")>Santa Cecília 2016</a> 
+                </div>
+            <div style="height: 5px;"></div>
+            <button class="dropdown-button btn btn-primary font-weight-bold py-3 px-5" style="width:200px" onclick=dropdown("dropdown2015")>2015</button>
+                <div class="dropdown-content" id="dropdown2015">
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("santacecilia2015")>Santa Cecília 2015</a> 
+                </div>
+            <div style="height: 5px;"></div>
+            <button class="dropdown-button btn btn-primary font-weight-bold py-3 px-5" style="width:200px" onclick=dropdown("dropdown2014")>2014</button>
+                <div class="dropdown-content" id="dropdown2014">
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("santacecilia2014")>Santa Cecília 2014</a> 
+                </div>
+            <div style="height: 5px;"></div>
+            <button class="dropdown-button btn btn-primary font-weight-bold py-3 px-5" style="width:200px" onclick=dropdown("dropdown2013")>2013</button>
+                <div class="dropdown-content" id="dropdown2013">
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("santacecilia2013")>Santa cecília 2013</a>
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("audicio2013")>Audicions 2013</a>
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("solidari2013")>Concert solidari 2013</a>  
+                </div>
+            <div style="height: 5px;"></div>
+            <button class="dropdown-button btn btn-primary font-weight-bold py-3 px-5" style="width:200px" onclick=dropdown("dropdown2012")>2012</button>
+                <div class="dropdown-content" id="dropdown2012">
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("nadal2012")>Concert de  Nadal 2012</a> 
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("audicions2012")>Audicions de  Nadal</a> 
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("santacecilia2012")>Santa Cecília 2012</a>     
+                </div>
+            <div style="height: 5px;"></div>
+            <button class="dropdown-button btn btn-primary font-weight-bold py-3 px-5" style="width:200px" onclick=dropdown("dropdown2011")>2011</button>
+                <div class="dropdown-content" id="dropdown2011">
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("nadal2011")>Concert de Nadal 2011</a> 
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("santacecilia2011")>Santa Cecília 2011</a> 
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("cultural2011")>Setmana Cultural</a>     
+                </div>
+            <div style="height: 5px;"></div>
+            <button class="dropdown-button btn btn-primary font-weight-bold py-3 px-5" style="width:200px" onclick=dropdown("dropdown2010")>2010</button>
+                <div class="dropdown-content" id="dropdown2010">
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("nadal2010")>Concert de Nadal 2010</a>   
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("audicio2010")>Audicions de Nadal 2010</a> 
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("santacecilia2010")>Santa Cecília 2010</a>
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("solistes2010")>Concert de solistes</a>       
+                </div>
+            <div style="height: 5px;"></div>
+            <button class="dropdown-button btn btn-primary font-weight-bold py-3 px-5" style="width:200px" onclick=dropdown("dropdown2009")>2009</button>
+                <div class="dropdown-content" id="dropdown2009">
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("expojove2009")>Concert Expojove 2009</a>
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("audicionadal2009")>Audicions de nadal 2009</a>
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("concert2009")>Concert de nadal 2009</a>
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("santacecilia2009")>Santa cecília 2009</a>
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("intercanvi2009")>Concert d'intercanvi CIM Tendetes</a>
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("cultural2009")>Concert setmana cultural de l'associació de veïns</a>
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("audicio2009")>Audicions 2009</a>
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("colo2009")>Concert Mercat de Coló 2009</a>
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("ateneo2009")>Concert a l'Ateneu Mercantil 2009</a>      
+                </div>
+            <div style="height: 5px;"></div>
+            <button class="dropdown-button btn btn-primary font-weight-bold py-3 px-5" style="width:200px" onclick=dropdown("dropdown2008")>2008</button>
+                <div class="dropdown-content" id="dropdown2008">
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("concertnadal2008")>Concert de nadal 2008</a>
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("sobaquillo2008")>Sopar de sobaquillo nadal 2008</a>
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("santacecilia2008")>Santa cecília 2008</a>
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("camara2008")>Audició Música de Cámara 2008</a>
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("palau2008")>Concert al palau 2008</a>
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("intercanvi2008")>Concert d'intercanvi 2008</a>
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("falles2008")>Falles 2008</a>
+                </div>
+            <div style="height: 5px;"></div>
+            <button class="dropdown-button btn btn-primary font-weight-bold py-3 px-5" style="width:200px" onclick=dropdown("dropdown2007")>2007</button>
+                <div class="dropdown-content" id="dropdown2007">
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("intercanvi2007")>Concert d'intercanvi 2007</a>
+                </div>
+            <div style="height: 5px;"></div>
+            <button class="dropdown-button btn btn-primary font-weight-bold py-3 px-5" style="width:200px" onclick=dropdown("dropdownhistoriques")>Històriques</button>
+                <div class="dropdown-content" id="dropdownhistoriques">
+                    <a class="nav-item nav-link" style="cursor:pointer" onclick=selectPhotos("historicas")>Històriques de la banda</a
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $('img').attr('data-enlargable', '');
+    
+        $('img[data-enlargable]').addClass('img-enlargable').click(function(){
+            var src = $(this).attr('src').replace(/\s/g, '%20'); // Replace spaces with %20
+            $('<div>').css({
+                background: 'RGBA(0,0,0,.5) url('+src+') no-repeat center',
+                backgroundSize: 'contain',
+                width:'100%', height:'100%',
+                position:'fixed',
+                zIndex:'10000',
+                top:'0', left:'0',
+                cursor: 'zoom-out'
+            }).click(function(){
+                $(this).remove();
+            }).appendTo('body');
+        });
+    </script>
+
+    <!-- Footer Start -->
+    <div class="container-fluid footer text-white1 mt-5 pt-5 px-0 position-relative overlay-top">
+        <div class="row mx-0 pt-5 px-sm-3 px-lg-5 mt-4">
+            <div style="width:30%; text-align: center; display: block;">  
+                
+            </div>
+            <div style="position: relative; width:25%; margin-bottom: 3rem">
+                <h4 class="text-white1 text-uppercase mb-4" style="letter-spacing: 3px; font-size:3vw;" id="footertext1">Contacte</h4>
+                <p><i class="fa fa-map-marker-alt mr-2"></i>C/Vicent Puchol 40 </p>
+                <p><i class="fa fa-phone-alt mr-2"></i>601 920 032</p>
+                <p class="m-0"><i class="fa fa-envelope mr-2"></i>directivacim@gmail.com</p>
+            </div>
+            <div style="position: relative; width:25%; margin-bottom: 3rem">
+                <h4 class="text-white1 text-uppercase mb-4" style="letter-spacing: 3px; font-size:3vw; " id="footertext2">Xarxes socials</h4>
+                <div class="d-flex justify-content-start">
+                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2"href="https://www.youtube.com/@escuelacimcastellar-oliver3950"><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-lg btn-outline-light btn-lg-square mr-2" href="https://www.facebook.com/cimcastellaroliveral/?locale=es_ES"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-lg btn-outline-light btn-lg-square" href="https://www.instagram.com/cimcastellaroliveral/"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div style="width:100%; text-align: center; display:inline-flex; height: 100px;">
+            <div style="width:6%"></div>
+            <img style="width:16%; height: auto;" src="./img/archivos_menus/ajuntament.png">
+            <div style="width:2%"></div>
+            <img style="width:16%; height: auto;" src="./img/archivos_menus/diputacio.png">
+            <div style="width:2%"></div>
+            <img style="width:16%; height: auto;" src="./img/archivos_menus/generalitat.png">
+            <div style="width:2%"></div>
+            <img style="width:16%; height: auto;" src="./img/archivos_menus/coordinadora.png">
+            <div style="width:2%"></div>
+            <img style="width:16%; height: auto;" src="./img/archivos_menus/federacio.png">
+            <div style="width:6%"></div>
+        </div>
+        
+        <div class="container-fluid text-center text-white1 border-top mt-4 py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
+            <p class="mb-2 text-white1">Copyright &copy; 2024 | Consulta la nostra <a href="dades.html" style="color: #c8c5be;">protecció de dades</a></p>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <script src="./js/idioma.js"></script>
+</body>
+
+</html>

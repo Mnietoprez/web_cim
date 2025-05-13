@@ -198,14 +198,30 @@ function dropdown(dropid) {
 // CÓDIGO PARA ACTIVAR O DESACTIVAR FOTOS EN GALERÍA
 //----------------------------------------------------------
 
-if (window.location.pathname.endsWith('gallery.html')) {
-function selectPhotos(id, imagenes) {
-    const seccion = document.getElementById(id);
-    const lista = seccion.querySelector("ul");
-  
-    if (seccion.dataset.loaded === "false") {
-      seccion.style.display = "flex";
-      imagenes.fotos.forEach(nombre => {
+var activeimg = "destacades";
+function selectPhotosWithLanguage(id, idstring, language) {
+  console.log(id);
+    const destacades = document.getElementById("destacades");
+    const nodestacades = document.getElementById("nodestacades");
+    const lista_nodestacades = nodestacades.querySelector("ul");
+    if (idstring === "destacades") {
+      activeimg = idstring;
+      lista_nodestacades.innerHTML = ""; // elimina todo el contenido del <ul> activo previamente
+      nodestacades.style.display = "none";
+      destacades.style.display = "flex"; 
+      if(language == "español"){
+        document.getElementById("gallerytext").textContent = "Fotografias destacadas";
+        document.getElementById("gallerydesc").textContent = "Selección de fotografias del CIM";
+      } else {
+        document.getElementById("gallerytext").textContent = "Fotografies destacades";
+        document.getElementById("gallerydesc").textContent = "Selecció de fotografies del CIM"; 
+      }
+    } else {
+      if (activeimg !== idstring){ //verifica que no esté ya cargada la imagen
+      activeimg = idstring;
+      destacades.style.display = "none";
+      nodestacades.style.display = "flex";
+      id.fotos.forEach(nombre => {
         const li = document.createElement("li");
         li.className = "carousel1-item";
         li.innerHTML = `
@@ -213,15 +229,41 @@ function selectPhotos(id, imagenes) {
             <img src="${nombre}" loading="lazy">
           </div>
         `;
-        lista.appendChild(li);
-      });
-  
-      seccion.dataset.loaded = "true";
-    } else {
-      // Ocultar y eliminar las imágenes
-      seccion.style.display = "none";
-      lista.innerHTML = ""; // elimina todo el contenido del <ul>
-      seccion.dataset.loaded = "false";
+        lista_nodestacades.appendChild(li);
+      });  
+      if(language == "español"){
+        document.getElementById("gallerytext").textContent = id.titlees;
+        document.getElementById("gallerydesc").textContent = id.desces;
+      } else {
+        document.getElementById("gallerytext").textContent = id.titleval;
+        document.getElementById("gallerydesc").textContent = id.descval;
+      }
     }
+    }
+    console.log("now active")
+    console.log(activeimg)
 }
+
+function changePhotoTitles(language) {
+
+  if (activeimg === "destacades"){
+      if(language == "español"){
+        document.getElementById("gallerytext").textContent = "Fotografias destacadas";
+        document.getElementById("gallerydesc").textContent = "Selección de fotografias del CIM";
+      } else {
+        document.getElementById("gallerytext").textContent = "Fotografies destacades";
+        document.getElementById("gallerydesc").textContent = "Selecció de fotografies del CIM"; 
+      }
+
+  } else {
+      if(language == "español"){
+        document.getElementById("gallerytext").textContent = id.titlees;
+        document.getElementById("gallerydesc").textContent = id.desces;
+      } else {
+        document.getElementById("gallerytext").textContent = id.titleval;
+        document.getElementById("gallerydesc").textContent = id.descval;
+      }
+  }
+  
+
 }
