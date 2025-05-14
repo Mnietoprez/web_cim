@@ -3,10 +3,10 @@ console.log(currentPage)
 var language_nolocal = "none";
 //Funcion para cambiar las fotos de la galería tomando como parámetro el idioma
     function selectPhotos(id, idstring) {
-        selectPhotosWithLanguage(id, idstring,language_nolocal);
+        selectPhotosWithLanguage(id, idstring, language_nolocal);
     }
 
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() { //SE EJECUTA SIEMPRE QUE LA PÁGINA SE RECARGUE
     // Check if language preference exists in local storage
     const selectedLanguage = localStorage.getItem("language");
     language_nolocal = localStorage.getItem("language");
@@ -23,6 +23,12 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
+    //Recarga las fotos destacadas para que no de error la activeid al iniciar
+    if (currentPage === "gallery.html") {
+        selectPhotosWithLanguage(destacades, 'destacades', language_nolocal);
+    }
+    
+
 
     // Language selector click event
     const languageLinks = document.querySelectorAll(".language-link");
@@ -32,9 +38,11 @@ document.addEventListener("DOMContentLoaded", function() {
             const language = this.getAttribute("data-lang");
             localStorage.setItem("language", language);
             updateLanguage(language);
-            changePhotoTitles(language);
             language_nolocal = language;
             console.log(language);
+            if (currentPage === "gallery.html") {
+                changePhotoTitles(language);
+            }
             if (currentPage === "historia.html") {
             updateEvents(language);//Actualiza la lista de actos pasados
             }
@@ -57,29 +65,7 @@ document.addEventListener("DOMContentLoaded", function() {
             document.getElementById("langphoto").src = "./img/archivos_menus/valencia.png";
             document.getElementById("footertext1").textContent = "Contacto";
             document.getElementById("footertext2").textContent = "Redes sociales";
-            if (currentPage === "") {
-                document.getElementById("title").textContent = "HACIENDO BANDA";
-                document.getElementById("indextext1").textContent = "Sobre nosotros";
-                document.getElementById("indextext2").textContent = "Haciendo banda desde 1993";
-                document.getElementById("indextext3").textContent = "Nuestra historia";
-                document.getElementById("indextext4").textContent = "Nuestro centro se creó en abril de 1993. A esta nueva banda se le puso el nombre de Centro Instructivo Musical Castellar-Oliveral en recuerdo de la primera banda que hubo en nuestra pedania fundada en 1933, disuelta en 1936 por motivos de la guerra civil.";
-                document.getElementById("indextext4b").textContent = "Actualmente, se encuentra presidido por don Jose V. Gimeno y bajo la dirección del director Manel Baixauli Ferrer.";
-                document.getElementById("indextext5").textContent = "Conoce más";
-                document.getElementById("indextext6").textContent = "El CIM actualmente";
-                document.getElementById("indextext7").textContent = "El Centro Instructvo Musical actualmente dispone de diferentes bandas i servicios de docencia.";
-                document.getElementById("indextext8").textContent = "Banda juvenil y senior";
-                document.getElementById("indextext9").textContent = "Charanga";
-                document.getElementById("indextext10").textContent = "Clases de música";
-                document.getElementById("indextext11").textContent = "Apúntate a la escuela";  
-                document.getElementById("indextext12").textContent = "CALENDARIO 2024-2025";
-                document.getElementById("indextext13").textContent = "Próximos actos";
-                document.getElementById("indextext22").textContent = "Más sobre el cim";
-                document.getElementById("indextext23").textContent = "Nuestras redes sociales";
-                document.getElementById("indextext24").textContent = "¿Quieres un poco de nostalgia?";
-                document.getElementById("indextext25").textContent = "Visita la página web vieja";
-                document.getElementById("oldVersionLink").textContent = "Versión antigua"
-            }
-            if (currentPage === "index.html") {
+            if (currentPage === "" || currentPage === "index.html") {
                 document.getElementById("title").textContent = "HACIENDO BANDA";
                 document.getElementById("indextext1").textContent = "Sobre nosotros";
                 document.getElementById("indextext2").textContent = "Haciendo banda desde 1993";
@@ -126,7 +112,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("abouttext2").textContent = "Aviso legal";
                 document.getElementById("dadestext6").textContent = "El Usuario acepta voluntaria y expresamente que el uso del Sitio https://www.cimcastellaroliveral.com/ se realiza en todo caso bajo su única y exclusiva responsabilidad. En la utilización del Sitio https://www.cimcastellaroliveral.com/, el Usuario se compromete a no llevar a cabo ninguna conducta que pudiera dañar la imagen, los intereses y los derechos del sitio web o de terceros o que pudiera dañarlo, inutilizarlo o sobrecargarlo, o que impidiera, de cualquier forma, la normal utilización del mismo. Los Contenidos del Sitio https://www.cimcastellaroliveral.com/ son puestos a disposición del Usuario por CENTRO INSTRUCTIVO MUSICAL DE CASTELLAR OLIVERAL con información procedente tanto de fuentes propias como de terceros. https://www.cimcastellaroliveral.com/ procura que los Contenidos sean de la mayor calidad posible y estén razonablemente actualizados, pero CENTRO INSTRUCTIVO MUSICAL DE CASTELLAR OLIVERAL no garantiza la utilidad, exactitud, exhaustividad, pertinencia y/o actualidad de los Contenidos. Mediante estas Condiciones Generales no se cede ningún derecho de propiedad intelectual o industrial sobre el sitio https://www.cimcastellaroliveral.com/ ni sobre ninguno de sus elementos integrantes, quedando expresamente prohibidos al Usuario la reproducción, transformación, distribución, comunicación pública, puesta a disposición, extracción, reutilización, reenvío o la utilización de cualquier naturaleza, por cualquier medio o procedimiento, de cualquiera de ellos, salvo en los casos en que esté legalmente permitido o sea autorizado por el titular de los correspondientes derechos. Estas Condiciones Generales se rigen por la Ley española.";
             }
-            if (currentPage === "service.html") {
+            if (currentPage === "escuela.html") {
                 document.getElementById("servicetext1").textContent = "ESCUELA";
                 document.getElementById("servicetext2").textContent = "Compartimos la música";
                 document.getElementById("servicetext3").textContent = "Nuestra escuela";
@@ -155,8 +141,7 @@ document.addEventListener("DOMContentLoaded", function() {
             }
             if (currentPage === "gallery.html") {
                 document.getElementById("toptext").textContent = "Recordemos los momentos pasados";
-                document.getElementById("gallerytext").textContent = "Fotografias destacades";
-                document.getElementById("gallerydesc").textContent = "Selección de fotografías del CIM";
+                document.getElementById("gallerytext1").textContent = "Todas las fotografías";
             }
             
             
@@ -171,29 +156,7 @@ document.addEventListener("DOMContentLoaded", function() {
             document.getElementById("nav5").textContent = "Contacte";
             document.getElementById("footertext1").textContent = "Contacte";
             document.getElementById("footertext2").textContent = "Xarxes socials";
-            if (currentPage === "index.html") {
-                document.getElementById("title").textContent = "FENT BANDA";
-                document.getElementById("indextext1").textContent = "Sobre nosaltres";
-                document.getElementById("indextext2").textContent = "Fent banda desde 1993";
-                document.getElementById("indextext3").textContent = "La nostra història";
-                document.getElementById("indextext4").textContent = "El nostre centre va ser creat a l'abril de 1993. A aquesta nova banda se li va posar el nom de Centre Instructiu Musical Castellar-Oliveral en record de la primera banda que va haver en la nostra pedania fundada en 1933, dissolta en 1936 per motius de la guerra civil.";
-                document.getElementById("indextext4b").textContent = "Actualment, es troba presidit per don Jose V. Gimeno i sota la direcció del director Manel Baixauli Ferrer.";
-                document.getElementById("indextext5").textContent = "Coneix més";
-                document.getElementById("indextext6").textContent = "El CIM actualment";
-                document.getElementById("indextext7").textContent = "El centre instructiu musical actualment disposa de diferents bandes i servicis de docència.";
-                document.getElementById("indextext8").textContent = "Banda juvenil i sènior";
-                document.getElementById("indextext9").textContent = "Xaranga";
-                document.getElementById("indextext10").textContent = "Classes de música";
-                document.getElementById("indextext11").textContent = "Apunta't a l'escola";     
-                document.getElementById("indextext12").textContent = "CALENDARI 2024-2025";
-                document.getElementById("indextext13").textContent = "Pròxims actes";
-                document.getElementById("indextext22").textContent = "Més sobre el cim";
-                document.getElementById("indextext23").textContent = "Les nostres xarxes socials";
-                document.getElementById("indextext24").textContent = "Vols un poc de nostalgia?";
-                document.getElementById("indextext25").textContent = "Visita la antiga pàgina web";
-                document.getElementById("oldVersionLink").textContent = "Versió antiga"
-            }
-            if (currentPage === "") {
+            if (currentPage === "" || currentPage === "index.html") {
                 document.getElementById("title").textContent = "FENT BANDA";
                 document.getElementById("indextext1").textContent = "Sobre nosaltres";
                 document.getElementById("indextext2").textContent = "Fent banda desde 1993";
@@ -240,7 +203,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.getElementById("abouttext2").textContent = "Avís legal";
                 document.getElementById("dadestext6").textContent = "L'usuari accepta voluntària i expressament que l'ús del Lloc https://www.cimcastellaroliveral.com/ es realitza en tot cas sota la seua única i exclusiva responsabilitat. En la utilització del Lloc https://www.cimcastellaroliveral.com/, l'Usuari es compromet a no dur a terme cap conducta que poguera danyar la imatge, els interessos i els drets del lloc web o de tercers o que poguera danyar-lo, inutilitzar-lo o sobrecarregar-lo, o que impedira, de qualsevol forma, la normal utilització d'este. Els Continguts del Lloc https://www.cimcastellaroliveral.com/ són posats a la disposició de l'Usuari per CENTRE INSTRUCTIU MUSICAL DE CASTELLAR OLIVERAL amb informació procedent tant de fonts pròpies com de tercers. https://www.cimcastellaroliveral.com/ procura que els Continguts siguen de la major qualitat possible i estiguen raonablement actualitzats, però CENTRE INSTRUCTIU MUSICAL DE CASTELLAR OLIVERAL no garantix la utilitat, exactitud, exhaustivitat, pertinència i/o actualitat dels Continguts. Mitjançant estes Condicions Generals no se cedix cap dret de propietat intel·lectual o industrial sobre el lloc https://www.cimcastellaroliveral.com/ ni sobre cap dels seus elements integrants, quedant expressament prohibits a l'Usuari la reproducció, transformació, distribució, comunicació pública, posada a disposició, extracció, reutilització, reexpedició o la utilització de qualsevol naturalesa, per qualsevol mitjà o procediment, de qualsevol d'ells, excepte en els casos en què estiga legalment permés o siga autoritzat pel titular dels corresponents drets. Estes Condicions Generals es regixen per la Llei espanyola.";
             }
-            if (currentPage === "service.html") {
+            if (currentPage === "escuela.html") {
                 document.getElementById("servicetext1").textContent = "ESCOLA";
                 document.getElementById("servicetext2").textContent = "Compartim la música";
                 document.getElementById("servicetext3").textContent = "La nostra escola";
@@ -270,8 +233,7 @@ document.addEventListener("DOMContentLoaded", function() {
             }
             if (currentPage === "gallery.html") {
                 document.getElementById("toptext").textContent = "Recordem els moments passats";
-                document.getElementById("gallerytext").textContent = "Fotografies destacades";
-                document.getElementById("gallerydesc").textContent = "Selecció de fotografies del CIM";
+                document.getElementById("gallerytext1").textContent = "Totes les fotografies";
             }
         }
     }

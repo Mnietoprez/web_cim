@@ -199,13 +199,14 @@ function dropdown(dropid) {
 //----------------------------------------------------------
 
 var activeimg = "destacades";
+var activeid = "destacades";
 function selectPhotosWithLanguage(id, idstring, language) {
-  console.log(id);
     const destacades = document.getElementById("destacades");
     const nodestacades = document.getElementById("nodestacades");
     const lista_nodestacades = nodestacades.querySelector("ul");
     if (idstring === "destacades") {
       activeimg = idstring;
+      activeid = "destacades";
       lista_nodestacades.innerHTML = ""; // elimina todo el contenido del <ul> activo previamente
       nodestacades.style.display = "none";
       destacades.style.display = "flex"; 
@@ -219,6 +220,7 @@ function selectPhotosWithLanguage(id, idstring, language) {
     } else {
       if (activeimg !== idstring){ //verifica que no esté ya cargada la imagen
       activeimg = idstring;
+      activeid = id;
       destacades.style.display = "none";
       nodestacades.style.display = "flex";
       id.fotos.forEach(nombre => {
@@ -244,7 +246,7 @@ function selectPhotosWithLanguage(id, idstring, language) {
     console.log(activeimg)
 }
 
-function changePhotoTitles(language) {
+function changePhotoTitles(language) { //Cambia el lenguaje de los títulos y descripción de las fotos
 
   if (activeimg === "destacades"){
       if(language == "español"){
@@ -257,11 +259,11 @@ function changePhotoTitles(language) {
 
   } else {
       if(language == "español"){
-        document.getElementById("gallerytext").textContent = id.titlees;
-        document.getElementById("gallerydesc").textContent = id.desces;
+        document.getElementById("gallerytext").textContent = activeid.titlees;
+        document.getElementById("gallerydesc").textContent = activeid.desces;
       } else {
-        document.getElementById("gallerytext").textContent = id.titleval;
-        document.getElementById("gallerydesc").textContent = id.descval;
+        document.getElementById("gallerytext").textContent = activeid.titleval;
+        document.getElementById("gallerydesc").textContent = activeid.descval;
       }
   }
   
