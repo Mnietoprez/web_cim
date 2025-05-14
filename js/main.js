@@ -201,6 +201,7 @@ function dropdown(dropid) {
 var activeimg = "destacades";
 var activeid = "destacades";
 function selectPhotosWithLanguage(id, idstring, language) {
+    toptext.scrollIntoView();
     const destacades = document.getElementById("destacades");
     const nodestacades = document.getElementById("nodestacades");
     const lista_nodestacades = nodestacades.querySelector("ul");

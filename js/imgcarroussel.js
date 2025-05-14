@@ -44,60 +44,6 @@ const testfotos= [
 },
 ]
 
-var actual;
-var toptext;
-var frontcarrousel; 
-var camara2008;
-var historicas;
-var sobaquillo2008;
-var santacecilia2008;
-var palau2008;
-var falles2008;
-var intercanvi2008;
-var intercanvi2007;
-var concertnadal2008;
-var ateneo2009;
-var colo2009;
-var audicio2009;
-var cultural2009;
-var intercanvi2009;
-var santacecilia2009;
-var santacecilia2010;
-var audicionadal2009;
-var concert2009;
-var expojove2009;
-var nadal2010;
-var solistes2010;
-var audicio2010;
-var cultural2011;
-var nadal2011;
-var santacecilia2011;
-var santacecilia2012;
-var audicions2012;
-var nadal2012;
-var solidari2013;
-var audicio2013;
-var santacecilia2013;
-var santacecilia2014;
-var santacecilia2015;
-var santacecilia2016;
-var santacecilia2017;
-var santacecilia2018;
-var santacecilia2021;
-var goya2022;
-var falles2022;
-var entrada2022;
-var albufera2022;
-var intercanvi2022;
-var barris2022;
-var santacecilia2022;
-var falles2023;
-var entrada2023;
-var santacecilia2023;
-var falles2024;
-var ateneo2024;
-var excellent2024;
-var audicions2024;
 
 window.onload = function(){   
     actual = document.getElementById("frontcarrousel"); 
@@ -500,7 +446,7 @@ function selectPhotos(carro){
         actual = document.getElementById("santacecilia2008");
         santacecilia2008.style.display ="flex";
         document.getElementById("gallerytext").innerHTML= "Santa cecília 2008";
-        document.getElementById("gallerydesc").innerHTML= "El domingo día 23 de noviembre de 2008, se cerraron los actos programados en honor a santa Cecilia con un concierto compartido, en su honor y en recuerdo del querido músico Angel Giménez. Fue muy emotivo por lo querido que era nuestro Angel.";  
+        document.getElementById("gallerydesc").innerHTML= "Como todos los años, se celebraron los actos en honor a santa Cecilia. Este año se dió la bienvenida a la banda titular a los educandos Daniel Rubio Ortells, Teresa Rodríguez Furió, Aitor Alarcón Vinat y Ana María Encinas Fons. El domingo día 23 de noviembre de 2008, se cerraron los actos programados con un concierto compartido, en su honor y en recuerdo del querido músico Angel Giménez. Fue muy emotivo por lo querido que era nuestro Angel.";  
     }
 
     if (carro == "palau2008"){
