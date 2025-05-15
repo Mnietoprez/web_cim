@@ -30,13 +30,13 @@ const audicio2009= {
   "img/fotos vieja web/audicion_2009/varios 1099.jfif",
   "img/fotos vieja web/audicion_2009/varios 1100.jfif",
 ],
-    titleval: "titval",
-    titlees: "tites",
-    descval: "dval",
-    desces: "des",
+    titleval: "Audició d'estiu 2009",
+    titlees: "Audición de verano 2009",
+    descval: "Fotos dels alumnes que van intervenir en les Audicions de 2009. Invitem a la resta a que s'animen per a l'any próxim a eixir a demostrar el que han après. Gracies a tots de totes formes. El centre instructiu felicita a tots els alumnes i al finalitzar les audicions van tindre berenar tots, y fins a l'any próxim...",
+    desces: "Fotos de los alumnos que participaron en las Audiciones de 2009. Invitamos al resto a que se animen el próximo año a salir y demostrar lo que han aprendido. Gracias a todos, de todas formas. El Centro Instructivo felicita a todos los alumnos y, al finalizar las audiciones, todos disfrutaron de una merienda. ¡Hasta el próximo año!",
 };
 
-const mercatcolo= {
+const colo2009= {
     fotos: [
   "img/fotos vieja web/merca_colon_2009/colon54.jfif",
   "img/fotos vieja web/merca_colon_2009/colon58.jfif",
@@ -48,10 +48,10 @@ const mercatcolo= {
   "img/fotos vieja web/merca_colon_2009/colon79.jfif",
   "img/fotos vieja web/merca_colon_2009/colon82.jfif",
 ],
-    titleval: "titval",
-    titlees: "tites",
-    descval: "dval",
-    desces: "des",
+    titleval: "Concert al Mercat de Coló",
+    titlees: "Concierto en el Mercado de Colon",
+    descval: "Any 2009",
+    desces: "Año 2009",
 }
 
 const sobaquillo2008= {
@@ -72,20 +72,89 @@ const sobaquillo2008= {
   "img/fotos vieja web/sobaquillo_2008/sobaquillo 029.jpg",
   "img/fotos vieja web/sobaquillo_2008/sobaquillo 031.jpg",
 ],
-    titleval: "titval",
-    titlees: "tites",
-    descval: "dval",
-    desces: "des",
+    titleval: "Sopar de sobaquillo nadal 2008",
+    titlees: "Cena de sobaquillo navidad 2008",
+    descval: "El día 26 de desembre es va celebrar un \'Sopar de sobaquillo de Nadal\' per despedir-nos y celebrar la entrada de l'any 2009 amb tots els músics del centre. El sopar va ser de bon rollet y va ser financiat per Vicent Sanjuan pel seu aniversari, Eusebio Giner per la seua boda i per el musical. Els músics van regalar al seu director, Manuel Baixauli, un pernil i aquest ho va agrair, formant part del cuadre flamenc \'Las Instructivas\', amb el seu cantaor titular Visent Sanjuan i acompanyats per els palmers Adrian Perales, Alberto Navarro i Kike Monrabal. La guitarra estaba manejada amb gran maestría per el rumber flamenc titular del cuadre Chimo Pamblanco i entre tots van amenitzar la nit. Va actuar també al llarg de la nit l'home orquesta Kiko Alamar qui va ser molt aplaudit",
+    desces: "El día 26 de diciembre se celebró una 'Cena de sobaquillo de Navidad' para despedirnos y celebrar la entrada del año 2009 junto a todos los músicos del centro. La cena transcurrió en un ambiente muy distendido y fue financiada por Vicent Sanjuan con motivo de su cumpleaños, Eusebio Giner por su boda, y también gracias al musical. Los músicos regalaron a su director, Manuel Baixauli, un jamón, que este agradeció formando parte del cuadro flamenco *Las Instructivas*, con su cantaor titular Visent Sanjuan y acompañados por los palmeros Adrián Perales, Alberto Navarro y Kike Monrabal. La guitarra estuvo a cargo, con gran maestría, del rumbero flamenco titular del cuadro, Chimo Pamblanco, y entre todos amenizaron la noche. A lo largo de la velada también actuó el hombre orquesta Kiko Alamar, quien fue muy aplaudido.",
 }
 
 const santacecilia2009= {
     fotos: [
-  
+  "img/fotos vieja web/santacecilia_2009/1cecilia1.jfif",
+  "img/fotos vieja web/santacecilia_2009/1cecilia10.jfif",
+  "img/fotos vieja web/santacecilia_2009/1cecilia2.jfif",
+  "img/fotos vieja web/santacecilia_2009/1cecilia3.jfif",
+  "img/fotos vieja web/santacecilia_2009/1cecilia4.jfif",
+  "img/fotos vieja web/santacecilia_2009/1cecilia5.jfif",
+  "img/fotos vieja web/santacecilia_2009/1cecilia6.jfif",
+  "img/fotos vieja web/santacecilia_2009/1cecilia7.jfif",
+  "img/fotos vieja web/santacecilia_2009/1cecilia8.jfif",
+  "img/fotos vieja web/santacecilia_2009/cecilia11.jfif",
+  "img/fotos vieja web/santacecilia_2009/cecilia12.jfif",
+  "img/fotos vieja web/santacecilia_2009/cecilia13.jfif",
+  "img/fotos vieja web/santacecilia_2009/cecilia14.jfif",
+  "img/fotos vieja web/santacecilia_2009/cecilia15.jfif",
+  "img/fotos vieja web/santacecilia_2009/cecilia16.jfif",
+  "img/fotos vieja web/santacecilia_2009/cecilia17.jfif",
+  "img/fotos vieja web/santacecilia_2009/cecilia18.jfif",
+  "img/fotos vieja web/santacecilia_2009/cecilia19.jfif",
+  "img/fotos vieja web/santacecilia_2009/cecilia20.jfif",
+  "img/fotos vieja web/santacecilia_2009/cecilia21.jfif",
+  "img/fotos vieja web/santacecilia_2009/cecilia22.jfif",
+  "img/fotos vieja web/santacecilia_2009/cecilia23.jfif",
+  "img/fotos vieja web/santacecilia_2009/cecilia24.jfif",
+  "img/fotos vieja web/santacecilia_2009/cecilia25.jfif",
+  "img/fotos vieja web/santacecilia_2009/cecilia27.jfif",
+  "img/fotos vieja web/santacecilia_2009/cecilia28.jfif",
+  "img/fotos vieja web/santacecilia_2009/cecilia29.jfif",
+  "img/fotos vieja web/santacecilia_2009/cecilia32.jfif",
+  "img/fotos vieja web/santacecilia_2009/cecilia34.jfif",
+  "img/fotos vieja web/santacecilia_2009/cecilia35.jfif",
+  "img/fotos vieja web/santacecilia_2009/cecilia36.jfif",
+  "img/fotos vieja web/santacecilia_2009/cecilia37.jfif",
+  "img/fotos vieja web/santacecilia_2009/cecilia38.jfif",
+  "img/fotos vieja web/santacecilia_2009/cecilia39.jfif",
+  "img/fotos vieja web/santacecilia_2009/cecilia40.jfif",
+  "img/fotos vieja web/santacecilia_2009/cecilia41.jfif",
+  "img/fotos vieja web/santacecilia_2009/cecilia42.jfif",
+  "img/fotos vieja web/santacecilia_2009/cecilia43.jfif",
+  "img/fotos vieja web/santacecilia_2009/cecilia49.jfif",
+  "img/fotos vieja web/santacecilia_2009/cecilia51.jfif",
+  "img/fotos vieja web/santacecilia_2009/cecilia52.jfif",
+  "img/fotos vieja web/santacecilia_2009/cecilia54.jfif",
+  "img/fotos vieja web/santacecilia_2009/cecilia56.jfif",
+  "img/fotos vieja web/santacecilia_2009/IMG1_2520 (1).jfif",
+  "img/fotos vieja web/santacecilia_2009/IMG1_2522 (1).jfif",
+  "img/fotos vieja web/santacecilia_2009/IMG1_2523 (1).jfif",
+  "img/fotos vieja web/santacecilia_2009/IMG1_2524 (1).jfif",
+  "img/fotos vieja web/santacecilia_2009/IMG1_2525 (1).jfif",
+  "img/fotos vieja web/santacecilia_2009/IMG1_2526 (1).jfif",
+  "img/fotos vieja web/santacecilia_2009/IMG1_2527 (1).jfif",
+  "img/fotos vieja web/santacecilia_2009/IMG1_2528 (1).jfif",
+  "img/fotos vieja web/santacecilia_2009/IMG1_2529 (1).jfif",
+  "img/fotos vieja web/santacecilia_2009/IMG1_2531 (1).jfif",
+  "img/fotos vieja web/santacecilia_2009/IMG1_2534 (1).jfif",
+  "img/fotos vieja web/santacecilia_2009/IMG1_2535 (1).jfif",
+  "img/fotos vieja web/santacecilia_2009/IMG1_2536 (1).jfif",
+  "img/fotos vieja web/santacecilia_2009/IMG1_2537 (1).jfif",
+  "img/fotos vieja web/santacecilia_2009/IMG1_2539 (1).jfif",
+  "img/fotos vieja web/santacecilia_2009/IMG1_2540 (1).jfif",
+  "img/fotos vieja web/santacecilia_2009/IMG1_2541 (1).jfif",
+  "img/fotos vieja web/santacecilia_2009/IMG1_2542 (1).jfif",
+  "img/fotos vieja web/santacecilia_2009/IMG1_2543 (1).jfif",
+  "img/fotos vieja web/santacecilia_2009/IMG1_2544 (1).jfif",
+  "img/fotos vieja web/santacecilia_2009/IMG1_2545 (1).jfif",
+  "img/fotos vieja web/santacecilia_2009/torremar1.jfif",
+  "img/fotos vieja web/santacecilia_2009/torremar1007.jfif",
+  "img/fotos vieja web/santacecilia_2009/torremar1008.jfif",
+  "img/fotos vieja web/santacecilia_2009/torremar1009.jfif",
+  "img/fotos vieja web/santacecilia_2009/torremar1010.jfif",
+  "img/fotos vieja web/santacecilia_2009/torremar1011.jfif"
 ],
-    titleval: "titval",
-    titlees: "tites",
-    descval: "dval",
-    desces: "des",
+    titleval: "Actes de Santa Cecília 2009",
+    titlees: "Actos de Santa Cecília 2009",
+    descval: "Per les festivitats de Santa Cecília, a l'any 2009 es va realitzar un berenar per als educands, un concert el dissabte 21 i un sopar de germanor per als músics i la directiva. A més, va actuar la orquesta 'La antiga de Torremar', es van lliurar els premis del torneig de parxís i es va estrenar el pas-doble composat per Daniel Rubio Ortells, dedicat al professor de solfeig y saxo, José Hernandis Dalmau",
+    desces: "Con motivo de las festividades de Santa Cecilia, en el año 2009 se realizó una merienda para los educandos, un concierto el sábado 21 y una cena de hermandad para los músicos y la directiva. Además, actuó la orquesta 'La Antigua de Torremar', se entregaron los premios del torneo de parchís y se estrenó el pasodoble compuesto por Daniel Rubio Ortells, dedicado al profesor de solfeo y saxofón, José Hernandis Dalmau.",
 }
 
 const camara2008= {
@@ -101,13 +170,13 @@ const camara2008= {
   "img/fotos vieja web/camara_2008/audicioncamara 025.jpg",
   "img/fotos vieja web/camara_2008/audicioncamara 029.jpg",
 ],
-    titleval: "titval",
-    titlees: "tites",
-    descval: "dval",
-    desces: "des",
+    titleval: "Audició Música de Cámara 2008",
+    titlees: "Audición Música de Cámara 2008",
+    descval: "El día 29 de diciembre de 2008 es va celebrar una audició de música de cámara on actuava un quartet de professors músics del nostre centre y de la unió musical de Sedavi.",
+    desces: "El día 29 de diciembre de 2008 se celebró una audición de música de cámara en la que actuó un cuarteto de profesores músicos de nuestro centro y de la Unión Musical de Sedaví.",
 }
 
-const nadal2008= {
+const concertnadal2008= {
     fotos: [
   "img/fotos vieja web/concert_2008/navidad 002.jpg",
   "img/fotos vieja web/concert_2008/navidad 003.jpg",
@@ -133,10 +202,10 @@ const nadal2008= {
   "img/fotos vieja web/concert_2008/navidad 051.jpg",
   "img/fotos vieja web/concert_2008/navidad 052.jpg",
 ],
-    titleval: "titval",
-    titlees: "tites",
-    descval: "dval",
-    desces: "des",
+    titleval: "Concert de nadal 2008",
+    titlees: "Concierto de navidad 2008",
+    descval: "El dia 21 de desembre de 2008 a les 18:30 es va celebrar el tradicional concert de nadal amb la actuació de la banda, el cor i els alumnes més menuts del centre. L'espectacle va resultar brillant, com es pot apreciar en les fotografíes. A més, es va entregar per part de la delegada de cultura de la Junta municipal de Russafa una placa en record del acte que estava inclòs en els Concerts de la Junta de Russafa.",
+    desces: "El día 21 de diciembre de 2008, a las 18:30 horas, se celebró el tradicional concierto de Navidad con la actuación de la banda, el coro y los alumnos más pequeños del centro. El espectáculo resultó brillante, como se puede apreciar en las fotografías. Además, se hizo entrega, por parte de la delegada de Cultura de la Junta Municipal de Ruzafa, de una placa en recuerdo del acto, que estaba incluido dentro del ciclo de Conciertos de la Junta de Ruzafa.",
 }
 
 const ateneo2009= {
@@ -158,10 +227,10 @@ const ateneo2009= {
   "img/fotos vieja web/ateneo_2009/ateneu1 046.jfif",
   "img/fotos vieja web/ateneo_2009/ateneu1 048.jfif",
 ],
-    titleval: "titval",
-    titlees: "tites",
-    descval: "dval",
-    desces: "des",
+    titleval: "Concert a l'Ateneu Mercantil 2009",
+    titlees: "Concierto en el Ateneo Mercantil 2009",
+    descval: "El día 16 de Maig de 2009 es va realitzar aquest concert per celebrar el centenari de la exposició regional de València 1909-2009 i del himne regional valencià. Vam tindre l'honor de ser una de les tres bandes invitades a participar als actes.",
+    desces: "El día 16 de Mayo de 2009 se realizó este concierto para celebrar el centenario de la exposición regional de València 1909-2009 y del himno regional valenciano. Tuvimos el honor de ser una de las tres bandas invitadas a participar en los actos",
 }
 
 const falles2022= {
@@ -189,10 +258,10 @@ const falles2022= {
   "img/fotos nuevas/falles22/PHOTO-2022-03-19-14-49-45.jpg",
 ],
 
-    titleval: "titval",
-    titlees: "tites",
-    descval: "dval",
-    desces: "des",
+    titleval: "Falles 2022",
+    titlees: "Fallas 2022",
+    descval: "Aquestes falles van ser molt important per a nosaltres, ja que per primera volta vam acompanyar a la falla Císcar Burriana als seus actes. Com no, la pluja també ens va acompanyar a nosaltres.",
+    desces: "Estas Fallas fueron muy importantes para nosotros, ya que por primera vez acompañamos a la falla Císcar Burriana en sus actos. Como no podía ser de otra manera, la lluvia también nos acompañó.",
 }
 
 const entrada2022= {
@@ -209,10 +278,10 @@ const entrada2022= {
   "img/fotos nuevas/entrada22/PHOTO-2022-02-27-14-18-40.jpg",
   "img/fotos nuevas/entrada22/PHOTO-2022-02-27-14-18-40_1.jpg",
 ],
-    titleval: "titval",
-    titlees: "tites",
-    descval: "dval",
-    desces: "des",
+    titleval: "Entrada de bandes",
+    titlees: "Entrada de bandas",
+    descval: "Any 2022",
+    desces: "Año 2022",
 }
 
 const santacecilia2008= {
@@ -261,10 +330,10 @@ const santacecilia2008= {
   "img/fotos vieja web/santacecilia_2008/musicosrelax.jpg",
   "img/fotos vieja web/santacecilia_2008/rifa1.jpg"
 ],
-    titleval: "titval",
-    titlees: "tites",
-    descval: "dval",
-    desces: "des",
+    titleval: "Santa cecília 2008",
+    titlees: "Santa cecília 2008",
+    descval: "Com cada any, es van celebrar els actes en honor a Santa Cecília. Enguany es va donar la benvinguda a la banda titular als educands Daniel Rubio Ortells, Teresa Rodríguez Furió, Aitor Alarcón Vinat i Ana María Encinas Fons. El diumenge 23 de novembre de 2008, es van tancar els actes programats amb un concert compartit, en el seu honor i en record del volgut músic Àngel Giménez. Va ser molt emotiu per l’estima que teníem al nostre Àngel.",
+    desces: "Como todos los años, se celebraron los actos en honor a santa Cecilia. Este año se dió la bienvenida a la banda titular a los educandos Daniel Rubio Ortells, Teresa Rodríguez Furió, Aitor Alarcón Vinat y Ana María Encinas Fons. El domingo día 23 de noviembre de 2008, se cerraron los actos programados con un concierto compartido, en su honor y en recuerdo del querido músico Angel Giménez. Fue muy emotivo por lo querido que era nuestro Angel.",
 }
 
 const palau2008= {
@@ -274,10 +343,20 @@ const palau2008= {
   "img/fotos vieja web/palau/fotos palau3.jpg",
   "img/fotos vieja web/palau/fotos palau4.bmp"
 ],
-    titleval: "titval",
-    titlees: "tites",
-    descval: "dval",
-    desces: "des",
+    titleval: "Actuació al Palau de la Música de Valencia",
+    titlees: "Actuación en el Palau de la Música de Valencia",
+    descval: "Any 2008",
+    desces: "Año 2008",
+}
+
+const falles2008= {
+    fotos: [
+  
+],
+    titleval: "Falles 2008",
+    titlees: "Fallas 2008",
+    descval: "Disfresses per la cabalgata de la Falla La Torre",
+    desces: "Disfraces para la cabalgata de la Falla La Torre",
 }
 
 const intercanvi2022= {
@@ -298,10 +377,10 @@ const intercanvi2022= {
   "img/fotos nuevas/intercanvi22/PHOTO-2022-10-02-12-31-39_1.jpg"
 ],
 
-    titleval: "titval",
-    titlees: "tites",
-    descval: "dval",
-    desces: "des",
+    titleval: "Intercanvi de bandes 2022",
+    titlees: "Intercambio de bandas 2022",
+    descval: "Aquest any vam realitzar el tradicional concert d'intercanvi de bandes amb la nostra volguda banda del barri Orba",
+    desces: "Este año realizamos el tradicional concierto de intercambio de bandas con nuestra querida banda del barrio Orba.",
 }
 
 const albufera2022= {
@@ -309,13 +388,13 @@ const albufera2022= {
   "img/fotos nuevas/albuferenca/PHOTO-2022-09-24-19-45-12.jpg",
   "img/fotos nuevas/albuferenca/PHOTO-2022-10-01-18-33-22.jpg"
 ],
-    titleval: "titval",
-    titlees: "tites",
-    descval: "dval",
-    desces: "des",
+    titleval: "Festival de música albuferenca",
+    titlees: "Festival de música albuferenca",
+    descval: "En una alquería prop del palmar vam realitzar aquest concert, que va ser tot un èxit",
+    desces: "En una alquería cercana al palmar realizamos este concierto, que fué todo un éxito",
 }
 
-const nadal2009= {
+const concert2009= {
     fotos: [
   "img/fotos vieja web/nadal_2009/nadals109 088.jfif",
   "img/fotos vieja web/nadal_2009/nadals109 074.jfif",
@@ -357,10 +436,10 @@ const nadal2009= {
   "img/fotos vieja web/nadal_2009/nadals109 085.jfif",
   "img/fotos vieja web/nadal_2009/nadals109 086.jfif"
 ],
-    titleval: "titval",
-    titlees: "tites",
-    descval: "dval",
-    desces: "des",
+    titleval: "Concert de nadal 2009",
+    titlees: "Concierto de navidad 2009",
+    descval: "El día 20 de Desembre de 2009 a les 18:30 hores es va celebrar el tradicional concert de Nadal, amb l'actuació de la banda i els alumnes més menuts del centre. L'espectacle va resultar brillant, vegen a continuació les fotos de l'acte. Al final vam tindre torrons, mistela i tertulia",
+    desces: "El día 20 de diciembre de 2009, a las 18:30 horas, se celebró el tradicional concierto de Navidad, con la actuación de la banda y los alumnos más pequeños del centro. El espectáculo fue brillante; a continuación, pueden ver las fotos del acto. Al final, disfrutamos de turrones, mistela y tertulia.",
 }
 
 const audicionadal2009= {
@@ -410,10 +489,10 @@ const audicionadal2009= {
   "img/fotos vieja web/audicion_nadal_2009/1audicionnadal09 011.jfif",
   "img/fotos vieja web/audicion_nadal_2009/1audicionnadal09 019.jfif"
 ],
-    titleval: "titval",
-    titlees: "tites",
-    descval: "dval",
-    desces: "des",
+    titleval: "Audició de nadal 2009",
+    titlees: "Audición de navidad 2009",
+    descval: "El día 22 de Desembre es van celebrar les audicions de Nadal, on els alumnes més valents van tindre l'oportunitat de demostrar els seus progresos, animant a la resta de alumnes de la escola a participar en les próximes.",
+    desces: "El día 22 de diciembre se celebraron las audiciones de Navidad, donde los alumnos más valientes tuvieron la oportunidad de demostrar sus progresos, animando al resto de alumnos de la escuela a participar en las próximas.",
 }
 
 const intercanvi2008= {
@@ -421,10 +500,10 @@ const intercanvi2008= {
   "img/fotos vieja web/intercanvi/intercambio 026.jpg",
   "img/fotos vieja web/intercanvi/intercambio 030.jpg"
 ],
-    titleval: "titval",
-    titlees: "tites",
-    descval: "dval",
-    desces: "des",
+    titleval: "Concert d'intercanvi",
+    titlees: "Concierto de intercambio",
+    descval: "Any 2008",
+    desces: "Año 2008",
 }
 
 const audicio2013= {
@@ -465,10 +544,10 @@ const audicio2013= {
   "img/fotos vieja web/audicio_2013/12013-06-28 18.52.jfif"
 ]
 ,
-    titleval: "titval",
-    titlees: "tites",
-    descval: "dval",
-    desces: "des",
+    titleval: "Audicions d'estiu 2013",
+    titlees: "Audiciones de verano 2013",
+    descval: "Per tancar el curs 2012-2013, els alumnes del centre ens obsequiaren amb una mostra dels seus progressos musicals. Es va tindre que fer en dos díes degut al número de participants, que encara que no van eixir tots, si eren nombrosos. A més, vam viure un moment inolvidable i ple d'emoció quan Miguel va cantar una cançó en record del nostre alumne volgut Victor, recentment mort. Al termini dels dos díes, vam repartir horchata i rosquilletes per a músics i public asistent. Fotos a continuació:",
+    desces: "Para cerrar el curso 2012-2013, los alumnos del centro nos ofrecieron una muestra de sus progresos musicales. Hubo que realizarla en dos días debido al número de participantes, que, aunque no actuaron todos, sí eran numerosos. Además, vivimos un momento inolvidable y lleno de emoción cuando Miguel cantó una canción en recuerdo de nuestro querido alumno Víctor, fallecido recientemente. Al término de ambos días, repartimos horchata y rosquilletas para los músicos y el público asistente. Fotos a continuación:",
 }
 
 const expojove2009= {
@@ -479,10 +558,10 @@ const expojove2009= {
   "img/fotos vieja web/expojove_2009/1expojove2009 004.jfif",
   "img/fotos vieja web/expojove_2009/1expojove2009 005.jfif"
 ],
-    titleval: "titval",
-    titlees: "tites",
-    descval: "dval",
-    desces: "des",
+    titleval: "Concert a Expojove",
+    titlees: "Concierto en Expojove",
+    descval: "Any 2009",
+    desces: "Año 2009",
 }
 
 const intercanvi2007= {
@@ -490,10 +569,10 @@ const intercanvi2007= {
   "img/fotos vieja web/intercanvi/intercambio 1.jpg",
   "img/fotos vieja web/intercanvi/intercambio2.jpg"
 ],
-    titleval: "titval",
-    titlees: "tites",
-    descval: "dval",
-    desces: "des",
+    titleval: "Concert d'intercanvi",
+    titlees: "Concierto de intercambio",
+    descval: "Any 2007",
+    desces: "Año 2007",
 }
 
 const falles2024= {
@@ -551,70 +630,70 @@ const falles2024= {
   "img/fotos nuevas/falles24/PHOTO-2024-03-19-15-45-47_1.jpg",
   "img/fotos nuevas/falles24/PHOTO-2024-03-19-16-47-01.jpg"
 ],
-    titleval: "titval",
-    titlees: "tites",
-    descval: "dval",
-    desces: "des",
+    titleval: "Falles 2024",
+    titlees: "Fallas 2024",
+    descval: "Aquest any vam acompanyar novament a la falla Císcar Borriana, pero a més també vam tindre l'honor de replegar el ninot de la falla de l'Ajuntament amb la cort d'Honor de València",
+    desces: "Este año acompañamos nuevamente a la falla Císcar Borriana, pero además también tuvimos el honor de recoger el ninot de la falla del Ayuntamiento con la corte de Honor de Valencia",
 }
 
 const santacecilia2018= {
     fotos: [
   "img/fotos vieja web/santacecilia_2018/Llibret3 2018.jfif"
 ],
-    titleval: "titval",
-    titlees: "tites",
-    descval: "dval",
-    desces: "des",
+    titleval: "Concert de Santa Cecília",
+    titlees: "Concierto de Santa Cecília",
+    descval: "Any 2018",
+    desces: "Año 2018",
 }
 
 const santacecilia2017= {
     fotos: [
   "img/fotos vieja web/santaceciclia_2017/Foto2 llibret2 2017.jfif"
 ],
-    titleval: "titval",
-    titlees: "tites",
-    descval: "dval",
-    desces: "des",
+    titleval: "Concert de Santa Cecília",
+    titlees: "Concierto de Santa Cecília",
+    descval: "Any 2017",
+    desces: "Año 2017",
 }
 
 const santacecilia2016= {
     fotos: [
   "img/fotos vieja web/santacecilia_2016/Educandos 2016.jpgf"
 ],
-    titleval: "titval",
-    titlees: "tites",
-    descval: "dval",
-    desces: "des",
+    titleval: "Concert de Santa Cecília",
+    titlees: "Concierto de Santa Cecília",
+    descval: "Any 2016",
+    desces: "Año 2016",
 }
 
 const santacecilia2015= {
     fotos: [
   "img/fotos vieja web/santacecilia_2015/PROGRAMA1 Santa Cecilia 2015.jfif"
 ],
-    titleval: "titval",
-    titlees: "tites",
-    descval: "dval",
-    desces: "des",
+    titleval: "Concert de Santa Cecília",
+    titlees: "Concierto de Santa Cecília",
+    descval: "Any 2015",
+    desces: "Año 2015",
 }
 
 const santacecilia2014= {
     fotos: [
   "img/fotos vieja web/santa_cecilia_2014/foto llibret 2014.jfif"
 ],
-    titleval: "titval",
-    titlees: "tites",
-    descval: "dval",
-    desces: "des",
+    titleval: "Concert de Santa Cecília",
+    titlees: "Concierto de Santa Cecília",
+    descval: "Any 2014",
+    desces: "Año 2014",
 }
 
 const santacecilia2013= {
     fotos: [
   "img/fotos vieja web/santa_cecilia_2013/notici1.jpg"
 ],
-    titleval: "titval",
-    titlees: "tites",
-    descval: "dval",
-    desces: "des",
+    titleval: "Concert de Santa Cecília",
+    titlees: "Concierto de Santa Cecília",
+    descval: "Any 2013",
+    desces: "Año 2013",
 }
 
 const solidari2013= {
@@ -625,10 +704,10 @@ const solidari2013= {
   "img/fotos vieja web/solidari_2013/12013-04-27 20.08.jfif",
   "img/fotos vieja web/solidari_2013/12013-04-27 20.32.jfif"
 ],
-    titleval: "titval",
-    titlees: "tites",
-    descval: "dval",
-    desces: "des",
+    titleval: "Concert solidari",
+    titlees: "Concierto solidario",
+    descval: "El dissabte 27 de Abril de 2013 al nostre local vam celebrar un concert solidari inclòs al cicle de concerts que promou la Coordinadora de societats musicals de la ciutat de València,amb el motiu de recaudar aliments per les famílies més necessitades. Van actuar els conjunts novels instrumentals de la Societat musical Unió de pescadors del Cabanyal, i el conjunt instrumental novel del nostre C.I.M.  Al termini de l'acte, la nostra societat va oferir un vi d'honor als asistents. Els aliments recollits es repartiren en las parròquies locals de Castellar i Oliveral. Els components del centre donem les gràcies a tots per la seua aportació.",
+    desces: "El sábado 27 de abril de 2013, en nuestro local, celebramos un concierto solidario incluido en el ciclo de conciertos promovido por la Coordinadora de Sociedades Musicales de la ciudad de Valencia, con el objetivo de recaudar alimentos para las familias más necesitadas. Actuaron los conjuntos noveles instrumentales de la Sociedad Musical Unión de Pescadores del Cabanyal y el conjunto instrumental novel de nuestro C.I.M. Al término del acto, nuestra sociedad ofreció un vino de honor a los asistentes. Los alimentos recogidos se repartieron en las parroquias locales de Castellar y Oliveral. Los componentes del centro damos las gracias a todos por su aportación.",
 }
 
 const cultural2011= {
@@ -647,10 +726,10 @@ const cultural2011= {
   "img/fotos vieja web/cultural_2011/1fallas2011 058.jfif",
   "img/fotos vieja web/cultural_2011/1fallas2011 066.jfif"
 ],
-    titleval: "titval",
-    titlees: "tites",
-    descval: "dval",
-    desces: "des",
+    titleval: "Setmana Cultural 2011",
+    titlees: "Semana Cultural 2011",
+    descval: "Com ve siguent habitual, la nostra banda va organitzar un concert col·laborant amb l'Associació de Veíns Castellar-Oliveral en la seua semana cultural anual. A la Presi Matide li encanta escoltar el pasodoble que en el seu día li dedicà José León, i la nostra banda sel tornà a dedicar. També va resultar molt emotiu el moment en que es va interpretar 'Cançons Valencianes', obra per orquesta i dolçaina, composada també pel nostre músic José León i interpretada magistralment pel nostre volgut músic Vicente Sanjuan, 'Visent per als amics'. Al finalitzar el concert, l'associació va fer entrega a nostra Presidenta Pilar una placa en record de l'acte. A continuació la A.A.V.V. va repartir horchata y fartons als asistents.  A continuació es mostresn les fotografíes de l'acte del día 29 de Maig",
+    desces: "Como viene siendo habitual, nuestra banda organizó un concierto en colaboración con la Asociación de Vecinos Castellar-Oliveral dentro de su semana cultural anual. A la presidenta Matilde le encanta escuchar el pasodoble que en su día le dedicó José León, y nuestra banda se lo volvió a dedicar. También resultó muy emotivo el momento en que se interpretó Cançons Valencianes, obra para orquesta y dulzaina compuesta también por nuestro músico José León e interpretada magistralmente por nuestro querido músico Vicente Sanjuan, “Visent” para los amigos. Al finalizar el concierto, la asociación hizo entrega a nuestra presidenta Pilar de una placa en recuerdo del acto. A continuación, la A.VV. repartió horchata y fartons a los asistentes. A continuación se muestran las fotografías del acto del día 29 de mayo.",
 }
 
 const santacecilia2011= {
@@ -670,10 +749,10 @@ const santacecilia2011= {
   "img/fotos vieja web/santa_cecilia_2011/stacecili2011 080.jpg",
   "img/fotos vieja web/santa_cecilia_2011/stacecili2011 095.jpg"
 ],
-    titleval: "titval",
-    titlees: "tites",
-    descval: "dval",
-    desces: "des",
+    titleval: "Santa Cecília 2011",
+    titlees: "Santa Cecília 2011",
+    descval: "Els actes en honor a Santa Cecília, patrona dels músics, no deuen faltar. Per això aquest any, encara que de forma modesta, vam preparar misa, concert, actuacions, chocolate i sopar per als músics. La misa es va celebrar en la parròquia de Castellar, i la imatge de la Santa va recórrer els carrers del nostre barri.",
+    desces: "Los actos en honor a Santa Cecilia, patrona de los músicos, no deben faltar. Por eso, este año, aunque de forma modesta, preparamos misa, concierto, actuaciones, chocolate y cena para los músicos. La misa se celebró en la parroquia de Castellar, y la imagen de la Santa recorrió las calles de nuestro barrio.",
 }
 
 const nadal2011= {
@@ -686,45 +765,636 @@ const nadal2011= {
   "img/fotos vieja web/nadal_2011/1nadal2011 017.jfif",
   "img/fotos vieja web/nadal_2011/1nadal2011 018.jfif"
 ],
+    titleval: "Concert de Nadal 2011",
+    titlees: "Concierto de Navidad 2011",
+    descval: "El diumenge día 18 de desembre, vam celebrar el tradicional concert de Nadal amb l'actuació de la nostra banda i els alumnes de l'escola del centre. En aquesta ocasió va tindre lloc a l'Esglèsia San Martí de Porres de l'Oliveral. Els assistents portaren voluntàriament aliments no peribles per a les famílies més necessitades. ",
+    desces: "El domingo 18 de diciembre, celebramos el tradicional concierto de Navidad con la actuación de nuestra banda y los alumnos de la escuela del centro. En esta ocasión tuvo lugar en la iglesia San Martín de Porres de Oliveral. Los asistentes aportaron voluntariamente alimentos no perecederos para las familias más necesitadas.",
+}
+
+const barris2022= {
+    fotos: [
+  "img/fotos nuevas/musicaalsbarris22/PHOTO-2022-10-24-14-58-35.jpg",
+  "img/fotos nuevas/musicaalsbarris22/PHOTO-2022-10-24-14-58-35_1.jpg",
+  "img/fotos nuevas/musicaalsbarris22/PHOTO-2022-10-24-14-58-35_2.jpg",
+  "img/fotos nuevas/musicaalsbarris22/PHOTO-2022-10-24-14-58-36.jpg",
+  "img/fotos nuevas/musicaalsbarris22/PHOTO-2022-10-24-14-58-36_1.jpg",
+  "img/fotos nuevas/musicaalsbarris22/PHOTO-2022-10-24-14-58-37.jpg",
+  "img/fotos nuevas/musicaalsbarris22/PHOTO-2022-10-24-14-58-37_1.jpg",
+  "img/fotos nuevas/musicaalsbarris22/PHOTO-2022-10-24-14-58-38.jpg",
+  "img/fotos nuevas/musicaalsbarris22/PHOTO-2022-10-24-14-58-38_1.jpg",
+  "img/fotos nuevas/musicaalsbarris22/PHOTO-2022-10-24-14-58-39.jpg",
+  "img/fotos nuevas/musicaalsbarris22/PHOTO-2022-10-24-14-58-39_1.jpg",
+  "img/fotos nuevas/musicaalsbarris22/PHOTO-2022-10-24-14-58-39_2.jpg",
+  "img/fotos nuevas/musicaalsbarris22/PHOTO-2022-10-24-14-58-40.jpg",
+  "img/fotos nuevas/musicaalsbarris22/PHOTO-2022-10-24-14-58-40_1.jpg",
+  "img/fotos nuevas/musicaalsbarris22/PHOTO-2022-10-28-19-28-15.jpg"
+],
+    titleval: "Música als barris 2022",
+    titlees: "Música als barris 2022",
+    descval: "Com portem fent aquestos últims anys, repetim aquest concert tan esperat al barri de Malilla",
+    desces: "Como venimos haciendo estos últimos años, repetimos este concierto tan esperado en el barrio de Malilla",
+}
+const santacecilia2022= {
+    fotos: [
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-22-15-54-23.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-31-59.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-00.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-00_1.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-01.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-01_1.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-02.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-02_1.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-03.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-03_1.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-04.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-04_1.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-05.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-05_1.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-06.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-06_1.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-06_2.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-07.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-07_1.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-08.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-08_1.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-09.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-09_1.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-10.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-10_1.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-11.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-11_1.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-11_2.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-12.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-12_1.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-13.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-14.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-14_1.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-15.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-15_1.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-15_2.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-16.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-16_1.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-16_2.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-17.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-17_1.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-18.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-18_1.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-19.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-19_1.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-20.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-21.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-21_1.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-22.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-22_1.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-22_2.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-23.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-23_1.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-24.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-24_1.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-25.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-25_1.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-26.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-27.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-27_1.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-27_2.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-27_3.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-28.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-28_1.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-29.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-29_1.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-29_2.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-30.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-31.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-31_1.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-31_2.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-32.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-32_1.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-32_2.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-33.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-26-22-32-33_1.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-27-14-35-26.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-27-14-35-49.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-27-14-36-03.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-27-16-01-01.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-27-16-08-42.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-27-16-10-18.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-27-16-11-03.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-27-16-11-16.jpg",
+  "img/fotos nuevas/santaceci22/PHOTO-2022-11-27-16-13-24.jpg"
+]
+,
+    titleval: "Festivitats de Santa Cecília 2022",
+    titlees: "Festividades de Santa Cecília 2022",
+    descval: "Enguany repetim les nostres celebracions en honor a la patrona de la música.",
+    desces: "Este año repetimos nuestras celebraciones en honor a la patrona de la música",
+}
+const santacecilia2012= {
+    fotos: [
+  "img/fotos vieja web/santa_cecilia_2012/variada 003.jpg",
+  "img/fotos vieja web/santa_cecilia_2012/variada 004.jpg",
+  "img/fotos vieja web/santa_cecilia_2012/variada 005.jpg",
+  "img/fotos vieja web/santa_cecilia_2012/variada 006.jpg",
+  "img/fotos vieja web/santa_cecilia_2012/variada 007.jpg",
+  "img/fotos vieja web/santa_cecilia_2012/variada 008.jpg",
+  "img/fotos vieja web/santa_cecilia_2012/variada 009.jpg",
+  "img/fotos vieja web/santa_cecilia_2012/variada 010.jpg",
+  "img/fotos vieja web/santa_cecilia_2012/variada 011.jpg",
+  "img/fotos vieja web/santa_cecilia_2012/variada 012.jpg",
+  "img/fotos vieja web/santa_cecilia_2012/variada 013.jpg",
+  "img/fotos vieja web/santa_cecilia_2012/variada 014.jpg",
+  "img/fotos vieja web/santa_cecilia_2012/variada 015.jpg",
+  "img/fotos vieja web/santa_cecilia_2012/variada 016.jpg",
+  "img/fotos vieja web/santa_cecilia_2012/variada 017.jpg",
+  "img/fotos vieja web/santa_cecilia_2012/variada 018.jpg",
+  "img/fotos vieja web/santa_cecilia_2012/variada 019.jpg",
+  "img/fotos vieja web/santa_cecilia_2012/variada 020.jpg",
+  "img/fotos vieja web/santa_cecilia_2012/variada 048.jpg",
+  "img/fotos vieja web/santa_cecilia_2012/variada 058.jpg",
+  "img/fotos vieja web/santa_cecilia_2012/variada 060.jpg",
+  "img/fotos vieja web/santa_cecilia_2012/variada 062.jpg",
+  "img/fotos vieja web/santa_cecilia_2012/variada 073.jpg",
+  "img/fotos vieja web/santa_cecilia_2012/variada 074.jpg",
+  "img/fotos vieja web/santa_cecilia_2012/variada 075.jpg",
+  "img/fotos vieja web/santa_cecilia_2012/variada 083.jpg",
+  "img/fotos vieja web/santa_cecilia_2012/variada 090.jpg"
+],
+    titleval: "Santa Cecília 2012",
+    titlees: "Santa Cecília 2012",
+    descval: "Un any més i malgrat la crisi, rendim honors a la nostra patrona Santa Cecília. El diumenge 24 de novembre a les 12 hores i en la parròquia San Martí de Porres de l'Oliveral es va oferir una misa d'acció de gràcies, i el dissabte 24 a les 17 hores es va realitzar un pasacarrer i un concert en el local social, on actuaren primer el conjunt instrumental juvenil i a continuació la banda del centre. En el acte es van presentar i es van entregar un diploma als músics actuals de la banda juvenil i als que es van incorporar.  A continuació es va servir un vi d'honor als asistents. Per la nit es va oferir un sopar de sobaquillo als components de les bandes. El concert de la nostra banda va estar dirigit com sempre pel nostre director D. Manuel Baixauli Ferrer, pero com al programa constaven obres de compositors de la casa, como son: José Hernandis Dalmau, José León Alapont,  Jesús Monto Verdet y Vicente Ortí, els va anar cedint la batuta. També va actuar el cor del centre cantant l'himne del centre. Al final es va interpretar l'himne regional cantat per Miguel, component del cor.",
+    desces: "Un año más, y a pesar de la crisis, rendimos honores a nuestra patrona Santa Cecilia. El domingo 24 de noviembre, a las 12 horas, en la parroquia San Martín de Porres de Oliveral, se ofreció una misa de acción de gracias. El sábado 24, a las 17 horas, se realizó un pasacalles y un concierto en el local social, donde actuaron primero el conjunto instrumental juvenil y, a continuación, la banda del centro. En el acto se presentaron y entregaron diplomas a los músicos actuales de la banda juvenil y a los que se incorporaron. A continuación, se sirvió un vino de honor a los asistentes. Por la noche, se ofreció una cena de sobaquillo a los componentes de las bandas. El concierto de nuestra banda estuvo dirigido, como siempre, por nuestro director D. Manuel Baixauli Ferrer, pero como en el programa constaban obras de compositores de la casa, como son José Hernandis Dalmau, José León Alapont, Jesús Montó Verdet y Vicente Ortí, les fue cediendo la batuta. También actuó el coro del centro, cantando el himno del centro. Al final se interpretó el himno regional, cantado por Miguel, componente del coro.",
+}
+
+const nadal2012= {
+    fotos: [
+  "img/fotos vieja web/nadal_2012/1IMG_6923.jfif",
+  "img/fotos vieja web/nadal_2012/1IMG_6926.jfif",
+  "img/fotos vieja web/nadal_2012/1IMG_6927.jfif",
+  "img/fotos vieja web/nadal_2012/1IMG_6928.jfif",
+  "img/fotos vieja web/nadal_2012/1IMG_6931.jfif",
+  "img/fotos vieja web/nadal_2012/1IMG_6937.jfif",
+  "img/fotos vieja web/nadal_2012/1IMG_6943.jfif",
+  "img/fotos vieja web/nadal_2012/1IMG_6951.jfif",
+  "img/fotos vieja web/nadal_2012/1IMG_6959.jfif",
+  "img/fotos vieja web/nadal_2012/1IMG_6960.jfif",
+  "img/fotos vieja web/nadal_2012/1IMG_6962.jfif",
+  "img/fotos vieja web/nadal_2012/1IMG_6967.jfif",
+  "img/fotos vieja web/nadal_2012/1IMG_6968.jfif",
+  "img/fotos vieja web/nadal_2012/1IMG_6976.jfif",
+  "img/fotos vieja web/nadal_2012/1IMG_6979.jfif",
+  "img/fotos vieja web/nadal_2012/1IMG_6986.jfif",
+  "img/fotos vieja web/nadal_2012/1IMG_6988.jfif",
+  "img/fotos vieja web/nadal_2012/1IMG_6989.jfif",
+  "img/fotos vieja web/nadal_2012/1IMG_6990.jfif"
+],
+    titleval: "Concert de Nadal 2012",
+    titlees: "Concierto de Navidad 2012",
+    descval: "El concert de Nadal d'aquest any el vam celebrar a l'esglèsia San Martí de Porres de l'Oliveral. Vam poder veure a la nostra banda i als nostres alumnes més petits de l'escola cantant nadalenques populars. També va ser de l'agrat del públic la broma realitzada per els músics amb l'obra 'The Typewriter'. El nostre centre tenía la voluntat de replegar aliments per als més necessitats, i la gent va respondre desinteresadament en aquesta tasca, i desde ací els agraïm la seua col·laboració. A continuació del concert ens anarem al nostre centre on ens esperava una 'xocolatà' preparada per les nostres expertes Sari, Pili y Pilar amb rosquilletes donades per productes Velarte.",
+    desces: "El concierto de Navidad de este año lo celebramos en la iglesia San Martín de Porres de Oliveral. Pudimos ver a nuestra banda y a los alumnos más pequeños de la escuela cantando villancicos populares. También fue del agrado del público la broma realizada por los músicos con la obra The Typewriter. Nuestro centro tenía la intención de recoger alimentos para los más necesitados, y la gente respondió desinteresadamente a esta causa, por lo que desde aquí les agradecemos su colaboración. Después del concierto nos dirigimos a nuestro centro, donde nos esperaba una “xocolatà” preparada por nuestras expertas Sari, Pili y Pilar, con rosquilletas donadas por Productos Velarte.",
+}
+
+const audicions2012= {
+    fotos: [
+  "img/fotos vieja web/audicions_2012/1IMG_6861.jfif",
+  "img/fotos vieja web/audicions_2012/1IMG_6862.jfif",
+  "img/fotos vieja web/audicions_2012/1IMG_6863.jfif",
+  "img/fotos vieja web/audicions_2012/1IMG_6864.jfif",
+  "img/fotos vieja web/audicions_2012/1IMG_6865.jfif",
+  "img/fotos vieja web/audicions_2012/1IMG_6867.jfif",
+  "img/fotos vieja web/audicions_2012/1IMG_6868.jfif",
+  "img/fotos vieja web/audicions_2012/1IMG_6869.jfif",
+  "img/fotos vieja web/audicions_2012/1IMG_6871.jfif",
+  "img/fotos vieja web/audicions_2012/1IMG_6872.jfif",
+  "img/fotos vieja web/audicions_2012/1IMG_6873.jfif",
+  "img/fotos vieja web/audicions_2012/1IMG_6875.jfif",
+  "img/fotos vieja web/audicions_2012/1IMG_6876.jfif",
+  "img/fotos vieja web/audicions_2012/1IMG_6877.jfif",
+  "img/fotos vieja web/audicions_2012/1IMG_6878.jfif",
+  "img/fotos vieja web/audicions_2012/1IMG_6879.jfif",
+  "img/fotos vieja web/audicions_2012/1IMG_6880.jfif",
+  "img/fotos vieja web/audicions_2012/1IMG_6881.jfif",
+  "img/fotos vieja web/audicions_2012/1IMG_6882.jfif",
+  "img/fotos vieja web/audicions_2012/1IMG_6888.jfif",
+  "img/fotos vieja web/audicions_2012/1IMG_6892.jfif",
+  "img/fotos vieja web/audicions_2012/1IMG_6902.jfif",
+  "img/fotos vieja web/audicions_2012/1IMG_6907.jfif",
+  "img/fotos vieja web/audicions_2012/1IMG_6910.jfif",
+  "img/fotos vieja web/audicions_2012/1IMG_6911.jfif",
+  "img/fotos vieja web/audicions_2012/1IMG_6913.jfif",
+  "img/fotos vieja web/audicions_2012/1IMG_6916.jfif",
+  "img/fotos vieja web/audicions_2012/1IMG_6917.jfif",
+  "img/fotos vieja web/audicions_2012/1IMG_6919.jfif",
+  "img/fotos vieja web/audicions_2012/1IMG_6922.jfif"
+],
+    titleval: "Audicions de Nadal 2012",
+    titlees: "Audiciones de Navidad 2012",
+    descval: "Com ve siguent habitual, vam celebrar les audicions de nadal, on vam poder comprobar els avanços musicals dels que s'atrevixen a pujar a l'escenari. A continuació va actuar la banda juvenil dirigida pel su director Jose León Alapont. ",
+    desces: "Como viene siendo habitual, celebramos las audiciones de Navidad, donde pudimos comprobar los avances musicales de quienes se atrevieron a subir al escenario. A continuación, actuó la banda juvenil dirigida por su director José León Alapont.",
+}
+
+const audicio2010= {
+    fotos: [
+  "img/fotos vieja web/audicions_2010/audicionesnadal 001.jfif",
+  "img/fotos vieja web/audicions_2010/audicionesnadal 002.jfif",
+  "img/fotos vieja web/audicions_2010/audicionesnadal 003.jfif",
+  "img/fotos vieja web/audicions_2010/audicionesnadal 004.jfif",
+  "img/fotos vieja web/audicions_2010/audicionesnadal 005.jfif",
+  "img/fotos vieja web/audicions_2010/audicionesnadal 006.jfif",
+  "img/fotos vieja web/audicions_2010/audicionesnadal 007.jfif",
+  "img/fotos vieja web/audicions_2010/audicionesnadal 008.jfif",
+  "img/fotos vieja web/audicions_2010/audicionesnadal 010.jfif",
+  "img/fotos vieja web/audicions_2010/audicionesnadal 011.jfif",
+  "img/fotos vieja web/audicions_2010/audicionesnadal 012.jfif",
+  "img/fotos vieja web/audicions_2010/audicionesnadal 013.jfif",
+  "img/fotos vieja web/audicions_2010/audicionesnadal 014.jfif",
+  "img/fotos vieja web/audicions_2010/audicionesnadal 015.jfif",
+  "img/fotos vieja web/audicions_2010/audicionesnadal 016.jfif",
+  "img/fotos vieja web/audicions_2010/audicionesnadal 017.jfif",
+  "img/fotos vieja web/audicions_2010/audicionesnadal 018.jfif",
+  "img/fotos vieja web/audicions_2010/audicionesnadal 019.jfif",
+  "img/fotos vieja web/audicions_2010/audicionesnadal 020.jfif",
+  "img/fotos vieja web/audicions_2010/audicionesnadal 021.jfif",
+  "img/fotos vieja web/audicions_2010/audicionesnadal 022.jfif",
+  "img/fotos vieja web/audicions_2010/audicionesnadal 024.jfif",
+  "img/fotos vieja web/audicions_2010/audicionesnadal 025.jfif",
+  "img/fotos vieja web/audicions_2010/audicionesnadal 026.jfif",
+  "img/fotos vieja web/audicions_2010/audicionesnadal 027.jfif"
+],
+    titleval: "Audicions de Nadal",
+    titlees: "Audiciones de Navidad",
+    descval: "Complint amb la tradició, el dimarts día 21 vam celebrar les audicions de l'escola del centre. Com sempre, els més atrevits ens van deleitar amb els seus progressos en aquest art musical, que pel fet de pujar a l'escenari ja és tot un avanç. ",
+    desces: "Cumpliendo con la tradición, el martes día 21 celebramos las audiciones de la escuela del centro. Como siempre, los más atrevidos nos deleitaron con sus progresos en este arte musical, que por el simple hecho de subir al escenario ya es todo un avance.",
+}
+
+const solistes2010= {
+    fotos: [
+  "img/fotos vieja web/solistes_2010/presipilar.jfif",
+  "img/fotos vieja web/solistes_2010/manolobanda.jfif",
+  "img/fotos vieja web/solistes_2010/manolobnada1.jfif",
+  "img/fotos vieja web/solistes_2010/ana1.jfif",
+  "img/fotos vieja web/solistes_2010/padresana.jfif",
+  "img/fotos vieja web/solistes_2010/padresana1.jfif",
+  "img/fotos vieja web/solistes_2010/jose1.jfif",
+  "img/fotos vieja web/solistes_2010/jose2.jfif",
+  "img/fotos vieja web/solistes_2010/jose3.jfif",
+  "img/fotos vieja web/solistes_2010/vanesa1.jfif",
+  "img/fotos vieja web/solistes_2010/vanesa2.jfif",
+  "img/fotos vieja web/solistes_2010/vanesa3.jfif",
+  "img/fotos vieja web/solistes_2010/trombones1.jfif",
+  "img/fotos vieja web/solistes_2010/trombones2.jfif",
+  "img/fotos vieja web/solistes_2010/trombones3.jfif",
+  "img/fotos vieja web/solistes_2010/trompetas1.jfif",
+  "img/fotos vieja web/solistes_2010/trompetas2.jfif",
+  "img/fotos vieja web/solistes_2010/trompetas4.jfif",
+  "img/fotos vieja web/solistes_2010/bateria1.jfif",
+  "img/fotos vieja web/solistes_2010/bateria2.jfif",
+  "img/fotos vieja web/solistes_2010/bateria4.jfif",
+  "img/fotos vieja web/solistes_2010/final (1).jfif",
+  "img/fotos vieja web/solistes_2010/final.jfif",
+  "img/fotos vieja web/solistes_2010/publico1.jfif",
+  "img/fotos vieja web/solistes_2010/publico3.jfif",
+  "img/fotos vieja web/solistes_2010/publiconanos.jfif"
+],
+    titleval: "Concert de solistes",
+    titlees: "Concierto de solistas",
+    descval: "El 18 de Març es va celebrar al nostre local un concert en que els nostres músics posaren tot el seu esforç per que eixira bé, i així va ser. Com és habitual, la nostra presi va presentar el programa, al director de la banda i als músics, entre ells els solistes que ens deleitarien a continuació amb les seues obres.",
+    desces: "El 18 de marzo se celebró en nuestro local un concierto en el que nuestros músicos pusieron todo su esfuerzo para que saliera bien, y así fue. Como es habitual, nuestra presidenta presentó el programa, al director de la banda y a los músicos, entre ellos los solistas que nos deleitarían a continuación con sus obras. ",
+}
+
+const goya2022= {
+    fotos: [
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-12-05-14.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-12-05-41.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-12-05-42.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-12-05-42_1.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-12-05-43.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-13-10-57.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-13-10-57_1.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-13-10-58.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-13-10-58_1.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-13-10-59.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-13-10-59_1.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-13-10-59_2.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-13-11-00.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-13-11-00_1.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-13-46-13.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-13-46-26.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-13-46-44.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-13-47-15.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-13-47-35.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-13-48-10.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-13-49-24.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-13-50-22.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-14-10-54.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-14-33-29.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-14-33-30.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-14-33-30_1.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-14-33-30_2.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-14-33-31.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-14-33-31_1.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-14-33-32.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-14-33-32_1.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-14-33-33.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-14-33-33_1.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-14-33-33_2.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-14-33-33_3.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-14-33-35.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-14-36-36.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-14-36-37.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-14-36-37_1.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-14-36-38.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-14-36-39.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-14-36-40.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-14-36-40_1.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-14-36-40_2.jpg",
+  "img/fotos nuevas/goya/PHOTO-2022-02-12-15-43-52.jpg"
+],
+    titleval: "La banda als Goya 2022",
+    titlees: "La banda en los Goya 2022",
+    descval: "La banda va tocar a les arts i les ciències de valència el 12 de febrer, en honor als goya que es van celebrar aquell cap de setmana. Amb motiu de rendre homenatge al director Luis García Berlanga, la vanda va tocar dos obres de dos de les seues películes més famoses, 'Bienvenido mr Marshall' i 'La vaquilla'.",
+    desces: "La banda tocó en la Ciudad de las Artes y las Ciencias de Valencia el 12 de febrero, en honor a los Goya que se celebraron ese fin de semana. Con motivo de rendir homenaje al director Luis García Berlanga, la banda interpretó dos obras de dos de sus películas más famosas: 'Bienvenido Mr. Marshall' y 'La vaquilla'.",
+}
+
+const santacecilia2021= {
+    fotos: [
+  "img/fotos nuevas/santaceci21/PHOTO-2021-11-28-21-27-42.jpg",
+  "img/fotos nuevas/santaceci21/PHOTO-2021-11-28-21-28-42.jpg",
+  "img/fotos nuevas/santaceci21/PHOTO-2021-11-28-21-30-43.jpg",
+  "img/fotos nuevas/santaceci21/PHOTO-2021-11-28-21-31-32.jpg"
+],
+    titleval: "Concert de Santa Cecília",
+    titlees: "Concierto de Santa Cecília",
+    descval: "La pandemia del coronavirus no va impedir que el poble gaudira del tradicional concert de Santa Cecília que es va fer a l'esglèsia san martí de porres.",
+    desces: "La pandemia del coronavirus no impidió que el pueblo disfrutara del tradicional concierto de Santa Cecilia, que se celebró en la iglesia San Martín de Porres.",
+}
+
+const santacecilia2023= {
+    fotos: [
+  "img/fotos nuevas/santaceci23/PHOTO-2023-11-18-12-59-48.jpg",
+  "img/fotos nuevas/santaceci23/PHOTO-2023-11-19-17-30-22.jpg",
+  "img/fotos nuevas/santaceci23/PHOTO-2023-11-19-17-30-24.jpg",
+  "img/fotos nuevas/santaceci23/PHOTO-2023-11-22-16-00-20.jpg",
+  "img/fotos nuevas/santaceci23/PHOTO-2023-11-22-17-33-54.jpg",
+  "img/fotos nuevas/santaceci23/PHOTO-2023-11-22-17-33-58_1.jpg",
+  "img/fotos nuevas/santaceci23/PHOTO-2023-11-25-14-11-51.jpg",
+  "img/fotos nuevas/santaceci23/PHOTO-2023-11-25-14-11-51_1.jpg",
+  "img/fotos nuevas/santaceci23/PHOTO-2023-11-25-14-11-51_2.jpg",
+  "img/fotos nuevas/santaceci23/PHOTO-2023-11-25-14-11-52_1.jpg",
+  "img/fotos nuevas/santaceci23/PHOTO-2023-11-25-17-41-22.jpg",
+  "img/fotos nuevas/santaceci23/PHOTO-2023-11-25-18-07-55.jpg",
+  "img/fotos nuevas/santaceci23/PHOTO-2023-11-25-18-36-35_1.jpg",
+  "img/fotos nuevas/santaceci23/PHOTO-2023-11-25-20-44-06.jpg",
+  "img/fotos nuevas/santaceci23/PHOTO-2023-11-25-20-45-54.jpg",
+  "img/fotos nuevas/santaceci23/PHOTO-2023-11-25-20-50-47.jpg",
+  "img/fotos nuevas/santaceci23/PHOTO-2023-11-25-21-12-57.jpg",
+  "img/fotos nuevas/santaceci23/PHOTO-2023-11-26-02-51-26.jpg",
+  "img/fotos nuevas/santaceci23/PHOTO-2023-11-26-12-37-32.jpg",
+  "img/fotos nuevas/santaceci23/PHOTO-2023-11-26-13-45-35.jpg",
+  "img/fotos nuevas/santaceci23/PHOTO-2023-11-26-14-20-01.jpg",
+  "img/fotos nuevas/santaceci23/PHOTO-2023-11-26-14-41-45.jpg",
+  "img/fotos nuevas/santaceci23/PHOTO-2023-11-26-14-41-46.jpg",
+  "img/fotos nuevas/santaceci23/PHOTO-2023-11-26-14-41-46_1.jpg",
+  "img/fotos nuevas/santaceci23/PHOTO-2023-11-26-14-44-51.jpg",
+  "img/fotos nuevas/santaceci23/PHOTO-2023-11-26-16-04-19.jpg",
+  "img/fotos nuevas/santaceci23/PHOTO-2023-11-26-16-05-25.jpg",
+  "img/fotos nuevas/santaceci23/PHOTO-2023-11-26-19-22-48.jpg"
+],
+    titleval: "Festivitats de Santa Cecília",
+    titlees: "Festividades de Santa Cecília",
+    descval: "Any 2023",
+    desces: "Año 2023",
+}
+
+const audicions2024= {
+    fotos: [
+  "img/fotos nuevas/audicions24/PHOTO-2024-07-03-00-19-35.jpg",
+  "img/fotos nuevas/audicions24/PHOTO-2024-07-03-00-19-37.jpg",
+  "img/fotos nuevas/audicions24/PHOTO-2024-07-03-00-19-38.jpg"
+],
+    titleval: "Audicions d'estiu 2024",
+    titlees: "Audiciones de verano 2024",
+    descval: "Com tots els anys, ens despedim d'aquest curs escoltant els progresos dels nostres educands, amb un tancament per part de la nostra banda juvenil. A més, aquest any hem tingut un dia sencer per escoltar les audicions familiars que han preparat els nostres pares i fills del centre, amb un emotiu tancament per part de la banda sènior.",
+    desces: "Como todos los años, nos despedimos de este curso escuchando los progresos de nuestros educandos, con un cierre por parte de nuestra banda juvenil. Además, este año hemos tenido un día completo para escuchar las audiciones familiares que han preparado nuestros padres e hijos del centro, con un emotivo cierre por parte de la banda sénior.",
+}
+
+const entrada2023= {
+    fotos: [
+  "img/fotos nuevas/entradabandes23/PHOTO-2023-09-30-11-43-00.jpg",
+  "img/fotos nuevas/entradabandes23/PHOTO-2023-09-30-11-48-46.jpg",
+  "img/fotos nuevas/entradabandes23/PHOTO-2023-10-01-14-07-18.jpg",
+  "img/fotos nuevas/entradabandes23/PHOTO-2023-10-04-22-51-46.jpg"
+],
+    titleval: "Entrada de bandes",
+    titlees: "Entrada de bandas",
+    descval: "Any 2023",
+    desces: "Año 2023",
+}
+
+const falles2023= {
+    fotos: [
+  "img/fotos nuevas/falles23/PHOTO-2023-03-15-11-21-59.jpg",
+  "img/fotos nuevas/falles23/PHOTO-2023-03-16-12-31-56.jpg",
+  "img/fotos nuevas/falles23/PHOTO-2023-03-16-12-32-03.jpg",
+  "img/fotos nuevas/falles23/PHOTO-2023-03-16-14-37-43.jpg",
+  "img/fotos nuevas/falles23/PHOTO-2023-03-16-19-36-56.jpg",
+  "img/fotos nuevas/falles23/PHOTO-2023-03-16-19-42-23.jpg",
+  "img/fotos nuevas/falles23/PHOTO-2023-03-16-19-54-37.jpg",
+  "img/fotos nuevas/falles23/PHOTO-2023-03-17-00-15-25.jpg",
+  "img/fotos nuevas/falles23/PHOTO-2023-03-17-13-43-31.jpg",
+  "img/fotos nuevas/falles23/PHOTO-2023-03-19-11-21-04.jpg",
+  "img/fotos nuevas/falles23/PHOTO-2023-03-19-11-21-21.jpg",
+  "img/fotos nuevas/falles23/PHOTO-2023-03-19-19-10-15.jpg"
+],
+    titleval: "Falles 2023",
+    titlees: "Fallas 2023",
+    descval: "Un any en el que vam poder gaudir de les festes junt amb la falla Císcar Borriana",
+    desces: "Un año en el que pudimos disfrutar de las fiestas junto a la falla Císcar Borriana.",
+}
+
+const excellent2024= {
+    fotos: [
+  "img/fotos nuevas/excellent24/PHOTO-2024-07-07-11-36-25.jpg",
+  "img/fotos nuevas/excellent24/PHOTO-2024-07-07-11-41-30.jpg",
+  "img/fotos nuevas/excellent24/PHOTO-2024-07-07-11-36-26-1.jpg",
+  "img/fotos nuevas/excellent24/PHOTO-2024-07-07-11-36-26-2.jpg",
+  "img/fotos nuevas/excellent24/PHOTO-2024-07-07-11-36-26-3.jpg",
+  "img/fotos nuevas/excellent24/PHOTO-2024-07-07-11-36-27-1.jpg",
+  "img/fotos nuevas/excellent24/PHOTO-2024-07-07-11-36-27-2.jpg",
+  "img/fotos nuevas/excellent24/PHOTO-2024-07-07-11-36-27.jpg",
+  "img/fotos nuevas/excellent24/PHOTO-2024-07-07-11-36-28-1.jpg",
+  "img/fotos nuevas/excellent24/PHOTO-2024-07-07-11-36-28-2.jpg",
+  "img/fotos nuevas/excellent24/PHOTO-2024-07-07-11-36-28-3.jpg",
+  "img/fotos nuevas/excellent24/PHOTO-2024-07-07-11-36-28.jpg"
+],
+    titleval: "Concert de Excel·lent 2024",
+    titlees: "Concierto de Excel·lent 2024",
+    descval: "El dissabte 6 de Juliol de 2024 es va celebrar el nostre tradicional concert anual de la subvenció 'Excel·lent', el qual vam tindre el plaer de poder realitzar al CEIP Castellar-Oliveral.",
+    desces: "El sábado 6 de julio de 2024 se celebró nuestro tradicional concierto anual de la subvención 'Excel·lent', que tuvimos el placer de realizar en el CEIP Castellar-Oliveral.",
+}
+
+const nadal2010= {
+    fotos: [
+  "img/fotos vieja web/nadal_2010/nadal2010 004.jfif",
+  "img/fotos vieja web/nadal_2010/nadal2010 005.jfif",
+  "img/fotos vieja web/nadal_2010/nadal2010 006.jfif",
+  "img/fotos vieja web/nadal_2010/nadal2010 007.jfif",
+  "img/fotos vieja web/nadal_2010/nadal2010 008.jfif",
+  "img/fotos vieja web/nadal_2010/nadal2010 009.jfif",
+  "img/fotos vieja web/nadal_2010/nadal2010 011.jfif",
+  "img/fotos vieja web/nadal_2010/nadal2010 012.jfif",
+  "img/fotos vieja web/nadal_2010/nadal2010 013.jfif"
+],
+    titleval: "Concert de Nadal",
+    titlees: "Concierto de Navidad",
+    descval: "El diumenge 19 de desembre, a les 18:30 hores i en el nostre local social, es va celebrar el tradicional concert de Nadal. Aquest any colaborarem amb l'Associació Juvenil Nova Vida, per el que els asistents a l'acte es van solidaritzar amb aquesta causa i van portar joguets per a aquestos xiquets tan necessitats GRACIES A TOTS. Al concert actuaren juntament a la banda del centre els alumnes més xicotets de l'escola.",
+    desces: "El domingo 19 de diciembre, a las 18:30 horas, en nuestro local social, se celebró el tradicional concierto de Navidad. Este año colaboramos con la Asociación Juvenil Nova Vida, por lo que los asistentes al acto se solidarizaron con esta causa y llevaron juguetes para estos niños tan necesitados. ¡GRACIAS A TODOS! En el concierto actuaron, junto a la banda del centro, los alumnos más pequeños de la escuela.",
+}
+
+const santacecilia2010= {
+    fotos: [
+  "img/fotos vieja web/santa_cecilia_2010/1stacecilia2010 001r.jfif",
+  "img/fotos vieja web/santa_cecilia_2010/1stacecilia2010 005r.jfif",
+  "img/fotos vieja web/santa_cecilia_2010/1stacecilia2010 006r.jfif",
+  "img/fotos vieja web/santa_cecilia_2010/1stacecilia2010 007r.jfif",
+  "img/fotos vieja web/santa_cecilia_2010/1stacecilia2010 008r.jfif",
+  "img/fotos vieja web/santa_cecilia_2010/1stacecilia2010 011r.jfif",
+  "img/fotos vieja web/santa_cecilia_2010/1stacecilia2010 012r.jfif",
+  "img/fotos vieja web/santa_cecilia_2010/stacecilia2010 015r.jfif",
+  "img/fotos vieja web/santa_cecilia_2010/stacecilia2010 016r.jfif",
+  "img/fotos vieja web/santa_cecilia_2010/1stacecilia2010 013r.jfif",
+  "img/fotos vieja web/santa_cecilia_2010/1stacecilia2010 020r.jpg",
+  "img/fotos vieja web/santa_cecilia_2010/1stacecilia2010 039r.jfif",
+  "img/fotos vieja web/santa_cecilia_2010/1stacecilia2010 041r.jfif",
+  "img/fotos vieja web/santa_cecilia_2010/1stacecilia2010 042r.jfif",
+  "img/fotos vieja web/santa_cecilia_2010/sta.cecilia 074r.jfif",
+  "img/fotos vieja web/santa_cecilia_2010/sta.cecilia 078r.jfif",
+  "img/fotos vieja web/santa_cecilia_2010/sta.cecilia 079r.jfif",
+  "img/fotos vieja web/santa_cecilia_2010/sta.cecilia 080r.jfif",
+  "img/fotos vieja web/santa_cecilia_2010/sta.cecilia 081r.jfif",
+  "img/fotos vieja web/santa_cecilia_2010/sta.cecilia 082r.jfif",
+  "img/fotos vieja web/santa_cecilia_2010/sta.cecilia 083r.jfif",
+  "img/fotos vieja web/santa_cecilia_2010/sta.cecilia 085r.jfif",
+  "img/fotos vieja web/santa_cecilia_2010/sta.cecilia 087r.jfif",
+  "img/fotos vieja web/santa_cecilia_2010/stacecilia2010 001r.jfif",
+  "img/fotos vieja web/santa_cecilia_2010/stacecilia2010 003r.jfif",
+  "img/fotos vieja web/santa_cecilia_2010/stacecilia2010 005r.jfif",
+  "img/fotos vieja web/santa_cecilia_2010/stacecilia2010 006r.jfif",
+  "img/fotos vieja web/santa_cecilia_2010/stacecilia2010 007r.jfif",
+  "img/fotos vieja web/santa_cecilia_2010/stacecilia2010 008r.jfif",
+  "img/fotos vieja web/santa_cecilia_2010/stacecilia2010 009r.jfif",
+  "img/fotos vieja web/santa_cecilia_2010/stacecilia2010 010r.jfif",
+  "img/fotos vieja web/santa_cecilia_2010/stacecilia2010 011r.jfif",
+  "img/fotos vieja web/santa_cecilia_2010/stacecilia2010 012r.jfif",
+  "img/fotos vieja web/santa_cecilia_2010/stacecilia2010 013r.jfif",
+  "img/fotos vieja web/santa_cecilia_2010/stacecilia2010 019r.jfif",
+  "img/fotos vieja web/santa_cecilia_2010/stacecilia2010 021r.jfif",
+  "img/fotos vieja web/santa_cecilia_2010/stacecilia2010 022r.jfif",
+  "img/fotos vieja web/santa_cecilia_2010/stacecilia2010 026r.jfif",
+  "img/fotos vieja web/santa_cecilia_2010/stacecilia2010 031r.jfif",
+  "img/fotos vieja web/santa_cecilia_2010/stacecilia2010 035r.jfif",
+  "img/fotos vieja web/santa_cecilia_2010/stacecilia2010 036r.jfif",
+  "img/fotos vieja web/santa_cecilia_2010/stacecilia2010 037r.jfif"
+],
+    titleval: "Santa Cecília 2010",
+    titlees: "Santa Cecília 2010",
+    descval: "Com tots els anys s'enaltix la figura de la nostra patrona Santa Cecilia. Vegen a continuació una mostra de la colecció de fotos dels actes en el seu honor. A més, aquest any va ser el torn del músic Marc Navarro Asensi per a incorporar-se a la banda. Aquesta va estar preparant un pas-doble sense títol, composat pel jove músic Daniel Rubio Ortells. Ningú savia per a qui el composà, segons Daniel ho revelaría el mateix día del concert. Bé, així va ser. Aplegat el moment i després de la presentació de Marc, la presidenta va desvelar que Daniel havia tingut la idea de donar la benvinguda a Marc dedicant-li el pas-doble 'Benvingut Marc'",
+    desces: "Como todos los años, se ensalza la figura de nuestra patrona Santa Cecilia. A continuación, pueden ver una muestra de la colección de fotos de los actos en su honor. Además, este año fue el turno del músico Marc Navarro Asensi para incorporarse a la banda. La banda estuvo preparando un pasodoble sin título, compuesto por el joven músico Daniel Rubio Ortells. Nadie sabía para quién lo había compuesto; según Daniel, lo revelaría el mismo día del concierto. Y así fue. Llegado el momento y después de la presentación de Marc, la presidenta desveló que Daniel había tenido la idea de darle la bienvenida a Marc dedicándole el pasodoble 'Benvingut Marc'.",
+}
+
+const intercanvi2009= {
+    fotos: [
+  "img/fotos vieja web/intercanvi_2009/11intercanvi2009 011.jfif",
+  "img/fotos vieja web/intercanvi_2009/13intercanvi2009 013.jfif",
+  "img/fotos vieja web/intercanvi_2009/15intercanvi2009 015.jfif",
+  "img/fotos vieja web/intercanvi_2009/1intercanvi2009 002.jfif",
+  "img/fotos vieja web/intercanvi_2009/23intercanvi2009 023.jfif",
+  "img/fotos vieja web/intercanvi_2009/27intercanvi2009 027.jfif",
+  "img/fotos vieja web/intercanvi_2009/29intercanvi2009 023.jfif",
+  "img/fotos vieja web/intercanvi_2009/33intercanvi2009 033.jfif",
+  "img/fotos vieja web/intercanvi_2009/3intercanvi2009 003.jfif",
+  "img/fotos vieja web/intercanvi_2009/6intercanvi2009 006.jfif"
+],
+    titleval: "Concert d'intercanvi amb el CIM Tendetes",
+    titlees: "Concierto d'intercambio con el CIM Tendetes",
+    descval: "El dissabte dia 11 de Juliol, a l'Escola de les Trinitàries de Castellar va tindre lloc el concert d'intercanvi de 2009 amb la banda del C.I.M. Tendetes i el nostre C.I.M. Castellar-Oliveral. En aquest concert vam poder escoltar alguns pasdobles del nostre músic i compositor José León. Músics Flamencs per part del C.I.M. Tendetes i Matilde Ramos pel C.I.M. Castellar-Oliveral.",
+    desces: "El sábado 11 de julio, en la Escuela de las Trinitarias de Castellar, tuvo lugar el concierto de intercambio de 2009 entre la banda del C.I.M. Tendetes y nuestro C.I.M. Castellar-Oliveral. En este concierto pudimos escuchar algunos pasodobles de nuestro músico y compositor José León. Músicos flamencos por parte del C.I.M. Tendetes y Matilde Ramos por el C.I.M. Castellar-Oliveral.",
+}
+
+const cultural2009= {
+    fotos: [
+  "img/fotos vieja web/cultural_2009/veins 013.jfif",
+  "img/fotos vieja web/cultural_2009/veins 016.jfif",
+  "img/fotos vieja web/cultural_2009/veins 020.jfif",
+  "img/fotos vieja web/cultural_2009/veins 021.jfif",
+  "img/fotos vieja web/cultural_2009/veins 036.jfif",
+  "img/fotos vieja web/cultural_2009/veins 038.jfif",
+  "img/fotos vieja web/cultural_2009/veins 044.jfif",
+  "img/fotos vieja web/cultural_2009/veins 048.jfif",
+  "img/fotos vieja web/cultural_2009/veins 048.jfif",
+  "img/fotos vieja web/cultural_2009/veins 052.jfif",
+  "img/fotos vieja web/cultural_2009/veins 053.jfif"
+],
+    titleval: "Concert setmana cultural de l'associació de veïns",
+    titlees: "Concierto semana cultural de la asociación de vecinos",
+    descval: "Com tots els anys, col·laborem en la setmana cultural de l'associació de veïns de Castellar-Oliveral. En aquesta ocasió el nostre músic i compositor José León a petició de la directiva de l'associació va compondre un pasdoble dedicat merescudament a la presidenta d'esta associació a la qual va dedicar. El pasdoble sorpresa dirigit pel mateix José León, lletra d'Eduardo Alacreu i cantat per la filla d'este Inés, emocionà molt a la Presi que no ho esperava. T'ho mereixes Presi! Eduardo en representació de la A.A.V.V, va fer lliurament d'un regal al centre que va consistir en la partitura dels Pirates del Carib. Així mateix Matilde va fer lliurament dels corbatins al centre i a la banda dels Corrals d'Utiel que va participar en el concert.",
+    desces: "Como todos los años, colaboramos en la semana cultural de la asociación de vecinos de Castellar-Oliveral. En esta ocasión, nuestro músico y compositor José León, a petición de la directiva de la asociación, compuso un pasodoble dedicado merecidamente a la presidenta de esta asociación, a quien se lo dedicó. El pasodoble sorpresa, dirigido por el propio José León, con letra de Eduardo Alacreu y cantado por la hija de este, Inés, emocionó mucho a la presidenta, que no lo esperaba. ¡Te lo mereces, Presi! Eduardo, en representación de la A.A.V.V., hizo entrega al centro de un regalo que consistió en la partitura de 'Piratas del Caribe'. Asimismo, Matilde entregó los corbatines al centro y a la banda de los Corrals de Utiel, que participó en el concierto.",
+}
+
+const fallas2008= {
+    fotos: [
+  "img/fotos vieja web/fallas_2008/fallas0209.jpg",
+  "img/fotos vieja web/fallas_2008/fallas0210.jpg",
+  "img/fotos vieja web/fallas_2008/fallas0211.jpg",
+  "img/fotos vieja web/fallas_2008/fallas0212.jpg",
+  "img/fotos vieja web/fallas_2008/fallas0213.jpg",
+  "img/fotos vieja web/fallas_2008/fallas0215.jpg",
+  "img/fotos vieja web/fallas_2008/fallas0216.jpg"
+],
     titleval: "titval",
     titlees: "tites",
     descval: "dval",
     desces: "des",
 }
 
-const intercanvi2007= {
-    ,
-    titleval: "titval",
-    titlees: "tites",
-    descval: "dval",
-    desces: "des",
-}
-const intercanvi2007= {
-    ,
-    titleval: "titval",
-    titlees: "tites",
-    descval: "dval",
-    desces: "des",
-}
-const intercanvi2007= {
-    ,
-    titleval: "titval",
-    titlees: "tites",
-    descval: "dval",
-    desces: "des",
-}
-const intercanvi2007= {
-    ,
-    titleval: "titval",
-    titlees: "tites",
-    descval: "dval",
-    desces: "des",
+const ateneo2024= {
+    fotos: [
+  "img/fotos nuevas/ateneo24/P1013693.JPG",
+  "img/fotos nuevas/ateneo24/P1013696.JPG",
+  "img/fotos nuevas/ateneo24/P1013703.JPG",
+  "img/fotos nuevas/ateneo24/P1013706.JPG",
+  "img/fotos nuevas/ateneo24/P1013707.JPG",
+  "img/fotos nuevas/ateneo24/P1013719.JPG",
+  "img/fotos nuevas/ateneo24/P1013728.JPG",
+  "img/fotos nuevas/ateneo24/P1013747.JPG",
+  "img/fotos nuevas/ateneo24/P1013757.JPG",
+  "img/fotos nuevas/ateneo24/P1013758.JPG",
+  "img/fotos nuevas/ateneo24/P1013789.JPG",
+  "img/fotos nuevas/ateneo24/P1013794.JPG",
+  "img/fotos nuevas/ateneo24/P1013804.JPG",
+  "img/fotos nuevas/ateneo24/P1013840.JPG",
+  "img/fotos nuevas/ateneo24/P1013857.JPG",
+  "img/fotos nuevas/ateneo24/P1013888.JPG",
+  "img/fotos nuevas/ateneo24/P1013893.JPG",
+  "img/fotos nuevas/ateneo24/P1013924.JPG",
+  "img/fotos nuevas/ateneo24/P1013930.JPG",
+  "img/fotos nuevas/ateneo24/P1013942.JPG",
+  "img/fotos nuevas/ateneo24/P1013959.JPG",
+  "img/fotos nuevas/ateneo24/P1013982.JPG",
+  "img/fotos nuevas/ateneo24/P1013993.JPG",
+  "img/fotos nuevas/ateneo24/P1014058.JPG",
+  "img/fotos nuevas/ateneo24/P1014086.JPG",
+  "img/fotos nuevas/ateneo24/P1014089.JPG",
+  "img/fotos nuevas/ateneo24/P1014113.JPG",
+  "img/fotos nuevas/ateneo24/P1014167.JPG",
+  "img/fotos nuevas/ateneo24/P1014169.JPG",
+  "img/fotos nuevas/ateneo24/P1014172.JPG",
+  "img/fotos nuevas/ateneo24/PHOTO-2024-04-14-16-40-04.jpg",
+  "img/fotos nuevas/ateneo24/PHOTO-2024-04-14-22-32-31_2.jpg"
+],
+    titleval: "Concert a l'Ateneu Mercantil 2024",
+    titlees: "Concierto en el Ateneo Mercantil 2024",
+    descval: "Es va tocar un repertori variat, conformat per pas dobles tradicionals i alguns més especials (com el del nostre director fundador don Jesús Montó Verdet, Enrique Velarte), juntament a algunes obres reconegudes",
+    desces: "Se tocó un repertorio variado, compuesto por pasodobles tradicionales y algunos más especiales (como el de nuestro director fundador don Jesús Montó Verdet, Enrique Velarte), junto con algunas obras reconocidas.",
 }
 
-const intercanvi2007= {
-    ,
-    titleval: "titval",
-    titlees: "tites",
-    descval: "dval",
-    desces: "des",
-}
+
+
