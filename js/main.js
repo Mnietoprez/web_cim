@@ -204,12 +204,14 @@ function selectPhotosWithLanguage(id, idstring, language) {
     toptext.scrollIntoView();
     const destacades = document.getElementById("destacades");
     const nodestacades = document.getElementById("nodestacades");
+    const historicas = document.getElementById("historicas");
     const lista_nodestacades = nodestacades.querySelector("ul");
     if (idstring === "destacades") {
       activeimg = idstring;
       activeid = "destacades";
       lista_nodestacades.innerHTML = ""; // elimina todo el contenido del <ul> activo previamente
       nodestacades.style.display = "none";
+      historicas.style.display = "none";
       destacades.style.display = "flex"; 
       if(language == "español"){
         document.getElementById("gallerytext").textContent = "Fotografias destacadas";
@@ -219,29 +221,48 @@ function selectPhotosWithLanguage(id, idstring, language) {
         document.getElementById("gallerydesc").textContent = "Selecció de fotografies del CIM"; 
       }
     } else {
-      if (activeimg !== idstring){ //verifica que no esté ya cargada la imagen
-      activeimg = idstring;
-      activeid = id;
-      destacades.style.display = "none";
-      nodestacades.style.display = "flex";
-      id.fotos.forEach(nombre => {
-        const li = document.createElement("li");
-        li.className = "carousel1-item";
-        li.innerHTML = `
-          <div class="card1">
-            <img src="${nombre}" loading="lazy">
-          </div>
-        `;
-        lista_nodestacades.appendChild(li);
-      });  
-      if(language == "español"){
-        document.getElementById("gallerytext").textContent = id.titlees;
-        document.getElementById("gallerydesc").textContent = id.desces;
+
+        if (idstring === "historicas") {
+        activeimg = idstring;
+        activeid = "historicas";
+        lista_nodestacades.innerHTML = ""; // elimina todo el contenido del <ul> activo previamente
+        nodestacades.style.display = "none";
+        destacades.style.display = "none"; 
+        historicas.style.display = "flex"; 
+        if(language == "español"){
+          document.getElementById("gallerytext").textContent = "Fotografias históricas";
+          document.getElementById("gallerydesc").textContent = "Fotografias históricas del CIM";
+        } else {
+          document.getElementById("gallerytext").textContent = "Fotografies històriques";
+          document.getElementById("gallerydesc").textContent = "Fotografies històriques del CIM"; 
+        }
       } else {
-        document.getElementById("gallerytext").textContent = id.titleval;
-        document.getElementById("gallerydesc").textContent = id.descval;
+            if (activeimg !== idstring){ //verifica que no esté ya cargada la imagen
+            activeimg = idstring;
+            activeid = id;
+            destacades.style.display = "none";
+            historicas.style.display = "none";
+            lista_nodestacades.innerHTML = ""; // elimina todo el contenido del <ul> activo previamente
+            nodestacades.style.display = "flex";
+            id.fotos.forEach(nombre => {
+              const li = document.createElement("li");
+              li.className = "carousel1-item";
+              li.innerHTML = `
+                <div class="card1">
+                  <img src="${nombre}" loading="lazy">
+                </div>
+              `;
+              lista_nodestacades.appendChild(li);
+            });  
+            if(language == "español"){
+              document.getElementById("gallerytext").textContent = id.titlees;
+              document.getElementById("gallerydesc").textContent = id.desces;
+            } else {
+              document.getElementById("gallerytext").textContent = id.titleval;
+              document.getElementById("gallerydesc").textContent = id.descval;
+            }
+          }
       }
-    }
     }
     console.log("now active")
     console.log(activeimg)
