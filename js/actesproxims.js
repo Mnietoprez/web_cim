@@ -9,7 +9,7 @@ const eventsval = [
       description: [
         "La banda acompanyará al pasacarrer de les comunions de l`esglèsia de l'Oliveral",
       ],
-      img: "img/actes/martideporres.webp"
+      img: "img/actes/martideporres.png"
     },
     {
       date: "8/6/2025",
@@ -33,7 +33,7 @@ const eventsval = [
     description: [
       "La banda acompañará al pasacalles de las comuniones de la iglesia del Oliveral",
     ],
-    img: "img/actes/martideporres.webp"
+    img: "img/actes/martideporres.png"
     },
     {
     date: "8/6/2025",

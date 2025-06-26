@@ -1,3 +1,102 @@
+const nuevocentro25= {
+    fotos: [
+  "img/fotos nuevas/nuevocentro25/290b5451-a386-48eb-aecf-9880d7cbc562.JPG",
+  "img/fotos nuevas/nuevocentro25/29815a08-be59-40de-9011-3fb76bc4316b.JPG",
+  "img/fotos nuevas/nuevocentro25/7b7177fe-dbcd-4a96-8a4d-a0fecadeb6f5.JPG",
+  "img/fotos nuevas/nuevocentro25/c97df823-fec4-4d62-8922-a42993886e79.JPG",
+  "img/fotos nuevas/nuevocentro25/d00619f1-f835-4ee2-8adc-3653a4041396.JPG",
+  "img/fotos nuevas/nuevocentro25/d2a603f4-ac39-470f-bc41-a036fdb7ee7a.JPG",
+  "img/fotos nuevas/nuevocentro25/d387dc9d-188c-4b3c-a82a-746efee52789.JPG",
+  "img/fotos nuevas/nuevocentro25/da0b82b5-277a-4ca7-a144-3dfc7c7f7b2f.JPG",
+],
+    titleval: "Concert a Nuevo Centro 2025",
+    titlees: "Concierto en Nuevo Centro 2025",
+    descval: "Amb motiu de les bandes afectades per la DANA, la nostra banda juvenil va realitzar aquest concert gratuït en Nuevo Centro",
+    desces: "Con motivo de las bandas afectadas por la DANA, nuestra banda juvenil realizó este concierto gratuito en Nuevo Centro",
+};
+
+const dudamel= {
+    fotos: [
+      "img/fotos nuevas/dudamel/5a3c4938-6498-4054-a87a-82ef6fc23be6.JPG",
+      "img/fotos nuevas/dudamel/9232f2c1-f912-4131-ab13-4852015fb868.JPG",
+      "img/fotos nuevas/dudamel/79507b98-d2f8-4fd0-90d9-092b9f13ef74.JPG",
+      "img/fotos nuevas/dudamel/IMG_3411.jpg",
+      "img/fotos nuevas/dudamel/fa398231-ac5d-4dbf-b695-7b9bddebf13a.JPG",
+      "img/fotos nuevas/dudamel/IMG_3416.jpg",
+      "img/fotos nuevas/dudamel/IMG_3417.jpg",
+      "img/fotos nuevas/dudamel/IMG_3419.jpg",
+      
+      
+],
+    titleval: "Concert solidari amb Dudamel",
+    titlees: "Concierto solidario con Dudamel",
+    descval: "Es va celebrar a Castellar-Oliveral un concert dirigit pel reconegut director Gustavo Dudamel, on van participar bandes de tots els pobles afectats per la DANA",
+    desces: "Se celebró en Castellar-Oliveral un concierto dirigido por el reconocido director Gustavo Dudamel, en el que participaron bandas de todos los pueblos afectados por la DANA",
+};
+
+const cavalcada25= {
+    fotos: [
+      "img/fotos nuevas/cavalgata25/271ee285-89c8-4e33-a77c-572302092fcf.JPG",
+      "img/fotos nuevas/cavalgata25/IMG_2588.jpg",
+      "img/fotos nuevas/cavalgata25/IMG_2604.jpg"
+],
+    titleval: "Cavalcada de reixos 2025",
+    titlees: "Cabalgata de reyes 2025",
+    descval: "En el día de la cavalcada de reixos de 2025, vam tindre el plaer de acompanyar al nostre volgut rei Gaspar, tocant la marxa 'Capitanía Cides'",
+    desces: "En el día de la cabalgata de Reyes de 2025, tuvimos el placer de acompañar a nuestro querido Rey Gaspar, tocando la marcha 'Capitanía Cides'",
+};
+
+const entrada25= {
+    fotos: [
+      "img/fotos nuevas/entrada25/036d31e2-fcda-49fd-8922-4d4e521dd72d.JPG",
+      "img/fotos nuevas/entrada25/a24d3a7b-fa13-413e-9812-8866c83a691a.JPG",
+    ],
+    titleval: "Entrada de bandes 2025",
+    titlees: "Entrada de bandas 2025",
+    descval: "Com tots els anys, vam participar en la entrada de bandes de valència, aquest any lluint els pasodobles Morenito de València, Els Poblets i Amparito Roca",
+    desces: "Como cada año, participamos en la entrada de bandas de Valencia, este año luciendo los pasodobles Morenito de Valencia, Els Poblets y Amparito Roca",
+};
+
+const falles25= {
+    fotos: [
+      "img/fotos nuevas/falles25/e6746d24-6810-4282-8019-cab1424598eb.JPG",
+      "img/fotos nuevas/falles25/faf2f036-6787-4ce4-a8eb-b4d71cc1db4d.JPG",
+      "img/fotos nuevas/falles25/IMG_4649.jpg",
+      "img/fotos nuevas/falles25/IMG_4670.jpg",
+      "img/fotos nuevas/falles25/IMG_4700.jpg",
+      "img/fotos nuevas/falles25/IMG_4738.jpg",
+      "img/fotos nuevas/falles25/IMG_4761.jpg",
+      "img/fotos nuevas/falles25/IMG_4773.jpg",
+],
+    titleval: "Falles 2025",
+    titlees: "Fallas 2025",
+    descval: "Un nou any, acompanyem a la falla Císcar Burriana en les seues festes tradicionals",
+    desces: "Un nuevo año, acompañamos a la falla Císcar Burriana en sus fiestas tradicionales",
+};
+
+
+const nadal2024= {
+    fotos: [
+  "img/fotos nuevas/nadal24/1734939880736.jpg",
+  "img/fotos nuevas/nadal24/1734939880768.jpg",
+  "img/fotos nuevas/nadal24/1734939880784.jpg",
+  "img/fotos nuevas/nadal24/1734939880818.jpg",
+  "img/fotos nuevas/nadal24/1734939880835.jpg",
+  "img/fotos nuevas/nadal24/1734939880880.jpg",
+  "img/fotos nuevas/nadal24/1734939880910.jpg",
+  "img/fotos nuevas/nadal24/1734939881026.jpg",
+  "img/fotos nuevas/nadal24/1734939881063.jpg",
+  "img/fotos nuevas/nadal24/1734939881119.jpg",
+  "img/fotos nuevas/nadal24/1734939881242.jpg",
+  "img/fotos nuevas/nadal24/1734939881382.jpg",
+  "img/fotos nuevas/nadal24/1734939881485.jpg",
+  "img/fotos nuevas/nadal24/1734939881627.jpg",
+],
+    titleval: "Concert de Nadal 2024",
+    titlees: "Concierto de Navidad 2024",
+    descval: "Aquest any vam realitzar el tradicional concert de nadal... ¡En la plaça de Castellar! Vam contar amb actuacions molt especials, com la dels nostres elfos clarinetistes o Donyate director",
+    desces: "Este año realizamos el tradicional concierto de navidad... ¡En la plaza de Castellar! Contamos con actuaciones muy especiales, como la de nuestros elfos clarinetistas o Donyate director",
+};
 
 const audicio2009= {
     fotos: [

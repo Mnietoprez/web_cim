@@ -249,11 +249,27 @@ function selectPhotosWithLanguage(id, idstring, language) {
               li.className = "carousel1-item";
               li.innerHTML = `
                 <div class="card1">
-                  <img src="${nombre}" loading="lazy">
+                  <img src="${nombre}" loading="lazy" data-enlargable>
                 </div>
               `;
+              
               lista_nodestacades.appendChild(li);
+              console.log('hacreado');
             });  
+            $('img[data-enlargable]').off('click').addClass('img-enlargable').click(function(){
+              var src = $(this).attr('src').replace(/\s/g, '%20');
+              $('<div>').css({
+                background: 'RGBA(0,0,0,.5) url('+src+') no-repeat center',
+                backgroundSize: 'contain',
+                width:'100%', height:'100%',
+                position:'fixed',
+                zIndex:'10000',
+                top:'0', left:'0',
+                cursor: 'zoom-out'
+              }).click(function(){
+                $(this).remove();
+              }).appendTo('body');
+            });
             if(language == "español"){
               document.getElementById("gallerytext").textContent = id.titlees;
               document.getElementById("gallerydesc").textContent = id.desces;

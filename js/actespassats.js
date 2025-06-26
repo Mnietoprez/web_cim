@@ -3,6 +3,22 @@
 //-----------------------------------------------
 
 const events2025val = [
+  {
+      date: "24/5/2025",
+      title: "Comunió a l'Oliveral",
+      description: [
+        "La banda acompanyará al pasacarrer de les comunions de l`esglèsia de l'Oliveral",
+      ],
+      img: "img/actes/martideporres.png"
+    },
+    {
+      date: "8/6/2025",
+      title: "Concert d'intercambi amb la Font de Sant Lluis",
+      description: [
+        "Com a part del programa de Diputació, es fará un concert d'intercanvi a dues bandes en la Font de Sant Luis",
+      ],
+      img: "img/actes/diputacio.png"
+    },
     {
     date: "16-19/03/2025",
     title: "Actes fallers amb la falla Císcar-Burriana",
@@ -47,7 +63,7 @@ const events2025val = [
       description: [
         "En el día de la cavalcada de reixos de 2025, vam tindre el plaer de acompanyar al nostre volgut rei Gaspar, tocant la marxa 'Capitanía Cides'",
       ],
-      img: "img/actes/reyes.webp"
+      img: "img/actes/reyes.png"
     },
   ];
 
@@ -58,14 +74,14 @@ const events2024val = [
       title: "Concert de nadal de la banda titular",
       description: ["Com cada any, la banda va fer un concert solidari amb recollida d'aliments, el qual vam realitzar aquesta volta en la plaça de Castellar",
       ],
-      img: "img/actes/navidad24.webp"
+      img: "img/actes/navidad24.png"
     },
     {
       date: "21/12/2024",
       title: "Concert nadalenc de la banda juvenil i sènior",
       description: ["La nostra banda juvenil i els nostres sèniors van deleitar-nos amb un repertori de obres animades i nadalenques",
       ],
-      img: "img/actes/martideporres.webp"
+      img: "img/actes/martideporres.png"
     },
     {
       date: "20/12/2024",
@@ -195,6 +211,23 @@ const events2023val = [
 //-----------------------------------------------
 
 const events2025es = [
+
+  {
+    date: "24/5/2025",
+    title: "Comunión en el Oliveral",
+    description: [
+      "La banda acompañará al pasacalles de las comuniones de la iglesia del Oliveral",
+    ],
+    img: "img/actes/martideporres.png"
+    },
+    {
+    date: "8/6/2025",
+    title: "Concierto de intercambio con la Font de Sant Lluís",
+    description: [
+      "Como parte del programa de la Diputación, se hará un concierto de intercambio entre dos bandas en la Font de Sant Lluís",
+    ],
+    img: "img/actes/diputacio.png"
+    },
   {
     date: "16-19/03/2025",
     title: "Actos falleros con la falla Ciscar-Burriana",
@@ -210,7 +243,7 @@ const events2025es = [
     img: "img/actes/falla.jpeg"
   },
   {
-    date: "8/02/2025",
+    date: "23/02/2025",
     title: "Entrada de Bandas 2025",
     description: [
       "Como cada año, participamos en la entrada de bandas de Valencia, este año luciendo los pasodobles Morenito de Valencia, Els Poblets y Amparito Roca"
@@ -239,7 +272,7 @@ const events2025es = [
     description: [
       "En el día de la cabalgata de Reyes de 2025, tuvimos el placer de acompañar a nuestro querido Rey Gaspar, tocando la marcha 'Capitanía Cides'",
     ],
-    img: "img/actes/reyes.webp"
+    img: "img/actes/reyes.png"
   },
 ];
 
@@ -250,7 +283,7 @@ const events2024es = [
     description: [
       "Como cada año, la banda realizó un concierto solidario con recogida de alimentos, esta vez en la plaza de Castellar"
     ],
-    img: "img/actes/navidad24.webp"
+    img: "img/actes/navidad24.png"
   },
   {
     date: "21/12/2024",
@@ -258,7 +291,7 @@ const events2024es = [
     description: [
       "Nuestra banda juvenil y nuestros séniors nos deleitaron con un repertorio de obras animadas y navideñas"
     ],
-    img: "img/actes/martideporres.webp"
+    img: "img/actes/martideporres.png"
   },
   {
     date: "20/12/2024",
