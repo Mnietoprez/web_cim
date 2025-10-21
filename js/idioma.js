@@ -85,6 +85,8 @@ document.addEventListener("DOMContentLoaded", function() { //SE EJECUTA SIEMPRE 
                 document.getElementById("indextext23").textContent = "Nuestras redes sociales";
                 document.getElementById("indextext24").textContent = "¿Quieres un poco de nostalgia?";
                 document.getElementById("indextext25").textContent = "Visita la página web vieja";
+                document.getElementById("indextext26").textContent = "Ayudas y subvenciones";
+                document.getElementById("indextext27").textContent = "Consulta las ayudas que hacen nuestra banda posible";
                 document.getElementById("oldVersionLink").textContent = "Versión antigua"
             }
             if (currentPage === "historia.html") {
@@ -176,6 +178,8 @@ document.addEventListener("DOMContentLoaded", function() { //SE EJECUTA SIEMPRE 
                 document.getElementById("indextext23").textContent = "Les nostres xarxes socials";
                 document.getElementById("indextext24").textContent = "Vols un poc de nostalgia?";
                 document.getElementById("indextext25").textContent = "Visita la antiga pàgina web";
+                document.getElementById("indextext26").textContent = "Ajudes i subvencions";
+                document.getElementById("indextext27").textContent = "Consulta les ajudes que fan la nostra banda possible";
                 document.getElementById("oldVersionLink").textContent = "Versió antiga"
             }
             if (currentPage === "historia.html") {
